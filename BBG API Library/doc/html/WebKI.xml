@@ -1,0 +1,1827 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AbstractSession class">
+    <HelpKINode Title="AbstractSession Class" Url="html/T_Bloomberglp_Blpapi_AbstractSession.htm" />
+    <HelpKINode Title="about AbstractSession class" Url="html/T_Bloomberglp_Blpapi_AbstractSession.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_AbstractSession__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_AbstractSession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractSession.AbstractSession constructor" Url="html/M_Bloomberglp_Blpapi_AbstractSession__ctor.htm" />
+  <HelpKINode Title="AbstractSession.Cancel method" Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_Cancel.htm" />
+  <HelpKINode Title="AbstractSession.CreateIdentity method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_CreateIdentity.htm" />
+  <HelpKINode Title="AbstractSession.CreateUserHandle method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_CreateUserHandle.htm" />
+  <HelpKINode Title="AbstractSession.DispatchEvent method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_DispatchEvent.htm" />
+  <HelpKINode Title="AbstractSession.GenerateAuthorizedIdentity method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_GenerateAuthorizedIdentity.htm" />
+  <HelpKINode Title="AbstractSession.GenerateToken method" Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_GenerateToken.htm" />
+  <HelpKINode Title="AbstractSession.GetAuthorizedIdentity method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_GetAuthorizedIdentity.htm" />
+  <HelpKINode Title="AbstractSession.GetService method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_GetService.htm" />
+  <HelpKINode Title="AbstractSession.IDisposable.Dispose explicitly implemented method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_System_IDisposable_Dispose.htm" />
+  <HelpKINode Title="AbstractSession.Init method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_Init.htm" />
+  <HelpKINode Title="AbstractSession.NextEvent method" Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_NextEvent.htm" />
+  <HelpKINode Title="AbstractSession.OpenService method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_OpenService.htm" />
+  <HelpKINode Title="AbstractSession.OpenServiceAsync method" Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_OpenServiceAsync.htm" />
+  <HelpKINode Title="AbstractSession.SendAuthorizationRequest method" Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest.htm" />
+  <HelpKINode Title="AbstractSession.Start method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_Start.htm" />
+  <HelpKINode Title="AbstractSession.StartAsync method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_StartAsync.htm" />
+  <HelpKINode Title="AbstractSession.Stop method" Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_Stop.htm" />
+  <HelpKINode Title="AbstractSession.StopOption enumeration" Url="html/T_Bloomberglp_Blpapi_AbstractSession_StopOption.htm" />
+  <HelpKINode Title="AbstractSession.TryNextEvent method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_TryNextEvent.htm" />
+  <HelpKINode Title="ActivateSubServiceCodeRange method">
+    <HelpKINode Title="IProviderSession.ActivateSubServiceCodeRange Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_ActivateSubServiceCodeRange.htm" />
+    <HelpKINode Title="ProviderSession.ActivateSubServiceCodeRange Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_ActivateSubServiceCodeRange.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ACTIVE enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Status.htm" />
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="IResolutionList.Add Method " Url="html/Overload_Bloomberglp_Blpapi_IResolutionList_Add.htm" />
+    <HelpKINode Title="ITopicList.Add Method " Url="html/Overload_Bloomberglp_Blpapi_ITopicList_Add.htm" />
+    <HelpKINode Title="ResolutionList.Add Method " Url="html/Overload_Bloomberglp_Blpapi_ResolutionList_Add.htm" />
+    <HelpKINode Title="TopicList.Add Method " Url="html/Overload_Bloomberglp_Blpapi_TopicList_Add.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddActiveSubServiceCodeRange method" Url="html/M_Bloomberglp_Blpapi_ServiceRegistrationOptions_AddActiveSubServiceCodeRange.htm" />
+  <HelpKINode Title="AddAttribute method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_AddAttribute.htm" />
+  <HelpKINode Title="ADMIN enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="AllowMultipleCorrelatorsPerMsg property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_AllowMultipleCorrelatorsPerMsg.htm" />
+  <HelpKINode Title="AlternateNames property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_AlternateNames.htm" />
+  <HelpKINode Title="Append method" Url="html/Overload_Bloomberglp_Blpapi_Request_Append.htm" />
+  <HelpKINode Title="AppendElement method">
+    <HelpKINode Title="Element.AppendElement Method " Url="html/M_Bloomberglp_Blpapi_Element_AppendElement.htm" />
+    <HelpKINode Title="EventFormatter.AppendElement Method " Url="html/M_Bloomberglp_Blpapi_EventFormatter_AppendElement.htm" />
+    <HelpKINode Title="IMessageFormatter.AppendElement Method " Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_AppendElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppendMessage method">
+    <HelpKINode Title="EventFormatter.AppendMessage Method " Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendMessage.htm" />
+    <HelpKINode Title="TestUtil.AppendMessage Method " Url="html/Overload_Bloomberglp_Blpapi_Test_TestUtil_AppendMessage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AppendRecapMessage method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendRecapMessage.htm" />
+  <HelpKINode Title="AppendResponse method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendResponse.htm" />
+  <HelpKINode Title="AppendValue method">
+    <HelpKINode Title="Element.AppendValue Method " Url="html/Overload_Bloomberglp_Blpapi_Element_AppendValue.htm" />
+    <HelpKINode Title="EventFormatter.AppendValue Method " Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendValue.htm" />
+    <HelpKINode Title="IMessageFormatter.AppendValue Method " Url="html/Overload_Bloomberglp_Blpapi_Test_IMessageFormatter_AppendValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AsElement property">
+    <HelpKINode Title="Message.AsElement Property " Url="html/P_Bloomberglp_Blpapi_Message_AsElement.htm" />
+    <HelpKINode Title="Request.AsElement Property " Url="html/P_Bloomberglp_Blpapi_Request_AsElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ASYNC enumeration member" Url="html/T_Bloomberglp_Blpapi_AbstractSession_StopOption.htm" />
+  <HelpKINode Title="ASYNC field" Url="html/F_Bloomberglp_Blpapi_EventDispatcher_StopOption_ASYNC.htm" />
+  <HelpKINode Title="Attribute method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_Attribute.htm" />
+  <HelpKINode Title="AttributeAt method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_AttributeAt.htm" />
+  <HelpKINode Title="AuthApplication class">
+    <HelpKINode Title="AuthApplication Class" Url="html/T_Bloomberglp_Blpapi_AuthApplication.htm" />
+    <HelpKINode Title="about AuthApplication class" Url="html/T_Bloomberglp_Blpapi_AuthApplication.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_AuthApplication__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthApplication.AuthApplication constructor" Url="html/M_Bloomberglp_Blpapi_AuthApplication__ctor.htm" />
+  <HelpKINode Title="AuthenticationOptions property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_AuthenticationOptions.htm" />
+  <HelpKINode Title="AuthOptions class">
+    <HelpKINode Title="AuthOptions Class" Url="html/T_Bloomberglp_Blpapi_AuthOptions.htm" />
+    <HelpKINode Title="about AuthOptions class" Url="html/T_Bloomberglp_Blpapi_AuthOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_AuthOptions__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthOptions.AuthOptions constructor" Url="html/Overload_Bloomberglp_Blpapi_AuthOptions__ctor.htm" />
+  <HelpKINode Title="AuthorizationFailure field" Url="html/F_Bloomberglp_Blpapi_Names_AuthorizationFailure.htm" />
+  <HelpKINode Title="AuthorizationRevoked field" Url="html/F_Bloomberglp_Blpapi_Names_AuthorizationRevoked.htm" />
+  <HelpKINode Title="AuthorizationServiceName property" Url="html/P_Bloomberglp_Blpapi_Service_AuthorizationServiceName.htm" />
+  <HelpKINode Title="AuthorizationSuccess field" Url="html/F_Bloomberglp_Blpapi_Names_AuthorizationSuccess.htm" />
+  <HelpKINode Title="AUTHORIZATION_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="AuthToken class">
+    <HelpKINode Title="AuthToken Class" Url="html/T_Bloomberglp_Blpapi_AuthToken.htm" />
+    <HelpKINode Title="about AuthToken class" Url="html/T_Bloomberglp_Blpapi_AuthToken.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_AuthToken__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthToken.AuthToken constructor" Url="html/M_Bloomberglp_Blpapi_AuthToken__ctor.htm" />
+  <HelpKINode Title="AuthUser class">
+    <HelpKINode Title="AuthUser Class" Url="html/T_Bloomberglp_Blpapi_AuthUser.htm" />
+    <HelpKINode Title="about AuthUser class" Url="html/T_Bloomberglp_Blpapi_AuthUser.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_AuthUser.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthUser.CreateWithActiveDirectoryProperty method" Url="html/M_Bloomberglp_Blpapi_AuthUser_CreateWithActiveDirectoryProperty.htm" />
+  <HelpKINode Title="AuthUser.CreateWithLogonName method" Url="html/M_Bloomberglp_Blpapi_AuthUser_CreateWithLogonName.htm" />
+  <HelpKINode Title="AuthUser.CreateWithManualOptions method" Url="html/M_Bloomberglp_Blpapi_AuthUser_CreateWithManualOptions.htm" />
+  <HelpKINode Title="AUTO enumeration member" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ClientModeType.htm" />
+  <HelpKINode Title="AutoRestartOnDisconnection property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_AutoRestartOnDisconnection.htm" />
+  <HelpKINode Title="AUTO_REGISTER_SERVICES enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolveMode.htm" />
+  <HelpKINode Title="BandwidthSaveModeDisabled property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_BandwidthSaveModeDisabled.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi namespace" Url="html/N_Bloomberglp_Blpapi.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.AbstractSession class" Url="html/T_Bloomberglp_Blpapi_AbstractSession.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.AbstractSession.StopOption enumeration" Url="html/T_Bloomberglp_Blpapi_AbstractSession_StopOption.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.AuthApplication class" Url="html/T_Bloomberglp_Blpapi_AuthApplication.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.AuthOptions class" Url="html/T_Bloomberglp_Blpapi_AuthOptions.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.AuthToken class" Url="html/T_Bloomberglp_Blpapi_AuthToken.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.AuthUser class" Url="html/T_Bloomberglp_Blpapi_AuthUser.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Constant class" Url="html/T_Bloomberglp_Blpapi_Constant.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ConstantsList interface" Url="html/T_Bloomberglp_Blpapi_ConstantsList.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Constraint class" Url="html/T_Bloomberglp_Blpapi_Constraint.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ConstraintsList interface" Url="html/T_Bloomberglp_Blpapi_ConstraintsList.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.CorrelationID class" Url="html/T_Bloomberglp_Blpapi_CorrelationID.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Datetime class" Url="html/T_Bloomberglp_Blpapi_Datetime.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.DuplicateCorrelationIDException class" Url="html/T_Bloomberglp_Blpapi_DuplicateCorrelationIDException.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Element class" Url="html/T_Bloomberglp_Blpapi_Element.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Event class" Url="html/T_Bloomberglp_Blpapi_Event.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Event.EventType enumeration" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.EventDispatcher class" Url="html/T_Bloomberglp_Blpapi_EventDispatcher.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.EventDispatcher.StopOption class" Url="html/T_Bloomberglp_Blpapi_EventDispatcher_StopOption.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.EventFormatter class" Url="html/T_Bloomberglp_Blpapi_EventFormatter.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.EventHandler delegate" Url="html/T_Bloomberglp_Blpapi_EventHandler.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.EventQueue class" Url="html/T_Bloomberglp_Blpapi_EventQueue.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.IAbstractSession interface" Url="html/T_Bloomberglp_Blpapi_IAbstractSession.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Identity interface" Url="html/T_Bloomberglp_Blpapi_Identity.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.IEventQueue interface" Url="html/T_Bloomberglp_Blpapi_IEventQueue.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.InvalidConversionException class" Url="html/T_Bloomberglp_Blpapi_InvalidConversionException.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.InvalidRequestException class" Url="html/T_Bloomberglp_Blpapi_InvalidRequestException.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.IProviderSession interface" Url="html/T_Bloomberglp_Blpapi_IProviderSession.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.IResolutionList interface" Url="html/T_Bloomberglp_Blpapi_IResolutionList.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ISession interface" Url="html/T_Bloomberglp_Blpapi_ISession.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ITopicList interface" Url="html/T_Bloomberglp_Blpapi_ITopicList.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Logging class" Url="html/T_Bloomberglp_Blpapi_Logging.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Logging.Callback interface" Url="html/T_Bloomberglp_Blpapi_Logging_Callback.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Message class" Url="html/T_Bloomberglp_Blpapi_Message.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Message.Fragment enumeration" Url="html/T_Bloomberglp_Blpapi_Message_Fragment.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Message.Recap enumeration" Url="html/T_Bloomberglp_Blpapi_Message_Recap.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Name class" Url="html/T_Bloomberglp_Blpapi_Name.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.NameEnumeration interface" Url="html/T_Bloomberglp_Blpapi_NameEnumeration.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.NameEnumerationTable class" Url="html/T_Bloomberglp_Blpapi_NameEnumerationTable.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Names class" Url="html/T_Bloomberglp_Blpapi_Names.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.NotFoundException class" Url="html/T_Bloomberglp_Blpapi_NotFoundException.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Operation class" Url="html/T_Bloomberglp_Blpapi_Operation.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ProviderEventHandler delegate" Url="html/T_Bloomberglp_Blpapi_ProviderEventHandler.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ProviderSession class" Url="html/T_Bloomberglp_Blpapi_ProviderSession.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Request interface" Url="html/T_Bloomberglp_Blpapi_Request.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.RequestQueueOverflowException class" Url="html/T_Bloomberglp_Blpapi_RequestQueueOverflowException.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.RequestTemplate interface" Url="html/T_Bloomberglp_Blpapi_RequestTemplate.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ResolutionList class" Url="html/T_Bloomberglp_Blpapi_ResolutionList.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ResolutionStatus enumeration" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ResolveMode enumeration" Url="html/T_Bloomberglp_Blpapi_ResolveMode.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Schema class" Url="html/T_Bloomberglp_Blpapi_Schema.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Schema.Datatype enumeration" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Schema.Status enumeration" Url="html/T_Bloomberglp_Blpapi_Schema_Status.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.SchemaElementDefinition class" Url="html/T_Bloomberglp_Blpapi_SchemaElementDefinition.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.SchemaTypeDefinition class" Url="html/T_Bloomberglp_Blpapi_SchemaTypeDefinition.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.SeatType enumeration" Url="html/T_Bloomberglp_Blpapi_SeatType.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Service class" Url="html/T_Bloomberglp_Blpapi_Service.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ServiceRegistrationOptions class" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ServiceRegistrationOptions.RegistrationParts class" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ServiceRegistrationOptions.ServiceRegistrationPriority enumeration" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServiceRegistrationPriority.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Session class" Url="html/T_Bloomberglp_Blpapi_Session.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Session.SubscriptionStatus enumeration" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.SessionOptions class" Url="html/T_Bloomberglp_Blpapi_SessionOptions.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.SessionOptions.ClientModeType enumeration" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ClientModeType.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.SessionOptions.ServerAddress class" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ServerAddress.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Subscription class" Url="html/T_Bloomberglp_Blpapi_Subscription.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Test namespace" Url="html/N_Bloomberglp_Blpapi_Test.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Test.IMessageFormatter interface" Url="html/T_Bloomberglp_Blpapi_Test_IMessageFormatter.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Test.MessageProperties class" Url="html/T_Bloomberglp_Blpapi_Test_MessageProperties.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Test.TestUtil class" Url="html/T_Bloomberglp_Blpapi_Test_TestUtil.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.TlsOptions class" Url="html/T_Bloomberglp_Blpapi_TlsOptions.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.Topic interface" Url="html/T_Bloomberglp_Blpapi_Topic.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.TopicList class" Url="html/T_Bloomberglp_Blpapi_TopicList.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.TopicList.TopicStatus enumeration" Url="html/T_Bloomberglp_Blpapi_TopicList_TopicStatus.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.UserHandle interface" Url="html/T_Bloomberglp_Blpapi_UserHandle.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.VersionInfo class" Url="html/T_Bloomberglp_Blpapi_VersionInfo.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ZfpUtil class" Url="html/T_Bloomberglp_Blpapi_ZfpUtil.htm" />
+  <HelpKINode Title="Bloomberglp.Blpapi.ZfpUtil.Remote enumeration" Url="html/T_Bloomberglp_Blpapi_ZfpUtil_Remote.htm" />
+  <HelpKINode Title="BOOL enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="BPS enumeration member" Url="html/T_Bloomberglp_Blpapi_SeatType.htm" />
+  <HelpKINode Title="BuildVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_BuildVersion.htm" />
+  <HelpKINode Title="BYTEARRAY enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Callback interface">
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Logging_Callback.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cancel method">
+    <HelpKINode Title="AbstractSession.Cancel Method " Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_Cancel.htm" />
+    <HelpKINode Title="IAbstractSession.Cancel Method " Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_Cancel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CHAR enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="CheckRevocation property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_CheckRevocation.htm" />
+  <HelpKINode Title="CHOICE enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Clear method" Url="html/M_Bloomberglp_Blpapi_Datetime_Clear.htm" />
+  <HelpKINode Title="ClientCredentials property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_ClientCredentials.htm" />
+  <HelpKINode Title="ClientMode property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ClientMode.htm" />
+  <HelpKINode Title="Clone method">
+    <HelpKINode Title="Datetime.Clone Method " Url="html/M_Bloomberglp_Blpapi_Datetime_Clone.htm" />
+    <HelpKINode Title="Element.Clone Method " Url="html/M_Bloomberglp_Blpapi_Element_Clone.htm" />
+  </HelpKINode>
+  <HelpKINode Title="close method" Url="html/M_Bloomberglp_Blpapi_RequestTemplate_close.htm" />
+  <HelpKINode Title="ConnectTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ConnectTimeout.htm" />
+  <HelpKINode Title="Constant class">
+    <HelpKINode Title="Constant Class" Url="html/T_Bloomberglp_Blpapi_Constant.htm" />
+    <HelpKINode Title="about Constant class" Url="html/T_Bloomberglp_Blpapi_Constant.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Constant__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Constant.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Constant.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Constant.Constant constructor" Url="html/M_Bloomberglp_Blpapi_Constant__ctor.htm" />
+  <HelpKINode Title="Constant.Datatype property" Url="html/P_Bloomberglp_Blpapi_Constant_Datatype.htm" />
+  <HelpKINode Title="Constant.Description property" Url="html/P_Bloomberglp_Blpapi_Constant_Description.htm" />
+  <HelpKINode Title="Constant.GetValueAsChar method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsChar.htm" />
+  <HelpKINode Title="Constant.GetValueAsDate method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsDate.htm" />
+  <HelpKINode Title="Constant.GetValueAsDatetime method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsDatetime.htm" />
+  <HelpKINode Title="Constant.GetValueAsFloat32 method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsFloat32.htm" />
+  <HelpKINode Title="Constant.GetValueAsFloat64 method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsFloat64.htm" />
+  <HelpKINode Title="Constant.GetValueAsInt32 method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsInt32.htm" />
+  <HelpKINode Title="Constant.GetValueAsInt64 method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsInt64.htm" />
+  <HelpKINode Title="Constant.GetValueAsString method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsString.htm" />
+  <HelpKINode Title="Constant.GetValueAsTime method" Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsTime.htm" />
+  <HelpKINode Title="Constant.Name property" Url="html/P_Bloomberglp_Blpapi_Constant_Name.htm" />
+  <HelpKINode Title="Constant.Print method" Url="html/Overload_Bloomberglp_Blpapi_Constant_Print.htm" />
+  <HelpKINode Title="Constant.Status property" Url="html/P_Bloomberglp_Blpapi_Constant_Status.htm" />
+  <HelpKINode Title="Constant.UserData property" Url="html/P_Bloomberglp_Blpapi_Constant_UserData.htm" />
+  <HelpKINode Title="ConstantsList interface">
+    <HelpKINode Title="ConstantsList Interface" Url="html/T_Bloomberglp_Blpapi_ConstantsList.htm" />
+    <HelpKINode Title="about ConstantsList interface" Url="html/T_Bloomberglp_Blpapi_ConstantsList.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ConstantsList.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_ConstantsList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstantsList.ContainsKey method" Url="html/M_Bloomberglp_Blpapi_ConstantsList_ContainsKey.htm" />
+  <HelpKINode Title="ConstantsList.Datatype property" Url="html/P_Bloomberglp_Blpapi_ConstantsList_Datatype.htm" />
+  <HelpKINode Title="ConstantsList.Description property" Url="html/P_Bloomberglp_Blpapi_ConstantsList_Description.htm" />
+  <HelpKINode Title="ConstantsList.Item property" Url="html/P_Bloomberglp_Blpapi_ConstantsList_Item.htm" />
+  <HelpKINode Title="ConstantsList.Name property" Url="html/P_Bloomberglp_Blpapi_ConstantsList_Name.htm" />
+  <HelpKINode Title="ConstantsList.Print method" Url="html/Overload_Bloomberglp_Blpapi_ConstantsList_Print.htm" />
+  <HelpKINode Title="ConstantsList.Status property" Url="html/P_Bloomberglp_Blpapi_ConstantsList_Status.htm" />
+  <HelpKINode Title="ConstantsList.TryGetValue method" Url="html/M_Bloomberglp_Blpapi_ConstantsList_TryGetValue.htm" />
+  <HelpKINode Title="ConstantsList.UserData property" Url="html/P_Bloomberglp_Blpapi_ConstantsList_UserData.htm" />
+  <HelpKINode Title="Constraint class">
+    <HelpKINode Title="Constraint Class" Url="html/T_Bloomberglp_Blpapi_Constraint.htm" />
+    <HelpKINode Title="about Constraint class" Url="html/T_Bloomberglp_Blpapi_Constraint.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Constraint__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Constraint.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Constraint.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Constraint.Constraint constructor" Url="html/M_Bloomberglp_Blpapi_Constraint__ctor.htm" />
+  <HelpKINode Title="Constraint.ConstraintType property" Url="html/P_Bloomberglp_Blpapi_Constraint_ConstraintType.htm" />
+  <HelpKINode Title="Constraint.Print method" Url="html/Overload_Bloomberglp_Blpapi_Constraint_Print.htm" />
+  <HelpKINode Title="Constraint.Values property" Url="html/P_Bloomberglp_Blpapi_Constraint_Values.htm" />
+  <HelpKINode Title="Constraints property">
+    <HelpKINode Title="SchemaElementDefinition.Constraints Property " Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Constraints.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.Constraints Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Constraints.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstraintsList interface">
+    <HelpKINode Title="ConstraintsList Interface" Url="html/T_Bloomberglp_Blpapi_ConstraintsList.htm" />
+    <HelpKINode Title="about ConstraintsList interface" Url="html/T_Bloomberglp_Blpapi_ConstraintsList.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ConstraintsList.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_ConstraintsList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstraintsList.ContainsKey method" Url="html/M_Bloomberglp_Blpapi_ConstraintsList_ContainsKey.htm" />
+  <HelpKINode Title="ConstraintsList.Item property" Url="html/P_Bloomberglp_Blpapi_ConstraintsList_Item.htm" />
+  <HelpKINode Title="ConstraintsList.TryGetValue method" Url="html/M_Bloomberglp_Blpapi_ConstraintsList_TryGetValue.htm" />
+  <HelpKINode Title="ConstraintType property" Url="html/P_Bloomberglp_Blpapi_Constraint_ConstraintType.htm" />
+  <HelpKINode Title="ContainsKey method">
+    <HelpKINode Title="ConstantsList.ContainsKey Method " Url="html/M_Bloomberglp_Blpapi_ConstantsList_ContainsKey.htm" />
+    <HelpKINode Title="ConstraintsList.ContainsKey Method " Url="html/M_Bloomberglp_Blpapi_ConstraintsList_ContainsKey.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CorrelationID class">
+    <HelpKINode Title="CorrelationID Class" Url="html/T_Bloomberglp_Blpapi_CorrelationID.htm" />
+    <HelpKINode Title="about CorrelationID class" Url="html/T_Bloomberglp_Blpapi_CorrelationID.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_CorrelationID__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_CorrelationID.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_CorrelationID.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CorrelationID property">
+    <HelpKINode Title="Message.CorrelationID Property " Url="html/P_Bloomberglp_Blpapi_Message_CorrelationID.htm" />
+    <HelpKINode Title="Subscription.CorrelationID Property " Url="html/P_Bloomberglp_Blpapi_Subscription_CorrelationID.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CorrelationID.CorrelationID constructor" Url="html/Overload_Bloomberglp_Blpapi_CorrelationID__ctor.htm" />
+  <HelpKINode Title="CorrelationID.Equals method" Url="html/M_Bloomberglp_Blpapi_CorrelationID_Equals.htm" />
+  <HelpKINode Title="CorrelationID.GetHashCode method" Url="html/M_Bloomberglp_Blpapi_CorrelationID_GetHashCode.htm" />
+  <HelpKINode Title="CorrelationID.IsInternal property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_IsInternal.htm" />
+  <HelpKINode Title="CorrelationID.IsObject property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_IsObject.htm" />
+  <HelpKINode Title="CorrelationID.IsValue property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_IsValue.htm" />
+  <HelpKINode Title="CorrelationID.Object property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_Object.htm" />
+  <HelpKINode Title="CorrelationID.ToString method" Url="html/M_Bloomberglp_Blpapi_CorrelationID_ToString.htm" />
+  <HelpKINode Title="CorrelationID.Value property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_Value.htm" />
+  <HelpKINode Title="CorrelationIdAt method">
+    <HelpKINode Title="IResolutionList.CorrelationIdAt Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_CorrelationIdAt.htm" />
+    <HelpKINode Title="ITopicList.CorrelationIdAt Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_CorrelationIdAt.htm" />
+    <HelpKINode Title="ResolutionList.CorrelationIdAt Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_CorrelationIdAt.htm" />
+    <HelpKINode Title="TopicList.CorrelationIdAt Method " Url="html/M_Bloomberglp_Blpapi_TopicList_CorrelationIdAt.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CorrelationIDs property" Url="html/P_Bloomberglp_Blpapi_Message_CorrelationIDs.htm" />
+  <HelpKINode Title="Create method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_Create.htm" />
+  <HelpKINode Title="CreateAdminEvent method" Url="html/M_Bloomberglp_Blpapi_Service_CreateAdminEvent.htm" />
+  <HelpKINode Title="CreateAuthorizationRequest method" Url="html/M_Bloomberglp_Blpapi_Service_CreateAuthorizationRequest.htm" />
+  <HelpKINode Title="CREATED enumeration member" Url="html/T_Bloomberglp_Blpapi_TopicList_TopicStatus.htm" />
+  <HelpKINode Title="CreateEvent method" Url="html/M_Bloomberglp_Blpapi_Test_TestUtil_CreateEvent.htm" />
+  <HelpKINode Title="CreateFromBlobs method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_CreateFromBlobs.htm" />
+  <HelpKINode Title="CreateFromFiles method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_CreateFromFiles.htm" />
+  <HelpKINode Title="CreateIdentity method">
+    <HelpKINode Title="AbstractSession.CreateIdentity Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_CreateIdentity.htm" />
+    <HelpKINode Title="IAbstractSession.CreateIdentity Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_CreateIdentity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreatePublishEvent method" Url="html/M_Bloomberglp_Blpapi_Service_CreatePublishEvent.htm" />
+  <HelpKINode Title="CreateRequest method" Url="html/M_Bloomberglp_Blpapi_Service_CreateRequest.htm" />
+  <HelpKINode Title="CreateResponseEvent method" Url="html/M_Bloomberglp_Blpapi_Service_CreateResponseEvent.htm" />
+  <HelpKINode Title="createSnapshotRequestTemplate method">
+    <HelpKINode Title="ISession.createSnapshotRequestTemplate Method " Url="html/Overload_Bloomberglp_Blpapi_ISession_createSnapshotRequestTemplate.htm" />
+    <HelpKINode Title="Session.createSnapshotRequestTemplate Method " Url="html/Overload_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateTopic method">
+    <HelpKINode Title="ProviderSession.CreateTopic Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_CreateTopic.htm" />
+    <HelpKINode Title="TestUtil.CreateTopic Method " Url="html/M_Bloomberglp_Blpapi_Test_TestUtil_CreateTopic.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateTopics method">
+    <HelpKINode Title="IProviderSession.CreateTopics Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_CreateTopics.htm" />
+    <HelpKINode Title="ProviderSession.CreateTopics Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_CreateTopics.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateTopicsAsync method">
+    <HelpKINode Title="IProviderSession.CreateTopicsAsync Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_CreateTopicsAsync.htm" />
+    <HelpKINode Title="ProviderSession.CreateTopicsAsync Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_CreateTopicsAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CreateUserHandle method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_CreateUserHandle.htm" />
+  <HelpKINode Title="CreateWithActiveDirectoryProperty method" Url="html/M_Bloomberglp_Blpapi_AuthUser_CreateWithActiveDirectoryProperty.htm" />
+  <HelpKINode Title="CreateWithLogonName method" Url="html/M_Bloomberglp_Blpapi_AuthUser_CreateWithLogonName.htm" />
+  <HelpKINode Title="CreateWithManualOptions method" Url="html/M_Bloomberglp_Blpapi_AuthUser_CreateWithManualOptions.htm" />
+  <HelpKINode Title="CrlFetchTimeout property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_CrlFetchTimeout.htm" />
+  <HelpKINode Title="DAPI enumeration member" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ClientModeType.htm" />
+  <HelpKINode Title="DataLoss field" Url="html/F_Bloomberglp_Blpapi_Names_DataLoss.htm" />
+  <HelpKINode Title="Datatype property">
+    <HelpKINode Title="Constant.Datatype Property " Url="html/P_Bloomberglp_Blpapi_Constant_Datatype.htm" />
+    <HelpKINode Title="ConstantsList.Datatype Property " Url="html/P_Bloomberglp_Blpapi_ConstantsList_Datatype.htm" />
+    <HelpKINode Title="Element.Datatype Property " Url="html/P_Bloomberglp_Blpapi_Element_Datatype.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.Datatype Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Datatype.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DATE enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="DATE field" Url="html/F_Bloomberglp_Blpapi_Datetime_DATE.htm" />
+  <HelpKINode Title="Datetime class">
+    <HelpKINode Title="Datetime Class" Url="html/T_Bloomberglp_Blpapi_Datetime.htm" />
+    <HelpKINode Title="about Datetime class" Url="html/T_Bloomberglp_Blpapi_Datetime.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_Datetime__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Bloomberglp_Blpapi_Datetime.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Datetime.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Datetime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DATETIME enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Datetime.Clear method" Url="html/M_Bloomberglp_Blpapi_Datetime_Clear.htm" />
+  <HelpKINode Title="Datetime.Clone method" Url="html/M_Bloomberglp_Blpapi_Datetime_Clone.htm" />
+  <HelpKINode Title="Datetime.DATE field" Url="html/F_Bloomberglp_Blpapi_Datetime_DATE.htm" />
+  <HelpKINode Title="Datetime.Datetime constructor" Url="html/Overload_Bloomberglp_Blpapi_Datetime__ctor.htm" />
+  <HelpKINode Title="Datetime.DayOfMonth property" Url="html/P_Bloomberglp_Blpapi_Datetime_DayOfMonth.htm" />
+  <HelpKINode Title="Datetime.DAY_OF_MONTH_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_DAY_OF_MONTH_PART.htm" />
+  <HelpKINode Title="Datetime.Equals method" Url="html/M_Bloomberglp_Blpapi_Datetime_Equals.htm" />
+  <HelpKINode Title="Datetime.GetHashCode method" Url="html/M_Bloomberglp_Blpapi_Datetime_GetHashCode.htm" />
+  <HelpKINode Title="Datetime.HasParts method" Url="html/M_Bloomberglp_Blpapi_Datetime_HasParts.htm" />
+  <HelpKINode Title="Datetime.Hour property" Url="html/P_Bloomberglp_Blpapi_Datetime_Hour.htm" />
+  <HelpKINode Title="Datetime.HOUR_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_HOUR_PART.htm" />
+  <HelpKINode Title="Datetime.IsValid method" Url="html/M_Bloomberglp_Blpapi_Datetime_IsValid.htm" />
+  <HelpKINode Title="Datetime.IsValidField method" Url="html/M_Bloomberglp_Blpapi_Datetime_IsValidField.htm" />
+  <HelpKINode Title="Datetime.MicroSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_MicroSecond.htm" />
+  <HelpKINode Title="Datetime.MICROSECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MICROSECOND_PART.htm" />
+  <HelpKINode Title="Datetime.MilliSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_MilliSecond.htm" />
+  <HelpKINode Title="Datetime.MILLISECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MILLISECOND_PART.htm" />
+  <HelpKINode Title="Datetime.Minute property" Url="html/P_Bloomberglp_Blpapi_Datetime_Minute.htm" />
+  <HelpKINode Title="Datetime.MINUTE_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MINUTE_PART.htm" />
+  <HelpKINode Title="Datetime.Month property" Url="html/P_Bloomberglp_Blpapi_Datetime_Month.htm" />
+  <HelpKINode Title="Datetime.MONTH_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MONTH_PART.htm" />
+  <HelpKINode Title="Datetime.NanoSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_NanoSecond.htm" />
+  <HelpKINode Title="Datetime.NANOSECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_NANOSECOND_PART.htm" />
+  <HelpKINode Title="Datetime.Parts property" Url="html/P_Bloomberglp_Blpapi_Datetime_Parts.htm" />
+  <HelpKINode Title="Datetime.PicoSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_PicoSecond.htm" />
+  <HelpKINode Title="Datetime.PICOSECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_PICOSECOND_PART.htm" />
+  <HelpKINode Title="Datetime.Second property" Url="html/P_Bloomberglp_Blpapi_Datetime_Second.htm" />
+  <HelpKINode Title="Datetime.SECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_SECOND_PART.htm" />
+  <HelpKINode Title="Datetime.SetDate method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetDate.htm" />
+  <HelpKINode Title="Datetime.SetDatetime method" Url="html/Overload_Bloomberglp_Blpapi_Datetime_SetDatetime.htm" />
+  <HelpKINode Title="Datetime.SetDatetimeTz method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetDatetimeTz.htm" />
+  <HelpKINode Title="Datetime.SetDateTz method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetDateTz.htm" />
+  <HelpKINode Title="Datetime.SetTime method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetTime.htm" />
+  <HelpKINode Title="Datetime.SetTimeTz method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetTimeTz.htm" />
+  <HelpKINode Title="Datetime.TIME field" Url="html/F_Bloomberglp_Blpapi_Datetime_TIME.htm" />
+  <HelpKINode Title="Datetime.TIMEMILLI field" Url="html/F_Bloomberglp_Blpapi_Datetime_TIMEMILLI.htm" />
+  <HelpKINode Title="Datetime.TimezoneOffsetMinutes property" Url="html/P_Bloomberglp_Blpapi_Datetime_TimezoneOffsetMinutes.htm" />
+  <HelpKINode Title="Datetime.TIME_ZONE_OFFSET field" Url="html/F_Bloomberglp_Blpapi_Datetime_TIME_ZONE_OFFSET.htm" />
+  <HelpKINode Title="Datetime.ToString method" Url="html/M_Bloomberglp_Blpapi_Datetime_ToString.htm" />
+  <HelpKINode Title="Datetime.ToSystemDateTime method" Url="html/M_Bloomberglp_Blpapi_Datetime_ToSystemDateTime.htm" />
+  <HelpKINode Title="Datetime.Year property" Url="html/P_Bloomberglp_Blpapi_Datetime_Year.htm" />
+  <HelpKINode Title="Datetime.YEAR_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_YEAR_PART.htm" />
+  <HelpKINode Title="DayOfMonth property" Url="html/P_Bloomberglp_Blpapi_Datetime_DayOfMonth.htm" />
+  <HelpKINode Title="DAY_OF_MONTH_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_DAY_OF_MONTH_PART.htm" />
+  <HelpKINode Title="DeactivateSubServiceCodeRange method">
+    <HelpKINode Title="IProviderSession.DeactivateSubServiceCodeRange Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeactivateSubServiceCodeRange.htm" />
+    <HelpKINode Title="ProviderSession.DeactivateSubServiceCodeRange Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeactivateSubServiceCodeRange.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultKeepAliveInactivityTime property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultKeepAliveInactivityTime.htm" />
+  <HelpKINode Title="DefaultKeepAliveResponseTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultKeepAliveResponseTimeout.htm" />
+  <HelpKINode Title="DefaultSubscriptionService property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultSubscriptionService.htm" />
+  <HelpKINode Title="DefaultTopicPrefix property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultTopicPrefix.htm" />
+  <HelpKINode Title="DeleteTopic method">
+    <HelpKINode Title="IProviderSession.DeleteTopic Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeleteTopic.htm" />
+    <HelpKINode Title="ProviderSession.DeleteTopic Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeleteTopic.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteTopics method">
+    <HelpKINode Title="IProviderSession.DeleteTopics Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeleteTopics.htm" />
+    <HelpKINode Title="ProviderSession.DeleteTopics Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeleteTopics.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DEPRECATED enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Status.htm" />
+  <HelpKINode Title="DeregisterCallback method" Url="html/M_Bloomberglp_Blpapi_Logging_DeregisterCallback.htm" />
+  <HelpKINode Title="DeregisterService method">
+    <HelpKINode Title="IProviderSession.DeregisterService Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeregisterService.htm" />
+    <HelpKINode Title="ProviderSession.DeregisterService Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeregisterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Description method" Url="html/M_Bloomberglp_Blpapi_NotFoundException_Description.htm" />
+  <HelpKINode Title="Description property">
+    <HelpKINode Title="Constant.Description Property " Url="html/P_Bloomberglp_Blpapi_Constant_Description.htm" />
+    <HelpKINode Title="ConstantsList.Description Property " Url="html/P_Bloomberglp_Blpapi_ConstantsList_Description.htm" />
+    <HelpKINode Title="DuplicateCorrelationIDException.Description Property " Url="html/P_Bloomberglp_Blpapi_DuplicateCorrelationIDException_Description.htm" />
+    <HelpKINode Title="InvalidConversionException.Description Property " Url="html/P_Bloomberglp_Blpapi_InvalidConversionException_Description.htm" />
+    <HelpKINode Title="InvalidRequestException.Description Property " Url="html/P_Bloomberglp_Blpapi_InvalidRequestException_Description.htm" />
+    <HelpKINode Title="Operation.Description Property " Url="html/P_Bloomberglp_Blpapi_Operation_Description.htm" />
+    <HelpKINode Title="RequestQueueOverflowException.Description Property " Url="html/P_Bloomberglp_Blpapi_RequestQueueOverflowException_Description.htm" />
+    <HelpKINode Title="SchemaElementDefinition.Description Property " Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Description.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.Description Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Description.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeserializeService method" Url="html/Overload_Bloomberglp_Blpapi_Test_TestUtil_DeserializeService.htm" />
+  <HelpKINode Title="DispatcherThread method" Url="html/M_Bloomberglp_Blpapi_EventDispatcher_DispatcherThread.htm" />
+  <HelpKINode Title="DispatchEvent method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_DispatchEvent.htm" />
+  <HelpKINode Title="DONT_REGISTER_SERVICES enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolveMode.htm" />
+  <HelpKINode Title="DuplicateCorrelationIDException class">
+    <HelpKINode Title="DuplicateCorrelationIDException Class" Url="html/T_Bloomberglp_Blpapi_DuplicateCorrelationIDException.htm" />
+    <HelpKINode Title="about DuplicateCorrelationIDException class" Url="html/T_Bloomberglp_Blpapi_DuplicateCorrelationIDException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_DuplicateCorrelationIDException__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_DuplicateCorrelationIDException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DuplicateCorrelationIDException.Description property" Url="html/P_Bloomberglp_Blpapi_DuplicateCorrelationIDException_Description.htm" />
+  <HelpKINode Title="DuplicateCorrelationIDException.DuplicateCorrelationIDException constructor" Url="html/Overload_Bloomberglp_Blpapi_DuplicateCorrelationIDException__ctor.htm" />
+  <HelpKINode Title="Element class">
+    <HelpKINode Title="Element Class" Url="html/T_Bloomberglp_Blpapi_Element.htm" />
+    <HelpKINode Title="about Element class" Url="html/T_Bloomberglp_Blpapi_Element.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Element__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Element.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Element.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Element.AppendElement method" Url="html/M_Bloomberglp_Blpapi_Element_AppendElement.htm" />
+  <HelpKINode Title="Element.AppendValue method" Url="html/Overload_Bloomberglp_Blpapi_Element_AppendValue.htm" />
+  <HelpKINode Title="Element.Clone method" Url="html/M_Bloomberglp_Blpapi_Element_Clone.htm" />
+  <HelpKINode Title="Element.Datatype property" Url="html/P_Bloomberglp_Blpapi_Element_Datatype.htm" />
+  <HelpKINode Title="Element.Element constructor" Url="html/M_Bloomberglp_Blpapi_Element__ctor.htm" />
+  <HelpKINode Title="Element.ElementDefinition property" Url="html/P_Bloomberglp_Blpapi_Element_ElementDefinition.htm" />
+  <HelpKINode Title="Element.Elements property" Url="html/P_Bloomberglp_Blpapi_Element_Elements.htm" />
+  <HelpKINode Title="Element.FindConstant method" Url="html/Overload_Bloomberglp_Blpapi_Element_FindConstant.htm" />
+  <HelpKINode Title="Element.GetChoice method" Url="html/M_Bloomberglp_Blpapi_Element_GetChoice.htm" />
+  <HelpKINode Title="Element.GetElement method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElement.htm" />
+  <HelpKINode Title="Element.GetElementAsBool method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsBool.htm" />
+  <HelpKINode Title="Element.GetElementAsBytes method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsBytes.htm" />
+  <HelpKINode Title="Element.GetElementAsChar method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsChar.htm" />
+  <HelpKINode Title="Element.GetElementAsDate method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsDate.htm" />
+  <HelpKINode Title="Element.GetElementAsDatetime method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsDatetime.htm" />
+  <HelpKINode Title="Element.GetElementAsFloat32 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsFloat32.htm" />
+  <HelpKINode Title="Element.GetElementAsFloat64 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsFloat64.htm" />
+  <HelpKINode Title="Element.GetElementAsInt32 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsInt32.htm" />
+  <HelpKINode Title="Element.GetElementAsInt64 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsInt64.htm" />
+  <HelpKINode Title="Element.GetElementAsName method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsName.htm" />
+  <HelpKINode Title="Element.GetElementAsString method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsString.htm" />
+  <HelpKINode Title="Element.GetElementAsTime method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsTime.htm" />
+  <HelpKINode Title="Element.GetValue method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValue.htm" />
+  <HelpKINode Title="Element.GetValueAsBool method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsBool.htm" />
+  <HelpKINode Title="Element.GetValueAsBytes method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsBytes.htm" />
+  <HelpKINode Title="Element.GetValueAsChar method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsChar.htm" />
+  <HelpKINode Title="Element.GetValueAsDate method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsDate.htm" />
+  <HelpKINode Title="Element.GetValueAsDatetime method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsDatetime.htm" />
+  <HelpKINode Title="Element.GetValueAsElement method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsElement.htm" />
+  <HelpKINode Title="Element.GetValueAsEnumeration method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsEnumeration.htm" />
+  <HelpKINode Title="Element.GetValueAsFloat32 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsFloat32.htm" />
+  <HelpKINode Title="Element.GetValueAsFloat64 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsFloat64.htm" />
+  <HelpKINode Title="Element.GetValueAsInt32 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsInt32.htm" />
+  <HelpKINode Title="Element.GetValueAsInt64 method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsInt64.htm" />
+  <HelpKINode Title="Element.GetValueAsName method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsName.htm" />
+  <HelpKINode Title="Element.GetValueAsString method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsString.htm" />
+  <HelpKINode Title="Element.GetValueAsTime method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsTime.htm" />
+  <HelpKINode Title="Element.HasElement method" Url="html/Overload_Bloomberglp_Blpapi_Element_HasElement.htm" />
+  <HelpKINode Title="Element.IsArray property" Url="html/P_Bloomberglp_Blpapi_Element_IsArray.htm" />
+  <HelpKINode Title="Element.IsComplexType property" Url="html/P_Bloomberglp_Blpapi_Element_IsComplexType.htm" />
+  <HelpKINode Title="Element.IsEqualTo method" Url="html/Overload_Bloomberglp_Blpapi_Element_IsEqualTo.htm" />
+  <HelpKINode Title="Element.IsNull property" Url="html/P_Bloomberglp_Blpapi_Element_IsNull.htm" />
+  <HelpKINode Title="Element.IsNullValue method" Url="html/M_Bloomberglp_Blpapi_Element_IsNullValue.htm" />
+  <HelpKINode Title="Element.IsReadOnly property" Url="html/P_Bloomberglp_Blpapi_Element_IsReadOnly.htm" />
+  <HelpKINode Title="Element.Item property" Url="html/Overload_Bloomberglp_Blpapi_Element_Item.htm" />
+  <HelpKINode Title="Element.Name property" Url="html/P_Bloomberglp_Blpapi_Element_Name.htm" />
+  <HelpKINode Title="Element.NumElements property" Url="html/P_Bloomberglp_Blpapi_Element_NumElements.htm" />
+  <HelpKINode Title="Element.NumValues property" Url="html/P_Bloomberglp_Blpapi_Element_NumValues.htm" />
+  <HelpKINode Title="Element.Print method" Url="html/Overload_Bloomberglp_Blpapi_Element_Print.htm" />
+  <HelpKINode Title="Element.SetChoice method" Url="html/Overload_Bloomberglp_Blpapi_Element_SetChoice.htm" />
+  <HelpKINode Title="Element.SetElement method" Url="html/Overload_Bloomberglp_Blpapi_Element_SetElement.htm" />
+  <HelpKINode Title="Element.SetValue method" Url="html/Overload_Bloomberglp_Blpapi_Element_SetValue.htm" />
+  <HelpKINode Title="Element.ToString method" Url="html/M_Bloomberglp_Blpapi_Element_ToString.htm" />
+  <HelpKINode Title="Element.TypeDefinition property" Url="html/P_Bloomberglp_Blpapi_Element_TypeDefinition.htm" />
+  <HelpKINode Title="Element.ValueIsNull method" Url="html/M_Bloomberglp_Blpapi_Element_ValueIsNull.htm" />
+  <HelpKINode Title="ElementDefinition property" Url="html/P_Bloomberglp_Blpapi_Element_ElementDefinition.htm" />
+  <HelpKINode Title="ElementDefinitions property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_ElementDefinitions.htm" />
+  <HelpKINode Title="Elements property">
+    <HelpKINode Title="Element.Elements Property " Url="html/P_Bloomberglp_Blpapi_Element_Elements.htm" />
+    <HelpKINode Title="Message.Elements Property " Url="html/P_Bloomberglp_Blpapi_Message_Elements.htm" />
+    <HelpKINode Title="Request.Elements Property " Url="html/P_Bloomberglp_Blpapi_Request_Elements.htm" />
+  </HelpKINode>
+  <HelpKINode Title="END enumeration member" Url="html/T_Bloomberglp_Blpapi_Message_Fragment.htm" />
+  <HelpKINode Title="ENUMERATION enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Enumeration property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Enumeration.htm" />
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="CorrelationID.Equals Method " Url="html/M_Bloomberglp_Blpapi_CorrelationID_Equals.htm" />
+    <HelpKINode Title="Datetime.Equals Method " Url="html/M_Bloomberglp_Blpapi_Datetime_Equals.htm" />
+    <HelpKINode Title="Name.Equals Method " Url="html/M_Bloomberglp_Blpapi_Name_Equals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Event class">
+    <HelpKINode Title="Event Class" Url="html/T_Bloomberglp_Blpapi_Event.htm" />
+    <HelpKINode Title="about Event class" Url="html/T_Bloomberglp_Blpapi_Event.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Event__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Event.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Event.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Event.Event constructor" Url="html/M_Bloomberglp_Blpapi_Event__ctor.htm" />
+  <HelpKINode Title="Event.EventType enumeration" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Event.GetEnumerator method" Url="html/M_Bloomberglp_Blpapi_Event_GetEnumerator.htm" />
+  <HelpKINode Title="Event.GetMessages method" Url="html/M_Bloomberglp_Blpapi_Event_GetMessages.htm" />
+  <HelpKINode Title="Event.IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Bloomberglp_Blpapi_Event_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="Event.IsValid property" Url="html/P_Bloomberglp_Blpapi_Event_IsValid.htm" />
+  <HelpKINode Title="Event.Type property" Url="html/P_Bloomberglp_Blpapi_Event_Type.htm" />
+  <HelpKINode Title="EventDefinitions property" Url="html/P_Bloomberglp_Blpapi_Service_EventDefinitions.htm" />
+  <HelpKINode Title="EventDispatcher class">
+    <HelpKINode Title="EventDispatcher Class" Url="html/T_Bloomberglp_Blpapi_EventDispatcher.htm" />
+    <HelpKINode Title="about EventDispatcher class" Url="html/T_Bloomberglp_Blpapi_EventDispatcher.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_EventDispatcher__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_EventDispatcher.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_EventDispatcher.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventDispatcher.DispatcherThread method" Url="html/M_Bloomberglp_Blpapi_EventDispatcher_DispatcherThread.htm" />
+  <HelpKINode Title="EventDispatcher.EventDispatcher constructor" Url="html/Overload_Bloomberglp_Blpapi_EventDispatcher__ctor.htm" />
+  <HelpKINode Title="EventDispatcher.NumActiveThreads property" Url="html/P_Bloomberglp_Blpapi_EventDispatcher_NumActiveThreads.htm" />
+  <HelpKINode Title="EventDispatcher.Start method" Url="html/M_Bloomberglp_Blpapi_EventDispatcher_Start.htm" />
+  <HelpKINode Title="EventDispatcher.Stop method" Url="html/Overload_Bloomberglp_Blpapi_EventDispatcher_Stop.htm" />
+  <HelpKINode Title="EventDispatcher.StopOption class">
+    <HelpKINode Title="EventDispatcher.StopOption Class" Url="html/T_Bloomberglp_Blpapi_EventDispatcher_StopOption.htm" />
+    <HelpKINode Title="about EventDispatcher.StopOption class" Url="html/T_Bloomberglp_Blpapi_EventDispatcher_StopOption.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventDispatcher.StopOption.ASYNC field" Url="html/F_Bloomberglp_Blpapi_EventDispatcher_StopOption_ASYNC.htm" />
+  <HelpKINode Title="EventDispatcher.StopOption.SYNC field" Url="html/F_Bloomberglp_Blpapi_EventDispatcher_StopOption_SYNC.htm" />
+  <HelpKINode Title="EventDispatcher.StopOption.ToString method" Url="html/M_Bloomberglp_Blpapi_EventDispatcher_StopOption_ToString.htm" />
+  <HelpKINode Title="EventFormatter class">
+    <HelpKINode Title="EventFormatter Class" Url="html/T_Bloomberglp_Blpapi_EventFormatter.htm" />
+    <HelpKINode Title="about EventFormatter class" Url="html/T_Bloomberglp_Blpapi_EventFormatter.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_EventFormatter__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_EventFormatter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventFormatter.AppendElement method" Url="html/M_Bloomberglp_Blpapi_EventFormatter_AppendElement.htm" />
+  <HelpKINode Title="EventFormatter.AppendMessage method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendMessage.htm" />
+  <HelpKINode Title="EventFormatter.AppendRecapMessage method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendRecapMessage.htm" />
+  <HelpKINode Title="EventFormatter.AppendResponse method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendResponse.htm" />
+  <HelpKINode Title="EventFormatter.AppendValue method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_AppendValue.htm" />
+  <HelpKINode Title="EventFormatter.EventFormatter constructor" Url="html/M_Bloomberglp_Blpapi_EventFormatter__ctor.htm" />
+  <HelpKINode Title="EventFormatter.PopElement method" Url="html/M_Bloomberglp_Blpapi_EventFormatter_PopElement.htm" />
+  <HelpKINode Title="EventFormatter.PushElement method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_PushElement.htm" />
+  <HelpKINode Title="EventFormatter.SetElement method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_SetElement.htm" />
+  <HelpKINode Title="EventFormatter.SetElementNull method" Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_SetElementNull.htm" />
+  <HelpKINode Title="EventHandler delegate" Url="html/T_Bloomberglp_Blpapi_EventHandler.htm" />
+  <HelpKINode Title="EventQueue class">
+    <HelpKINode Title="EventQueue Class" Url="html/T_Bloomberglp_Blpapi_EventQueue.htm" />
+    <HelpKINode Title="about EventQueue class" Url="html/T_Bloomberglp_Blpapi_EventQueue.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_EventQueue__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_EventQueue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventQueue.EventQueue constructor" Url="html/M_Bloomberglp_Blpapi_EventQueue__ctor.htm" />
+  <HelpKINode Title="EventQueue.NextEvent method" Url="html/Overload_Bloomberglp_Blpapi_EventQueue_NextEvent.htm" />
+  <HelpKINode Title="EventQueue.Purge method" Url="html/M_Bloomberglp_Blpapi_EventQueue_Purge.htm" />
+  <HelpKINode Title="EventQueue.TryNextEvent method" Url="html/M_Bloomberglp_Blpapi_EventQueue_TryNextEvent.htm" />
+  <HelpKINode Title="FAILURE enumeration member" Url="html/T_Bloomberglp_Blpapi_TopicList_TopicStatus.htm" />
+  <HelpKINode Title="FindConstant method" Url="html/Overload_Bloomberglp_Blpapi_Element_FindConstant.htm" />
+  <HelpKINode Title="FindName method" Url="html/M_Bloomberglp_Blpapi_Name_FindName.htm" />
+  <HelpKINode Title="FLOAT32 enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="FLOAT64 enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="FormatMessageXml method" Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_FormatMessageXml.htm" />
+  <HelpKINode Title="FragmentType property" Url="html/P_Bloomberglp_Blpapi_Message_FragmentType.htm" />
+  <HelpKINode Title="FreeGlobalNameTable method" Url="html/M_Bloomberglp_Blpapi_Name_FreeGlobalNameTable.htm" />
+  <HelpKINode Title="GenerateAuthorizedIdentity method">
+    <HelpKINode Title="AbstractSession.GenerateAuthorizedIdentity Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_GenerateAuthorizedIdentity.htm" />
+    <HelpKINode Title="IAbstractSession.GenerateAuthorizedIdentity Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_GenerateAuthorizedIdentity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenerateToken method">
+    <HelpKINode Title="AbstractSession.GenerateToken Method " Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_GenerateToken.htm" />
+    <HelpKINode Title="IAbstractSession.GenerateToken Method " Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_GenerateToken.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAdminMessageDefinition method" Url="html/M_Bloomberglp_Blpapi_Test_TestUtil_GetAdminMessageDefinition.htm" />
+  <HelpKINode Title="GetAlternateName method" Url="html/M_Bloomberglp_Blpapi_SchemaElementDefinition_GetAlternateName.htm" />
+  <HelpKINode Title="GetAuthorizedIdentity method">
+    <HelpKINode Title="AbstractSession.GetAuthorizedIdentity Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_GetAuthorizedIdentity.htm" />
+    <HelpKINode Title="IAbstractSession.GetAuthorizedIdentity Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_GetAuthorizedIdentity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetChoice method" Url="html/M_Bloomberglp_Blpapi_Element_GetChoice.htm" />
+  <HelpKINode Title="GetCorrelationID method" Url="html/M_Bloomberglp_Blpapi_Message_GetCorrelationID.htm" />
+  <HelpKINode Title="GetElement method">
+    <HelpKINode Title="Element.GetElement Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElement.htm" />
+    <HelpKINode Title="Message.GetElement Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElement.htm" />
+    <HelpKINode Title="Request.GetElement Method " Url="html/Overload_Bloomberglp_Blpapi_Request_GetElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsBool method">
+    <HelpKINode Title="Element.GetElementAsBool Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsBool.htm" />
+    <HelpKINode Title="Message.GetElementAsBool Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsBool.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsBytes method">
+    <HelpKINode Title="Element.GetElementAsBytes Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsBytes.htm" />
+    <HelpKINode Title="Message.GetElementAsBytes Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsBytes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsChar method">
+    <HelpKINode Title="Element.GetElementAsChar Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsChar.htm" />
+    <HelpKINode Title="Message.GetElementAsChar Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsChar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsDate method">
+    <HelpKINode Title="Element.GetElementAsDate Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsDate.htm" />
+    <HelpKINode Title="Message.GetElementAsDate Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsDate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsDatetime method">
+    <HelpKINode Title="Element.GetElementAsDatetime Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsDatetime.htm" />
+    <HelpKINode Title="Message.GetElementAsDatetime Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsDatetime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsFloat32 method">
+    <HelpKINode Title="Element.GetElementAsFloat32 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsFloat32.htm" />
+    <HelpKINode Title="Message.GetElementAsFloat32 Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsFloat32.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsFloat64 method">
+    <HelpKINode Title="Element.GetElementAsFloat64 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsFloat64.htm" />
+    <HelpKINode Title="Message.GetElementAsFloat64 Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsFloat64.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsInt32 method">
+    <HelpKINode Title="Element.GetElementAsInt32 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsInt32.htm" />
+    <HelpKINode Title="Message.GetElementAsInt32 Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsInt32.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsInt64 method">
+    <HelpKINode Title="Element.GetElementAsInt64 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsInt64.htm" />
+    <HelpKINode Title="Message.GetElementAsInt64 Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsInt64.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsName method">
+    <HelpKINode Title="Element.GetElementAsName Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsName.htm" />
+    <HelpKINode Title="Message.GetElementAsName Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsString method">
+    <HelpKINode Title="Element.GetElementAsString Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsString.htm" />
+    <HelpKINode Title="Message.GetElementAsString Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementAsTime method">
+    <HelpKINode Title="Element.GetElementAsTime Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetElementAsTime.htm" />
+    <HelpKINode Title="Message.GetElementAsTime Method " Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetElementDefinition method" Url="html/Overload_Bloomberglp_Blpapi_SchemaTypeDefinition_GetElementDefinition.htm" />
+  <HelpKINode Title="GetEnumerator method" Url="html/M_Bloomberglp_Blpapi_Event_GetEnumerator.htm" />
+  <HelpKINode Title="GetEventDefinition method" Url="html/Overload_Bloomberglp_Blpapi_Service_GetEventDefinition.htm" />
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="CorrelationID.GetHashCode Method " Url="html/M_Bloomberglp_Blpapi_CorrelationID_GetHashCode.htm" />
+    <HelpKINode Title="Datetime.GetHashCode Method " Url="html/M_Bloomberglp_Blpapi_Datetime_GetHashCode.htm" />
+    <HelpKINode Title="Name.GetHashCode Method " Url="html/M_Bloomberglp_Blpapi_Name_GetHashCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetMessages method" Url="html/M_Bloomberglp_Blpapi_Event_GetMessages.htm" />
+  <HelpKINode Title="GetName method" Url="html/M_Bloomberglp_Blpapi_Name_GetName.htm" />
+  <HelpKINode Title="GetOperation method" Url="html/Overload_Bloomberglp_Blpapi_Service_GetOperation.htm" />
+  <HelpKINode Title="GetResponseDefinition method" Url="html/M_Bloomberglp_Blpapi_Operation_GetResponseDefinition.htm" />
+  <HelpKINode Title="GetService method">
+    <HelpKINode Title="AbstractSession.GetService Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_GetService.htm" />
+    <HelpKINode Title="IAbstractSession.GetService Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_GetService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSubscriptions method">
+    <HelpKINode Title="ISession.GetSubscriptions Method " Url="html/M_Bloomberglp_Blpapi_ISession_GetSubscriptions.htm" />
+    <HelpKINode Title="Session.GetSubscriptions Method " Url="html/M_Bloomberglp_Blpapi_Session_GetSubscriptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSubscriptionStatus method">
+    <HelpKINode Title="ISession.GetSubscriptionStatus Method " Url="html/M_Bloomberglp_Blpapi_ISession_GetSubscriptionStatus.htm" />
+    <HelpKINode Title="Session.GetSubscriptionStatus Method " Url="html/M_Bloomberglp_Blpapi_Session_GetSubscriptionStatus.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSubscriptionString method">
+    <HelpKINode Title="ISession.GetSubscriptionString Method " Url="html/M_Bloomberglp_Blpapi_ISession_GetSubscriptionString.htm" />
+    <HelpKINode Title="Session.GetSubscriptionString Method " Url="html/M_Bloomberglp_Blpapi_Session_GetSubscriptionString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetTopic method">
+    <HelpKINode Title="IProviderSession.GetTopic Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_GetTopic.htm" />
+    <HelpKINode Title="ProviderSession.GetTopic Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_GetTopic.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValue method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValue.htm" />
+  <HelpKINode Title="GetValueAsBool method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsBool.htm" />
+  <HelpKINode Title="GetValueAsBytes method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsBytes.htm" />
+  <HelpKINode Title="GetValueAsChar method">
+    <HelpKINode Title="Constant.GetValueAsChar Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsChar.htm" />
+    <HelpKINode Title="Element.GetValueAsChar Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsChar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsDate method">
+    <HelpKINode Title="Constant.GetValueAsDate Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsDate.htm" />
+    <HelpKINode Title="Element.GetValueAsDate Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsDate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsDatetime method">
+    <HelpKINode Title="Constant.GetValueAsDatetime Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsDatetime.htm" />
+    <HelpKINode Title="Element.GetValueAsDatetime Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsDatetime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsElement method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsElement.htm" />
+  <HelpKINode Title="GetValueAsEnumeration method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsEnumeration.htm" />
+  <HelpKINode Title="GetValueAsFloat32 method">
+    <HelpKINode Title="Constant.GetValueAsFloat32 Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsFloat32.htm" />
+    <HelpKINode Title="Element.GetValueAsFloat32 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsFloat32.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsFloat64 method">
+    <HelpKINode Title="Constant.GetValueAsFloat64 Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsFloat64.htm" />
+    <HelpKINode Title="Element.GetValueAsFloat64 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsFloat64.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsInt32 method">
+    <HelpKINode Title="Constant.GetValueAsInt32 Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsInt32.htm" />
+    <HelpKINode Title="Element.GetValueAsInt32 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsInt32.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsInt64 method">
+    <HelpKINode Title="Constant.GetValueAsInt64 Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsInt64.htm" />
+    <HelpKINode Title="Element.GetValueAsInt64 Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsInt64.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsName method" Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsName.htm" />
+  <HelpKINode Title="GetValueAsString method">
+    <HelpKINode Title="Constant.GetValueAsString Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsString.htm" />
+    <HelpKINode Title="Element.GetValueAsString Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetValueAsTime method">
+    <HelpKINode Title="Constant.GetValueAsTime Method " Url="html/M_Bloomberglp_Blpapi_Constant_GetValueAsTime.htm" />
+    <HelpKINode Title="Element.GetValueAsTime Method " Url="html/Overload_Bloomberglp_Blpapi_Element_GetValueAsTime.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetZfpOptionsForLeasedLines method" Url="html/M_Bloomberglp_Blpapi_ZfpUtil_GetZfpOptionsForLeasedLines.htm" />
+  <HelpKINode Title="GroupId property" Url="html/P_Bloomberglp_Blpapi_ServiceRegistrationOptions_GroupId.htm" />
+  <HelpKINode Title="HasElement method">
+    <HelpKINode Title="Element.HasElement Method " Url="html/Overload_Bloomberglp_Blpapi_Element_HasElement.htm" />
+    <HelpKINode Title="Message.HasElement Method " Url="html/Overload_Bloomberglp_Blpapi_Message_HasElement.htm" />
+    <HelpKINode Title="Request.HasElement Method " Url="html/Overload_Bloomberglp_Blpapi_Request_HasElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HasElementDefinition method" Url="html/M_Bloomberglp_Blpapi_SchemaTypeDefinition_HasElementDefinition.htm" />
+  <HelpKINode Title="HasEntitlements method" Url="html/Overload_Bloomberglp_Blpapi_Identity_HasEntitlements.htm" />
+  <HelpKINode Title="HasName method" Url="html/M_Bloomberglp_Blpapi_Name_HasName.htm" />
+  <HelpKINode Title="HasParts method" Url="html/M_Bloomberglp_Blpapi_Datetime_HasParts.htm" />
+  <HelpKINode Title="Host property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerAddress_Host.htm" />
+  <HelpKINode Title="Hour property" Url="html/P_Bloomberglp_Blpapi_Datetime_Hour.htm" />
+  <HelpKINode Title="HOUR_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_HOUR_PART.htm" />
+  <HelpKINode Title="IAbstractSession interface">
+    <HelpKINode Title="IAbstractSession Interface" Url="html/T_Bloomberglp_Blpapi_IAbstractSession.htm" />
+    <HelpKINode Title="about IAbstractSession interface" Url="html/T_Bloomberglp_Blpapi_IAbstractSession.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_IAbstractSession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAbstractSession.Cancel method" Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_Cancel.htm" />
+  <HelpKINode Title="IAbstractSession.CreateIdentity method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_CreateIdentity.htm" />
+  <HelpKINode Title="IAbstractSession.GenerateAuthorizedIdentity method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_GenerateAuthorizedIdentity.htm" />
+  <HelpKINode Title="IAbstractSession.GenerateToken method" Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_GenerateToken.htm" />
+  <HelpKINode Title="IAbstractSession.GetAuthorizedIdentity method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_GetAuthorizedIdentity.htm" />
+  <HelpKINode Title="IAbstractSession.GetService method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_GetService.htm" />
+  <HelpKINode Title="IAbstractSession.NextEvent method" Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_NextEvent.htm" />
+  <HelpKINode Title="IAbstractSession.OpenService method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_OpenService.htm" />
+  <HelpKINode Title="IAbstractSession.OpenServiceAsync method" Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_OpenServiceAsync.htm" />
+  <HelpKINode Title="IAbstractSession.SendAuthorizationRequest method" Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_SendAuthorizationRequest.htm" />
+  <HelpKINode Title="IAbstractSession.Start method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_Start.htm" />
+  <HelpKINode Title="IAbstractSession.StartAsync method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_StartAsync.htm" />
+  <HelpKINode Title="IAbstractSession.Stop method" Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_Stop.htm" />
+  <HelpKINode Title="IAbstractSession.TryNextEvent method" Url="html/M_Bloomberglp_Blpapi_IAbstractSession_TryNextEvent.htm" />
+  <HelpKINode Title="Identity interface">
+    <HelpKINode Title="Identity Interface" Url="html/T_Bloomberglp_Blpapi_Identity.htm" />
+    <HelpKINode Title="about Identity interface" Url="html/T_Bloomberglp_Blpapi_Identity.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Identity.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Identity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Identity.HasEntitlements method" Url="html/Overload_Bloomberglp_Blpapi_Identity_HasEntitlements.htm" />
+  <HelpKINode Title="Identity.IsAuthorized method" Url="html/M_Bloomberglp_Blpapi_Identity_IsAuthorized.htm" />
+  <HelpKINode Title="Identity.SeatType property" Url="html/P_Bloomberglp_Blpapi_Identity_SeatType.htm" />
+  <HelpKINode Title="IDisposable.Dispose explicitly implemented method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_System_IDisposable_Dispose.htm" />
+  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Bloomberglp_Blpapi_Event_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="IEventQueue interface">
+    <HelpKINode Title="IEventQueue Interface" Url="html/T_Bloomberglp_Blpapi_IEventQueue.htm" />
+    <HelpKINode Title="about IEventQueue interface" Url="html/T_Bloomberglp_Blpapi_IEventQueue.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_IEventQueue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEventQueue.NextEvent method" Url="html/Overload_Bloomberglp_Blpapi_IEventQueue_NextEvent.htm" />
+  <HelpKINode Title="IEventQueue.Purge method" Url="html/M_Bloomberglp_Blpapi_IEventQueue_Purge.htm" />
+  <HelpKINode Title="IEventQueue.TryNextEvent method" Url="html/M_Bloomberglp_Blpapi_IEventQueue_TryNextEvent.htm" />
+  <HelpKINode Title="IMessageFormatter interface">
+    <HelpKINode Title="IMessageFormatter Interface" Url="html/T_Bloomberglp_Blpapi_Test_IMessageFormatter.htm" />
+    <HelpKINode Title="about IMessageFormatter interface" Url="html/T_Bloomberglp_Blpapi_Test_IMessageFormatter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Test_IMessageFormatter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMessageFormatter.AppendElement method" Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_AppendElement.htm" />
+  <HelpKINode Title="IMessageFormatter.AppendValue method" Url="html/Overload_Bloomberglp_Blpapi_Test_IMessageFormatter_AppendValue.htm" />
+  <HelpKINode Title="IMessageFormatter.FormatMessageXml method" Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_FormatMessageXml.htm" />
+  <HelpKINode Title="IMessageFormatter.PopElement method" Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_PopElement.htm" />
+  <HelpKINode Title="IMessageFormatter.PushElement method" Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_PushElement.htm" />
+  <HelpKINode Title="IMessageFormatter.SetElement method" Url="html/Overload_Bloomberglp_Blpapi_Test_IMessageFormatter_SetElement.htm" />
+  <HelpKINode Title="IMessageFormatter.SetElementNull method" Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_SetElementNull.htm" />
+  <HelpKINode Title="INACTIVE enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Status.htm" />
+  <HelpKINode Title="Init method" Url="html/M_Bloomberglp_Blpapi_AbstractSession_Init.htm" />
+  <HelpKINode Title="INT32 enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="INT64 enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="INTERMEDIATE enumeration member" Url="html/T_Bloomberglp_Blpapi_Message_Fragment.htm" />
+  <HelpKINode Title="InvalidConversionException class">
+    <HelpKINode Title="InvalidConversionException Class" Url="html/T_Bloomberglp_Blpapi_InvalidConversionException.htm" />
+    <HelpKINode Title="about InvalidConversionException class" Url="html/T_Bloomberglp_Blpapi_InvalidConversionException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_InvalidConversionException__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_InvalidConversionException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InvalidConversionException.Description property" Url="html/P_Bloomberglp_Blpapi_InvalidConversionException_Description.htm" />
+  <HelpKINode Title="InvalidConversionException.InvalidConversionException constructor" Url="html/Overload_Bloomberglp_Blpapi_InvalidConversionException__ctor.htm" />
+  <HelpKINode Title="InvalidRequestException class">
+    <HelpKINode Title="InvalidRequestException Class" Url="html/T_Bloomberglp_Blpapi_InvalidRequestException.htm" />
+    <HelpKINode Title="about InvalidRequestException class" Url="html/T_Bloomberglp_Blpapi_InvalidRequestException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_InvalidRequestException__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_InvalidRequestException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InvalidRequestException.Description property" Url="html/P_Bloomberglp_Blpapi_InvalidRequestException_Description.htm" />
+  <HelpKINode Title="InvalidRequestException.InvalidRequestException constructor" Url="html/Overload_Bloomberglp_Blpapi_InvalidRequestException__ctor.htm" />
+  <HelpKINode Title="INVALID_SEAT enumeration member" Url="html/T_Bloomberglp_Blpapi_SeatType.htm" />
+  <HelpKINode Title="IProviderSession interface">
+    <HelpKINode Title="IProviderSession Interface" Url="html/T_Bloomberglp_Blpapi_IProviderSession.htm" />
+    <HelpKINode Title="about IProviderSession interface" Url="html/T_Bloomberglp_Blpapi_IProviderSession.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_IProviderSession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProviderSession.ActivateSubServiceCodeRange method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_ActivateSubServiceCodeRange.htm" />
+  <HelpKINode Title="IProviderSession.CreateTopics method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_CreateTopics.htm" />
+  <HelpKINode Title="IProviderSession.CreateTopicsAsync method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_CreateTopicsAsync.htm" />
+  <HelpKINode Title="IProviderSession.DeactivateSubServiceCodeRange method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeactivateSubServiceCodeRange.htm" />
+  <HelpKINode Title="IProviderSession.DeleteTopic method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeleteTopic.htm" />
+  <HelpKINode Title="IProviderSession.DeleteTopics method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeleteTopics.htm" />
+  <HelpKINode Title="IProviderSession.DeregisterService method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_DeregisterService.htm" />
+  <HelpKINode Title="IProviderSession.GetTopic method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_GetTopic.htm" />
+  <HelpKINode Title="IProviderSession.Publish method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_Publish.htm" />
+  <HelpKINode Title="IProviderSession.RegisterService method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_RegisterService.htm" />
+  <HelpKINode Title="IProviderSession.RegisterServiceAsync method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_RegisterServiceAsync.htm" />
+  <HelpKINode Title="IProviderSession.Resolve method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_Resolve.htm" />
+  <HelpKINode Title="IProviderSession.ResolveAsync method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_ResolveAsync.htm" />
+  <HelpKINode Title="IProviderSession.SendResponse method" Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_SendResponse.htm" />
+  <HelpKINode Title="IProviderSession.SetEventHandler method" Url="html/M_Bloomberglp_Blpapi_IProviderSession_SetEventHandler.htm" />
+  <HelpKINode Title="IResolutionList interface">
+    <HelpKINode Title="IResolutionList Interface" Url="html/T_Bloomberglp_Blpapi_IResolutionList.htm" />
+    <HelpKINode Title="about IResolutionList interface" Url="html/T_Bloomberglp_Blpapi_IResolutionList.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_IResolutionList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IResolutionList.Add method" Url="html/Overload_Bloomberglp_Blpapi_IResolutionList_Add.htm" />
+  <HelpKINode Title="IResolutionList.CorrelationIdAt method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_CorrelationIdAt.htm" />
+  <HelpKINode Title="IResolutionList.Message method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_Message.htm" />
+  <HelpKINode Title="IResolutionList.MessageAt method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_MessageAt.htm" />
+  <HelpKINode Title="IResolutionList.Size method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_Size.htm" />
+  <HelpKINode Title="IResolutionList.Status method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_Status.htm" />
+  <HelpKINode Title="IResolutionList.StatusAt method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_StatusAt.htm" />
+  <HelpKINode Title="IResolutionList.TopicString method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_TopicString.htm" />
+  <HelpKINode Title="IResolutionList.TopicStringAt method" Url="html/M_Bloomberglp_Blpapi_IResolutionList_TopicStringAt.htm" />
+  <HelpKINode Title="IsActive method" Url="html/M_Bloomberglp_Blpapi_Topic_IsActive.htm" />
+  <HelpKINode Title="IsArray property" Url="html/P_Bloomberglp_Blpapi_Element_IsArray.htm" />
+  <HelpKINode Title="IsAuthorized method" Url="html/M_Bloomberglp_Blpapi_Identity_IsAuthorized.htm" />
+  <HelpKINode Title="IsComplexType property">
+    <HelpKINode Title="Element.IsComplexType Property " Url="html/P_Bloomberglp_Blpapi_Element_IsComplexType.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.IsComplexType Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_IsComplexType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsEnumerationType property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_IsEnumerationType.htm" />
+  <HelpKINode Title="IsEqualTo method" Url="html/Overload_Bloomberglp_Blpapi_Element_IsEqualTo.htm" />
+  <HelpKINode Title="ISession interface">
+    <HelpKINode Title="ISession Interface" Url="html/T_Bloomberglp_Blpapi_ISession.htm" />
+    <HelpKINode Title="about ISession interface" Url="html/T_Bloomberglp_Blpapi_ISession.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ISession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISession.createSnapshotRequestTemplate method" Url="html/Overload_Bloomberglp_Blpapi_ISession_createSnapshotRequestTemplate.htm" />
+  <HelpKINode Title="ISession.GetSubscriptions method" Url="html/M_Bloomberglp_Blpapi_ISession_GetSubscriptions.htm" />
+  <HelpKINode Title="ISession.GetSubscriptionStatus method" Url="html/M_Bloomberglp_Blpapi_ISession_GetSubscriptionStatus.htm" />
+  <HelpKINode Title="ISession.GetSubscriptionString method" Url="html/M_Bloomberglp_Blpapi_ISession_GetSubscriptionString.htm" />
+  <HelpKINode Title="ISession.Resubscribe method" Url="html/Overload_Bloomberglp_Blpapi_ISession_Resubscribe.htm" />
+  <HelpKINode Title="ISession.SendRequest method" Url="html/Overload_Bloomberglp_Blpapi_ISession_SendRequest.htm" />
+  <HelpKINode Title="ISession.SetEventHandler method" Url="html/M_Bloomberglp_Blpapi_ISession_SetEventHandler.htm" />
+  <HelpKINode Title="ISession.Subscribe method" Url="html/Overload_Bloomberglp_Blpapi_ISession_Subscribe.htm" />
+  <HelpKINode Title="ISession.Unsubscribe method" Url="html/Overload_Bloomberglp_Blpapi_ISession_Unsubscribe.htm" />
+  <HelpKINode Title="IsInternal property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_IsInternal.htm" />
+  <HelpKINode Title="IsNull property" Url="html/P_Bloomberglp_Blpapi_Element_IsNull.htm" />
+  <HelpKINode Title="IsNullValue method" Url="html/M_Bloomberglp_Blpapi_Element_IsNullValue.htm" />
+  <HelpKINode Title="IsObject property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_IsObject.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P_Bloomberglp_Blpapi_Element_IsReadOnly.htm" />
+  <HelpKINode Title="IsResolved property" Url="html/P_Bloomberglp_Blpapi_Subscription_IsResolved.htm" />
+  <HelpKINode Title="IsSimpleType property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_IsSimpleType.htm" />
+  <HelpKINode Title="IsValid method" Url="html/M_Bloomberglp_Blpapi_Datetime_IsValid.htm" />
+  <HelpKINode Title="IsValid property">
+    <HelpKINode Title="Event.IsValid Property " Url="html/P_Bloomberglp_Blpapi_Event_IsValid.htm" />
+    <HelpKINode Title="Message.IsValid Property " Url="html/P_Bloomberglp_Blpapi_Message_IsValid.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsValidField method" Url="html/M_Bloomberglp_Blpapi_Datetime_IsValidField.htm" />
+  <HelpKINode Title="IsValue property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_IsValue.htm" />
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="ConstantsList.Item Property " Url="html/P_Bloomberglp_Blpapi_ConstantsList_Item.htm" />
+    <HelpKINode Title="ConstraintsList.Item Property " Url="html/P_Bloomberglp_Blpapi_ConstraintsList_Item.htm" />
+    <HelpKINode Title="Element.Item Property " Url="html/Overload_Bloomberglp_Blpapi_Element_Item.htm" />
+    <HelpKINode Title="Message.Item Property " Url="html/Overload_Bloomberglp_Blpapi_Message_Item.htm" />
+    <HelpKINode Title="NameEnumerationTable.Item Property " Url="html/P_Bloomberglp_Blpapi_NameEnumerationTable_Item.htm" />
+    <HelpKINode Title="Request.Item Property " Url="html/Overload_Bloomberglp_Blpapi_Request_Item.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.Item Property " Url="html/Overload_Bloomberglp_Blpapi_SchemaTypeDefinition_Item.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITopicList interface">
+    <HelpKINode Title="ITopicList Interface" Url="html/T_Bloomberglp_Blpapi_ITopicList.htm" />
+    <HelpKINode Title="about ITopicList interface" Url="html/T_Bloomberglp_Blpapi_ITopicList.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ITopicList.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_ITopicList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITopicList.Add method" Url="html/Overload_Bloomberglp_Blpapi_ITopicList_Add.htm" />
+  <HelpKINode Title="ITopicList.CorrelationIdAt method" Url="html/M_Bloomberglp_Blpapi_ITopicList_CorrelationIdAt.htm" />
+  <HelpKINode Title="ITopicList.Message method" Url="html/M_Bloomberglp_Blpapi_ITopicList_Message.htm" />
+  <HelpKINode Title="ITopicList.MessageAt method" Url="html/M_Bloomberglp_Blpapi_ITopicList_MessageAt.htm" />
+  <HelpKINode Title="ITopicList.Size property" Url="html/P_Bloomberglp_Blpapi_ITopicList_Size.htm" />
+  <HelpKINode Title="ITopicList.Status method" Url="html/M_Bloomberglp_Blpapi_ITopicList_Status.htm" />
+  <HelpKINode Title="ITopicList.StatusAt method" Url="html/M_Bloomberglp_Blpapi_ITopicList_StatusAt.htm" />
+  <HelpKINode Title="ITopicList.TopicString method" Url="html/M_Bloomberglp_Blpapi_ITopicList_TopicString.htm" />
+  <HelpKINode Title="ITopicList.TopicStringAt method" Url="html/M_Bloomberglp_Blpapi_ITopicList_TopicStringAt.htm" />
+  <HelpKINode Title="KeepaliveEnabled property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_KeepaliveEnabled.htm" />
+  <HelpKINode Title="Logging class">
+    <HelpKINode Title="Logging Class" Url="html/T_Bloomberglp_Blpapi_Logging.htm" />
+    <HelpKINode Title="about Logging class" Url="html/T_Bloomberglp_Blpapi_Logging.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Logging__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Logging.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Logging.Callback interface">
+    <HelpKINode Title="Logging.Callback Interface" Url="html/T_Bloomberglp_Blpapi_Logging_Callback.htm" />
+    <HelpKINode Title="about Logging.Callback interface" Url="html/T_Bloomberglp_Blpapi_Logging_Callback.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Logging.Callback.OnMessage method" Url="html/M_Bloomberglp_Blpapi_Logging_Callback_OnMessage.htm" />
+  <HelpKINode Title="Logging.DeregisterCallback method" Url="html/M_Bloomberglp_Blpapi_Logging_DeregisterCallback.htm" />
+  <HelpKINode Title="Logging.Logging constructor" Url="html/M_Bloomberglp_Blpapi_Logging__ctor.htm" />
+  <HelpKINode Title="Logging.LogTestMessage method" Url="html/M_Bloomberglp_Blpapi_Logging_LogTestMessage.htm" />
+  <HelpKINode Title="Logging.RegisterCallback method" Url="html/M_Bloomberglp_Blpapi_Logging_RegisterCallback.htm" />
+  <HelpKINode Title="LogTestMessage method" Url="html/M_Bloomberglp_Blpapi_Logging_LogTestMessage.htm" />
+  <HelpKINode Title="MajorVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_MajorVersion.htm" />
+  <HelpKINode Title="MaxEventQueueSize property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxEventQueueSize.htm" />
+  <HelpKINode Title="MaxOutstandingRequests property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxOutstandingRequests.htm" />
+  <HelpKINode Title="MaxPendingRequests property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxPendingRequests.htm" />
+  <HelpKINode Title="MaxSendCacheSize property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxSendCacheSize.htm" />
+  <HelpKINode Title="MaxValues property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_MaxValues.htm" />
+  <HelpKINode Title="Message class">
+    <HelpKINode Title="Message Class" Url="html/T_Bloomberglp_Blpapi_Message.htm" />
+    <HelpKINode Title="about Message class" Url="html/T_Bloomberglp_Blpapi_Message.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Message__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Message.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Message.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Message method">
+    <HelpKINode Title="IResolutionList.Message Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_Message.htm" />
+    <HelpKINode Title="ITopicList.Message Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_Message.htm" />
+    <HelpKINode Title="ResolutionList.Message Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_Message.htm" />
+    <HelpKINode Title="TopicList.Message Method " Url="html/M_Bloomberglp_Blpapi_TopicList_Message.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Message.AsElement property" Url="html/P_Bloomberglp_Blpapi_Message_AsElement.htm" />
+  <HelpKINode Title="Message.CorrelationID property" Url="html/P_Bloomberglp_Blpapi_Message_CorrelationID.htm" />
+  <HelpKINode Title="Message.CorrelationIDs property" Url="html/P_Bloomberglp_Blpapi_Message_CorrelationIDs.htm" />
+  <HelpKINode Title="Message.Elements property" Url="html/P_Bloomberglp_Blpapi_Message_Elements.htm" />
+  <HelpKINode Title="Message.Fragment enumeration" Url="html/T_Bloomberglp_Blpapi_Message_Fragment.htm" />
+  <HelpKINode Title="Message.FragmentType property" Url="html/P_Bloomberglp_Blpapi_Message_FragmentType.htm" />
+  <HelpKINode Title="Message.GetCorrelationID method" Url="html/M_Bloomberglp_Blpapi_Message_GetCorrelationID.htm" />
+  <HelpKINode Title="Message.GetElement method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElement.htm" />
+  <HelpKINode Title="Message.GetElementAsBool method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsBool.htm" />
+  <HelpKINode Title="Message.GetElementAsBytes method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsBytes.htm" />
+  <HelpKINode Title="Message.GetElementAsChar method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsChar.htm" />
+  <HelpKINode Title="Message.GetElementAsDate method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsDate.htm" />
+  <HelpKINode Title="Message.GetElementAsDatetime method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsDatetime.htm" />
+  <HelpKINode Title="Message.GetElementAsFloat32 method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsFloat32.htm" />
+  <HelpKINode Title="Message.GetElementAsFloat64 method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsFloat64.htm" />
+  <HelpKINode Title="Message.GetElementAsInt32 method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsInt32.htm" />
+  <HelpKINode Title="Message.GetElementAsInt64 method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsInt64.htm" />
+  <HelpKINode Title="Message.GetElementAsName method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsName.htm" />
+  <HelpKINode Title="Message.GetElementAsString method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsString.htm" />
+  <HelpKINode Title="Message.GetElementAsTime method" Url="html/Overload_Bloomberglp_Blpapi_Message_GetElementAsTime.htm" />
+  <HelpKINode Title="Message.HasElement method" Url="html/Overload_Bloomberglp_Blpapi_Message_HasElement.htm" />
+  <HelpKINode Title="Message.IsValid property" Url="html/P_Bloomberglp_Blpapi_Message_IsValid.htm" />
+  <HelpKINode Title="Message.Item property" Url="html/Overload_Bloomberglp_Blpapi_Message_Item.htm" />
+  <HelpKINode Title="Message.Message constructor" Url="html/M_Bloomberglp_Blpapi_Message__ctor.htm" />
+  <HelpKINode Title="Message.MessageType property" Url="html/P_Bloomberglp_Blpapi_Message_MessageType.htm" />
+  <HelpKINode Title="Message.NumCorrelationIDs property" Url="html/P_Bloomberglp_Blpapi_Message_NumCorrelationIDs.htm" />
+  <HelpKINode Title="Message.NumElements property" Url="html/P_Bloomberglp_Blpapi_Message_NumElements.htm" />
+  <HelpKINode Title="Message.Print method" Url="html/Overload_Bloomberglp_Blpapi_Message_Print.htm" />
+  <HelpKINode Title="Message.Recap enumeration" Url="html/T_Bloomberglp_Blpapi_Message_Recap.htm" />
+  <HelpKINode Title="Message.RecapType property" Url="html/P_Bloomberglp_Blpapi_Message_RecapType.htm" />
+  <HelpKINode Title="Message.RequestId property" Url="html/P_Bloomberglp_Blpapi_Message_RequestId.htm" />
+  <HelpKINode Title="Message.Service property" Url="html/P_Bloomberglp_Blpapi_Message_Service.htm" />
+  <HelpKINode Title="Message.TimeReceived property" Url="html/P_Bloomberglp_Blpapi_Message_TimeReceived.htm" />
+  <HelpKINode Title="Message.TopicName property" Url="html/P_Bloomberglp_Blpapi_Message_TopicName.htm" />
+  <HelpKINode Title="Message.ToString method" Url="html/M_Bloomberglp_Blpapi_Message_ToString.htm" />
+  <HelpKINode Title="MessageAt method">
+    <HelpKINode Title="IResolutionList.MessageAt Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_MessageAt.htm" />
+    <HelpKINode Title="ITopicList.MessageAt Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_MessageAt.htm" />
+    <HelpKINode Title="ResolutionList.MessageAt Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_MessageAt.htm" />
+    <HelpKINode Title="TopicList.MessageAt Method " Url="html/M_Bloomberglp_Blpapi_TopicList_MessageAt.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageProperties class">
+    <HelpKINode Title="MessageProperties Class" Url="html/T_Bloomberglp_Blpapi_Test_MessageProperties.htm" />
+    <HelpKINode Title="about MessageProperties class" Url="html/T_Bloomberglp_Blpapi_Test_MessageProperties.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Test_MessageProperties.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessageProperties.MessageProperties constructor" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties__ctor.htm" />
+  <HelpKINode Title="MessageProperties.SetCorrelationId method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetCorrelationId.htm" />
+  <HelpKINode Title="MessageProperties.SetCorrelationIds method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetCorrelationIds.htm" />
+  <HelpKINode Title="MessageProperties.SetRecapType method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetRecapType.htm" />
+  <HelpKINode Title="MessageProperties.SetRequestId method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetRequestId.htm" />
+  <HelpKINode Title="MessageProperties.SetService method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetService.htm" />
+  <HelpKINode Title="MessageProperties.SetTimeReceived method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetTimeReceived.htm" />
+  <HelpKINode Title="MessageType property" Url="html/P_Bloomberglp_Blpapi_Message_MessageType.htm" />
+  <HelpKINode Title="MicroSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_MicroSecond.htm" />
+  <HelpKINode Title="MICROSECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MICROSECOND_PART.htm" />
+  <HelpKINode Title="MilliSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_MilliSecond.htm" />
+  <HelpKINode Title="MILLISECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MILLISECOND_PART.htm" />
+  <HelpKINode Title="MinorVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_MinorVersion.htm" />
+  <HelpKINode Title="Minute property" Url="html/P_Bloomberglp_Blpapi_Datetime_Minute.htm" />
+  <HelpKINode Title="MINUTE_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MINUTE_PART.htm" />
+  <HelpKINode Title="MinValues property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_MinValues.htm" />
+  <HelpKINode Title="Month property" Url="html/P_Bloomberglp_Blpapi_Datetime_Month.htm" />
+  <HelpKINode Title="MONTH_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_MONTH_PART.htm" />
+  <HelpKINode Title="Name class">
+    <HelpKINode Title="Name Class" Url="html/T_Bloomberglp_Blpapi_Name.htm" />
+    <HelpKINode Title="about Name class" Url="html/T_Bloomberglp_Blpapi_Name.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_Name__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Bloomberglp_Blpapi_Name.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Constant.Name Property " Url="html/P_Bloomberglp_Blpapi_Constant_Name.htm" />
+    <HelpKINode Title="ConstantsList.Name Property " Url="html/P_Bloomberglp_Blpapi_ConstantsList_Name.htm" />
+    <HelpKINode Title="Element.Name Property " Url="html/P_Bloomberglp_Blpapi_Element_Name.htm" />
+    <HelpKINode Title="Operation.Name Property " Url="html/P_Bloomberglp_Blpapi_Operation_Name.htm" />
+    <HelpKINode Title="SchemaElementDefinition.Name Property " Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Name.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.Name Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Name.htm" />
+    <HelpKINode Title="Service.Name Property " Url="html/P_Bloomberglp_Blpapi_Service_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Name.Equals method" Url="html/M_Bloomberglp_Blpapi_Name_Equals.htm" />
+  <HelpKINode Title="Name.FindName method" Url="html/M_Bloomberglp_Blpapi_Name_FindName.htm" />
+  <HelpKINode Title="Name.FreeGlobalNameTable method" Url="html/M_Bloomberglp_Blpapi_Name_FreeGlobalNameTable.htm" />
+  <HelpKINode Title="Name.GetHashCode method" Url="html/M_Bloomberglp_Blpapi_Name_GetHashCode.htm" />
+  <HelpKINode Title="Name.GetName method" Url="html/M_Bloomberglp_Blpapi_Name_GetName.htm" />
+  <HelpKINode Title="Name.HasName method" Url="html/M_Bloomberglp_Blpapi_Name_HasName.htm" />
+  <HelpKINode Title="Name.Name constructor" Url="html/Overload_Bloomberglp_Blpapi_Name__ctor.htm" />
+  <HelpKINode Title="Name.NullName field" Url="html/F_Bloomberglp_Blpapi_Name_NullName.htm" />
+  <HelpKINode Title="Name.ToString method" Url="html/M_Bloomberglp_Blpapi_Name_ToString.htm" />
+  <HelpKINode Title="NameEnumeration interface">
+    <HelpKINode Title="NameEnumeration Interface" Url="html/T_Bloomberglp_Blpapi_NameEnumeration.htm" />
+    <HelpKINode Title="about NameEnumeration interface" Url="html/T_Bloomberglp_Blpapi_NameEnumeration.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameEnumerationTable class">
+    <HelpKINode Title="NameEnumerationTable Class" Url="html/T_Bloomberglp_Blpapi_NameEnumerationTable.htm" />
+    <HelpKINode Title="about NameEnumerationTable class" Url="html/T_Bloomberglp_Blpapi_NameEnumerationTable.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_NameEnumerationTable__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_NameEnumerationTable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NameEnumerationTable.Item property" Url="html/P_Bloomberglp_Blpapi_NameEnumerationTable_Item.htm" />
+  <HelpKINode Title="NameEnumerationTable.NameEnumerationTable constructor" Url="html/M_Bloomberglp_Blpapi_NameEnumerationTable__ctor.htm" />
+  <HelpKINode Title="Names class">
+    <HelpKINode Title="Names Class" Url="html/T_Bloomberglp_Blpapi_Names.htm" />
+    <HelpKINode Title="about Names class" Url="html/T_Bloomberglp_Blpapi_Names.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Bloomberglp_Blpapi_Names.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Names.AuthorizationFailure field" Url="html/F_Bloomberglp_Blpapi_Names_AuthorizationFailure.htm" />
+  <HelpKINode Title="Names.AuthorizationRevoked field" Url="html/F_Bloomberglp_Blpapi_Names_AuthorizationRevoked.htm" />
+  <HelpKINode Title="Names.AuthorizationSuccess field" Url="html/F_Bloomberglp_Blpapi_Names_AuthorizationSuccess.htm" />
+  <HelpKINode Title="Names.DataLoss field" Url="html/F_Bloomberglp_Blpapi_Names_DataLoss.htm" />
+  <HelpKINode Title="Names.PermissionRequest field" Url="html/F_Bloomberglp_Blpapi_Names_PermissionRequest.htm" />
+  <HelpKINode Title="Names.PermissionResponse field" Url="html/F_Bloomberglp_Blpapi_Names_PermissionResponse.htm" />
+  <HelpKINode Title="Names.RequestFailure field" Url="html/F_Bloomberglp_Blpapi_Names_RequestFailure.htm" />
+  <HelpKINode Title="Names.RequestTemplateAvailable field" Url="html/F_Bloomberglp_Blpapi_Names_RequestTemplateAvailable.htm" />
+  <HelpKINode Title="Names.RequestTemplatePending field" Url="html/F_Bloomberglp_Blpapi_Names_RequestTemplatePending.htm" />
+  <HelpKINode Title="Names.RequestTemplateTerminated field" Url="html/F_Bloomberglp_Blpapi_Names_RequestTemplateTerminated.htm" />
+  <HelpKINode Title="Names.ResolutionFailure field" Url="html/F_Bloomberglp_Blpapi_Names_ResolutionFailure.htm" />
+  <HelpKINode Title="Names.ResolutionSuccess field" Url="html/F_Bloomberglp_Blpapi_Names_ResolutionSuccess.htm" />
+  <HelpKINode Title="Names.ServiceAvailabilityInfo field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceAvailabilityInfo.htm" />
+  <HelpKINode Title="Names.ServiceDeregistered field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceDeregistered.htm" />
+  <HelpKINode Title="Names.ServiceDown field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceDown.htm" />
+  <HelpKINode Title="Names.ServiceOpened field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceOpened.htm" />
+  <HelpKINode Title="Names.ServiceOpenFailure field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceOpenFailure.htm" />
+  <HelpKINode Title="Names.ServiceRegistered field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceRegistered.htm" />
+  <HelpKINode Title="Names.ServiceRegisterFailure field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceRegisterFailure.htm" />
+  <HelpKINode Title="Names.ServiceUp field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceUp.htm" />
+  <HelpKINode Title="Names.SessionClusterInfo field" Url="html/F_Bloomberglp_Blpapi_Names_SessionClusterInfo.htm" />
+  <HelpKINode Title="Names.SessionClusterUpdate field" Url="html/F_Bloomberglp_Blpapi_Names_SessionClusterUpdate.htm" />
+  <HelpKINode Title="Names.SessionConnectionDown field" Url="html/F_Bloomberglp_Blpapi_Names_SessionConnectionDown.htm" />
+  <HelpKINode Title="Names.SessionConnectionUp field" Url="html/F_Bloomberglp_Blpapi_Names_SessionConnectionUp.htm" />
+  <HelpKINode Title="Names.SessionStarted field" Url="html/F_Bloomberglp_Blpapi_Names_SessionStarted.htm" />
+  <HelpKINode Title="Names.SessionStartupFailure field" Url="html/F_Bloomberglp_Blpapi_Names_SessionStartupFailure.htm" />
+  <HelpKINode Title="Names.SessionTerminated field" Url="html/F_Bloomberglp_Blpapi_Names_SessionTerminated.htm" />
+  <HelpKINode Title="Names.SlowConsumerWarning field" Url="html/F_Bloomberglp_Blpapi_Names_SlowConsumerWarning.htm" />
+  <HelpKINode Title="Names.SlowConsumerWarningCleared field" Url="html/F_Bloomberglp_Blpapi_Names_SlowConsumerWarningCleared.htm" />
+  <HelpKINode Title="Names.SubscriptionFailure field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionFailure.htm" />
+  <HelpKINode Title="Names.SubscriptionStarted field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionStarted.htm" />
+  <HelpKINode Title="Names.SubscriptionStreamsActivated field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionStreamsActivated.htm" />
+  <HelpKINode Title="Names.SubscriptionStreamsDeactivated field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionStreamsDeactivated.htm" />
+  <HelpKINode Title="Names.SubscriptionTerminated field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionTerminated.htm" />
+  <HelpKINode Title="Names.TokenGenerationFailure field" Url="html/F_Bloomberglp_Blpapi_Names_TokenGenerationFailure.htm" />
+  <HelpKINode Title="Names.TokenGenerationSuccess field" Url="html/F_Bloomberglp_Blpapi_Names_TokenGenerationSuccess.htm" />
+  <HelpKINode Title="Names.TopicActivated field" Url="html/F_Bloomberglp_Blpapi_Names_TopicActivated.htm" />
+  <HelpKINode Title="Names.TopicCreated field" Url="html/F_Bloomberglp_Blpapi_Names_TopicCreated.htm" />
+  <HelpKINode Title="Names.TopicCreateFailure field" Url="html/F_Bloomberglp_Blpapi_Names_TopicCreateFailure.htm" />
+  <HelpKINode Title="Names.TopicDeactivated field" Url="html/F_Bloomberglp_Blpapi_Names_TopicDeactivated.htm" />
+  <HelpKINode Title="Names.TopicDeleted field" Url="html/F_Bloomberglp_Blpapi_Names_TopicDeleted.htm" />
+  <HelpKINode Title="Names.TopicRecap field" Url="html/F_Bloomberglp_Blpapi_Names_TopicRecap.htm" />
+  <HelpKINode Title="Names.TopicResubscribed field" Url="html/F_Bloomberglp_Blpapi_Names_TopicResubscribed.htm" />
+  <HelpKINode Title="Names.TopicSubscribed field" Url="html/F_Bloomberglp_Blpapi_Names_TopicSubscribed.htm" />
+  <HelpKINode Title="Names.TopicUnsubscribed field" Url="html/F_Bloomberglp_Blpapi_Names_TopicUnsubscribed.htm" />
+  <HelpKINode Title="NanoSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_NanoSecond.htm" />
+  <HelpKINode Title="NANOSECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_NANOSECOND_PART.htm" />
+  <HelpKINode Title="NextEvent method">
+    <HelpKINode Title="AbstractSession.NextEvent Method " Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_NextEvent.htm" />
+    <HelpKINode Title="EventQueue.NextEvent Method " Url="html/Overload_Bloomberglp_Blpapi_EventQueue_NextEvent.htm" />
+    <HelpKINode Title="IAbstractSession.NextEvent Method " Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_NextEvent.htm" />
+    <HelpKINode Title="IEventQueue.NextEvent Method " Url="html/Overload_Bloomberglp_Blpapi_IEventQueue_NextEvent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NONBPS enumeration member" Url="html/T_Bloomberglp_Blpapi_SeatType.htm" />
+  <HelpKINode Title="NONE enumeration member">
+    <HelpKINode Title="Message.Fragment Enumeration" Url="html/T_Bloomberglp_Blpapi_Message_Fragment.htm" />
+    <HelpKINode Title="Message.Recap Enumeration" Url="html/T_Bloomberglp_Blpapi_Message_Recap.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotFoundException class">
+    <HelpKINode Title="NotFoundException Class" Url="html/T_Bloomberglp_Blpapi_NotFoundException.htm" />
+    <HelpKINode Title="about NotFoundException class" Url="html/T_Bloomberglp_Blpapi_NotFoundException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_NotFoundException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_NotFoundException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotFoundException.Description method" Url="html/M_Bloomberglp_Blpapi_NotFoundException_Description.htm" />
+  <HelpKINode Title="NotFoundException.NotFoundException constructor" Url="html/Overload_Bloomberglp_Blpapi_NotFoundException__ctor.htm" />
+  <HelpKINode Title="NOT_CREATED enumeration member" Url="html/T_Bloomberglp_Blpapi_TopicList_TopicStatus.htm" />
+  <HelpKINode Title="NullName field" Url="html/F_Bloomberglp_Blpapi_Name_NullName.htm" />
+  <HelpKINode Title="NumActiveThreads property" Url="html/P_Bloomberglp_Blpapi_EventDispatcher_NumActiveThreads.htm" />
+  <HelpKINode Title="NumAlternateNames property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_NumAlternateNames.htm" />
+  <HelpKINode Title="NumCorrelationIDs property" Url="html/P_Bloomberglp_Blpapi_Message_NumCorrelationIDs.htm" />
+  <HelpKINode Title="NumElementDefinitions property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_NumElementDefinitions.htm" />
+  <HelpKINode Title="NumElements property">
+    <HelpKINode Title="Element.NumElements Property " Url="html/P_Bloomberglp_Blpapi_Element_NumElements.htm" />
+    <HelpKINode Title="Message.NumElements Property " Url="html/P_Bloomberglp_Blpapi_Message_NumElements.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NumEventDefinitions property" Url="html/P_Bloomberglp_Blpapi_Service_NumEventDefinitions.htm" />
+  <HelpKINode Title="NumOperations property" Url="html/P_Bloomberglp_Blpapi_Service_NumOperations.htm" />
+  <HelpKINode Title="NumResponseDefinition property" Url="html/P_Bloomberglp_Blpapi_Operation_NumResponseDefinition.htm" />
+  <HelpKINode Title="NumStartAttempts property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_NumStartAttempts.htm" />
+  <HelpKINode Title="NumValues property" Url="html/P_Bloomberglp_Blpapi_Element_NumValues.htm" />
+  <HelpKINode Title="Object property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_Object.htm" />
+  <HelpKINode Title="OnMessage method" Url="html/M_Bloomberglp_Blpapi_Logging_Callback_OnMessage.htm" />
+  <HelpKINode Title="OpenService method">
+    <HelpKINode Title="AbstractSession.OpenService Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_OpenService.htm" />
+    <HelpKINode Title="IAbstractSession.OpenService Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_OpenService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OpenServiceAsync method">
+    <HelpKINode Title="AbstractSession.OpenServiceAsync Method " Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_OpenServiceAsync.htm" />
+    <HelpKINode Title="IAbstractSession.OpenServiceAsync Method " Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_OpenServiceAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Operation class">
+    <HelpKINode Title="Operation Class" Url="html/T_Bloomberglp_Blpapi_Operation.htm" />
+    <HelpKINode Title="about Operation class" Url="html/T_Bloomberglp_Blpapi_Operation.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Operation__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Operation.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Operation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Operation property" Url="html/P_Bloomberglp_Blpapi_Request_Operation.htm" />
+  <HelpKINode Title="Operation.Description property" Url="html/P_Bloomberglp_Blpapi_Operation_Description.htm" />
+  <HelpKINode Title="Operation.GetResponseDefinition method" Url="html/M_Bloomberglp_Blpapi_Operation_GetResponseDefinition.htm" />
+  <HelpKINode Title="Operation.Name property" Url="html/P_Bloomberglp_Blpapi_Operation_Name.htm" />
+  <HelpKINode Title="Operation.NumResponseDefinition property" Url="html/P_Bloomberglp_Blpapi_Operation_NumResponseDefinition.htm" />
+  <HelpKINode Title="Operation.Operation constructor" Url="html/M_Bloomberglp_Blpapi_Operation__ctor.htm" />
+  <HelpKINode Title="Operation.RequestDefinition property" Url="html/P_Bloomberglp_Blpapi_Operation_RequestDefinition.htm" />
+  <HelpKINode Title="Operation.RequestType property" Url="html/P_Bloomberglp_Blpapi_Operation_RequestType.htm" />
+  <HelpKINode Title="Operation.ResponseDefinition method" Url="html/M_Bloomberglp_Blpapi_Operation_ResponseDefinition.htm" />
+  <HelpKINode Title="Operation.ResponseDefinitions property" Url="html/P_Bloomberglp_Blpapi_Operation_ResponseDefinitions.htm" />
+  <HelpKINode Title="Operation.ResponseType property" Url="html/P_Bloomberglp_Blpapi_Operation_ResponseType.htm" />
+  <HelpKINode Title="Operation.Status property" Url="html/P_Bloomberglp_Blpapi_Operation_Status.htm" />
+  <HelpKINode Title="Operations property" Url="html/P_Bloomberglp_Blpapi_Service_Operations.htm" />
+  <HelpKINode Title="PARTIAL_RESPONSE enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Parts property" Url="html/P_Bloomberglp_Blpapi_Datetime_Parts.htm" />
+  <HelpKINode Title="PartsToRegister property" Url="html/P_Bloomberglp_Blpapi_ServiceRegistrationOptions_PartsToRegister.htm" />
+  <HelpKINode Title="PART_DEFAULT field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_DEFAULT.htm" />
+  <HelpKINode Title="PART_OPERATIONS field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_OPERATIONS.htm" />
+  <HelpKINode Title="PART_PUBLISHER_RESOLUTION field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_PUBLISHER_RESOLUTION.htm" />
+  <HelpKINode Title="PART_PUBLISHING field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_PUBLISHING.htm" />
+  <HelpKINode Title="PART_SUBSCRIBER_RESOLUTION field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_SUBSCRIBER_RESOLUTION.htm" />
+  <HelpKINode Title="PatchVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_PatchVersion.htm" />
+  <HelpKINode Title="PENDING_DEPRECATION enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Status.htm" />
+  <HelpKINode Title="PermissionRequest field" Url="html/F_Bloomberglp_Blpapi_Names_PermissionRequest.htm" />
+  <HelpKINode Title="PermissionResponse field" Url="html/F_Bloomberglp_Blpapi_Names_PermissionResponse.htm" />
+  <HelpKINode Title="PicoSecond property" Url="html/P_Bloomberglp_Blpapi_Datetime_PicoSecond.htm" />
+  <HelpKINode Title="PICOSECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_PICOSECOND_PART.htm" />
+  <HelpKINode Title="PopElement method">
+    <HelpKINode Title="EventFormatter.PopElement Method " Url="html/M_Bloomberglp_Blpapi_EventFormatter_PopElement.htm" />
+    <HelpKINode Title="IMessageFormatter.PopElement Method " Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_PopElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Port property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerAddress_Port.htm" />
+  <HelpKINode Title="Print method">
+    <HelpKINode Title="Constant.Print Method " Url="html/Overload_Bloomberglp_Blpapi_Constant_Print.htm" />
+    <HelpKINode Title="ConstantsList.Print Method " Url="html/Overload_Bloomberglp_Blpapi_ConstantsList_Print.htm" />
+    <HelpKINode Title="Constraint.Print Method " Url="html/Overload_Bloomberglp_Blpapi_Constraint_Print.htm" />
+    <HelpKINode Title="Element.Print Method " Url="html/Overload_Bloomberglp_Blpapi_Element_Print.htm" />
+    <HelpKINode Title="Message.Print Method " Url="html/Overload_Bloomberglp_Blpapi_Message_Print.htm" />
+    <HelpKINode Title="Request.Print Method " Url="html/Overload_Bloomberglp_Blpapi_Request_Print.htm" />
+    <HelpKINode Title="Service.Print Method " Url="html/Overload_Bloomberglp_Blpapi_Service_Print.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PRIORITY_HIGH enumeration member" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServiceRegistrationPriority.htm" />
+  <HelpKINode Title="PRIORITY_LOW enumeration member" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServiceRegistrationPriority.htm" />
+  <HelpKINode Title="PRIORITY_MEDIUM enumeration member" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServiceRegistrationPriority.htm" />
+  <HelpKINode Title="ProviderEventHandler delegate" Url="html/T_Bloomberglp_Blpapi_ProviderEventHandler.htm" />
+  <HelpKINode Title="ProviderSession class">
+    <HelpKINode Title="ProviderSession Class" Url="html/T_Bloomberglp_Blpapi_ProviderSession.htm" />
+    <HelpKINode Title="about ProviderSession class" Url="html/T_Bloomberglp_Blpapi_ProviderSession.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ProviderSession.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProviderSession.ActivateSubServiceCodeRange method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_ActivateSubServiceCodeRange.htm" />
+  <HelpKINode Title="ProviderSession.CreateTopic method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_CreateTopic.htm" />
+  <HelpKINode Title="ProviderSession.CreateTopics method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_CreateTopics.htm" />
+  <HelpKINode Title="ProviderSession.CreateTopicsAsync method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_CreateTopicsAsync.htm" />
+  <HelpKINode Title="ProviderSession.DeactivateSubServiceCodeRange method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeactivateSubServiceCodeRange.htm" />
+  <HelpKINode Title="ProviderSession.DeleteTopic method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeleteTopic.htm" />
+  <HelpKINode Title="ProviderSession.DeleteTopics method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeleteTopics.htm" />
+  <HelpKINode Title="ProviderSession.DeregisterService method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_DeregisterService.htm" />
+  <HelpKINode Title="ProviderSession.GetTopic method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_GetTopic.htm" />
+  <HelpKINode Title="ProviderSession.ProviderSession constructor" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession__ctor.htm" />
+  <HelpKINode Title="ProviderSession.Publish method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_Publish.htm" />
+  <HelpKINode Title="ProviderSession.RegisterService method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_RegisterService.htm" />
+  <HelpKINode Title="ProviderSession.RegisterServiceAsync method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_RegisterServiceAsync.htm" />
+  <HelpKINode Title="ProviderSession.Resolve method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_Resolve.htm" />
+  <HelpKINode Title="ProviderSession.ResolveAsync method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_ResolveAsync.htm" />
+  <HelpKINode Title="ProviderSession.SendResponse method" Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_SendResponse.htm" />
+  <HelpKINode Title="ProviderSession.SetEventHandler method" Url="html/M_Bloomberglp_Blpapi_ProviderSession_SetEventHandler.htm" />
+  <HelpKINode Title="Publish method">
+    <HelpKINode Title="IProviderSession.Publish Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_Publish.htm" />
+    <HelpKINode Title="ProviderSession.Publish Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_Publish.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Purge method">
+    <HelpKINode Title="EventQueue.Purge Method " Url="html/M_Bloomberglp_Blpapi_EventQueue_Purge.htm" />
+    <HelpKINode Title="IEventQueue.Purge Method " Url="html/M_Bloomberglp_Blpapi_IEventQueue_Purge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PushElement method">
+    <HelpKINode Title="EventFormatter.PushElement Method " Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_PushElement.htm" />
+    <HelpKINode Title="IMessageFormatter.PushElement Method " Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_PushElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RecapType property" Url="html/P_Bloomberglp_Blpapi_Message_RecapType.htm" />
+  <HelpKINode Title="RECEIVING_MESSAGES enumeration member" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="RecordSubscriptionDataReceiveTimes property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_RecordSubscriptionDataReceiveTimes.htm" />
+  <HelpKINode Title="RegisterCallback method" Url="html/M_Bloomberglp_Blpapi_Logging_RegisterCallback.htm" />
+  <HelpKINode Title="RegisterService method">
+    <HelpKINode Title="IProviderSession.RegisterService Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_RegisterService.htm" />
+    <HelpKINode Title="ProviderSession.RegisterService Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_RegisterService.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegisterServiceAsync method">
+    <HelpKINode Title="IProviderSession.RegisterServiceAsync Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_RegisterServiceAsync.htm" />
+    <HelpKINode Title="ProviderSession.RegisterServiceAsync Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_RegisterServiceAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegistrationParts class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Remote_8194 enumeration member" Url="html/T_Bloomberglp_Blpapi_ZfpUtil_Remote.htm" />
+  <HelpKINode Title="Remote_8196 enumeration member" Url="html/T_Bloomberglp_Blpapi_ZfpUtil_Remote.htm" />
+  <HelpKINode Title="REQUEST enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Request interface">
+    <HelpKINode Title="Request Interface" Url="html/T_Bloomberglp_Blpapi_Request.htm" />
+    <HelpKINode Title="about Request interface" Url="html/T_Bloomberglp_Blpapi_Request.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Request.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Request.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Request.Append method" Url="html/Overload_Bloomberglp_Blpapi_Request_Append.htm" />
+  <HelpKINode Title="Request.AsElement property" Url="html/P_Bloomberglp_Blpapi_Request_AsElement.htm" />
+  <HelpKINode Title="Request.Elements property" Url="html/P_Bloomberglp_Blpapi_Request_Elements.htm" />
+  <HelpKINode Title="Request.GetElement method" Url="html/Overload_Bloomberglp_Blpapi_Request_GetElement.htm" />
+  <HelpKINode Title="Request.HasElement method" Url="html/Overload_Bloomberglp_Blpapi_Request_HasElement.htm" />
+  <HelpKINode Title="Request.Item property" Url="html/Overload_Bloomberglp_Blpapi_Request_Item.htm" />
+  <HelpKINode Title="Request.Operation property" Url="html/P_Bloomberglp_Blpapi_Request_Operation.htm" />
+  <HelpKINode Title="Request.Print method" Url="html/Overload_Bloomberglp_Blpapi_Request_Print.htm" />
+  <HelpKINode Title="Request.RequestId property" Url="html/P_Bloomberglp_Blpapi_Request_RequestId.htm" />
+  <HelpKINode Title="Request.Set method" Url="html/Overload_Bloomberglp_Blpapi_Request_Set.htm" />
+  <HelpKINode Title="RequestDefinition property" Url="html/P_Bloomberglp_Blpapi_Operation_RequestDefinition.htm" />
+  <HelpKINode Title="RequestFailure field" Url="html/F_Bloomberglp_Blpapi_Names_RequestFailure.htm" />
+  <HelpKINode Title="RequestId property">
+    <HelpKINode Title="Message.RequestId Property " Url="html/P_Bloomberglp_Blpapi_Message_RequestId.htm" />
+    <HelpKINode Title="Request.RequestId Property " Url="html/P_Bloomberglp_Blpapi_Request_RequestId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestQueueOverflowException class">
+    <HelpKINode Title="RequestQueueOverflowException Class" Url="html/T_Bloomberglp_Blpapi_RequestQueueOverflowException.htm" />
+    <HelpKINode Title="about RequestQueueOverflowException class" Url="html/T_Bloomberglp_Blpapi_RequestQueueOverflowException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_RequestQueueOverflowException__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_RequestQueueOverflowException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestQueueOverflowException.Description property" Url="html/P_Bloomberglp_Blpapi_RequestQueueOverflowException_Description.htm" />
+  <HelpKINode Title="RequestQueueOverflowException.RequestQueueOverflowException constructor" Url="html/Overload_Bloomberglp_Blpapi_RequestQueueOverflowException__ctor.htm" />
+  <HelpKINode Title="RequestTemplate interface">
+    <HelpKINode Title="RequestTemplate Interface" Url="html/T_Bloomberglp_Blpapi_RequestTemplate.htm" />
+    <HelpKINode Title="about RequestTemplate interface" Url="html/T_Bloomberglp_Blpapi_RequestTemplate.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_RequestTemplate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestTemplate.close method" Url="html/M_Bloomberglp_Blpapi_RequestTemplate_close.htm" />
+  <HelpKINode Title="RequestTemplateAvailable field" Url="html/F_Bloomberglp_Blpapi_Names_RequestTemplateAvailable.htm" />
+  <HelpKINode Title="RequestTemplatePending field" Url="html/F_Bloomberglp_Blpapi_Names_RequestTemplatePending.htm" />
+  <HelpKINode Title="RequestTemplateTerminated field" Url="html/F_Bloomberglp_Blpapi_Names_RequestTemplateTerminated.htm" />
+  <HelpKINode Title="RequestType property" Url="html/P_Bloomberglp_Blpapi_Operation_RequestType.htm" />
+  <HelpKINode Title="REQUEST_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="ResolutionFailure field" Url="html/F_Bloomberglp_Blpapi_Names_ResolutionFailure.htm" />
+  <HelpKINode Title="ResolutionList class">
+    <HelpKINode Title="ResolutionList Class" Url="html/T_Bloomberglp_Blpapi_ResolutionList.htm" />
+    <HelpKINode Title="about ResolutionList class" Url="html/T_Bloomberglp_Blpapi_ResolutionList.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_ResolutionList__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ResolutionList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResolutionList.Add method" Url="html/Overload_Bloomberglp_Blpapi_ResolutionList_Add.htm" />
+  <HelpKINode Title="ResolutionList.AddAttribute method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_AddAttribute.htm" />
+  <HelpKINode Title="ResolutionList.Attribute method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_Attribute.htm" />
+  <HelpKINode Title="ResolutionList.AttributeAt method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_AttributeAt.htm" />
+  <HelpKINode Title="ResolutionList.CorrelationIdAt method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_CorrelationIdAt.htm" />
+  <HelpKINode Title="ResolutionList.Message method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_Message.htm" />
+  <HelpKINode Title="ResolutionList.MessageAt method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_MessageAt.htm" />
+  <HelpKINode Title="ResolutionList.ResolutionList constructor" Url="html/M_Bloomberglp_Blpapi_ResolutionList__ctor.htm" />
+  <HelpKINode Title="ResolutionList.Size method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_Size.htm" />
+  <HelpKINode Title="ResolutionList.Status method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_Status.htm" />
+  <HelpKINode Title="ResolutionList.StatusAt method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_StatusAt.htm" />
+  <HelpKINode Title="ResolutionList.TopicString method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_TopicString.htm" />
+  <HelpKINode Title="ResolutionList.TopicStringAt method" Url="html/M_Bloomberglp_Blpapi_ResolutionList_TopicStringAt.htm" />
+  <HelpKINode Title="ResolutionStatus enumeration" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="ResolutionSuccess field" Url="html/F_Bloomberglp_Blpapi_Names_ResolutionSuccess.htm" />
+  <HelpKINode Title="RESOLUTION_FAILURE_BAD_SERVICE enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="RESOLUTION_FAILURE_BAD_TOPIC enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="RESOLUTION_FAILURE_SERVICE_AUTHORIZATION_FAILED enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="RESOLUTION_FAILURE_TOPIC_AUTHORIZATION_FAILED enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="RESOLUTION_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Resolve method">
+    <HelpKINode Title="IProviderSession.Resolve Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_Resolve.htm" />
+    <HelpKINode Title="ProviderSession.Resolve Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_Resolve.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResolveAsync method">
+    <HelpKINode Title="IProviderSession.ResolveAsync Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_ResolveAsync.htm" />
+    <HelpKINode Title="ProviderSession.ResolveAsync Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_ResolveAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RESOLVED enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="ResolveMode enumeration" Url="html/T_Bloomberglp_Blpapi_ResolveMode.htm" />
+  <HelpKINode Title="RESPONSE enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="ResponseDefinition method" Url="html/M_Bloomberglp_Blpapi_Operation_ResponseDefinition.htm" />
+  <HelpKINode Title="ResponseDefinitions property" Url="html/P_Bloomberglp_Blpapi_Operation_ResponseDefinitions.htm" />
+  <HelpKINode Title="ResponseType property" Url="html/P_Bloomberglp_Blpapi_Operation_ResponseType.htm" />
+  <HelpKINode Title="Resubscribe method">
+    <HelpKINode Title="ISession.Resubscribe Method " Url="html/Overload_Bloomberglp_Blpapi_ISession_Resubscribe.htm" />
+    <HelpKINode Title="Session.Resubscribe Method " Url="html/Overload_Bloomberglp_Blpapi_Session_Resubscribe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RESUBSCRIBING enumeration member" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="SAPI enumeration member" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ClientModeType.htm" />
+  <HelpKINode Title="Schema class">
+    <HelpKINode Title="Schema Class" Url="html/T_Bloomberglp_Blpapi_Schema.htm" />
+    <HelpKINode Title="about Schema class" Url="html/T_Bloomberglp_Blpapi_Schema.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Schema__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Schema.Datatype enumeration" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Schema.Schema constructor" Url="html/M_Bloomberglp_Blpapi_Schema__ctor.htm" />
+  <HelpKINode Title="Schema.Status enumeration" Url="html/T_Bloomberglp_Blpapi_Schema_Status.htm" />
+  <HelpKINode Title="SchemaElementDefinition class">
+    <HelpKINode Title="SchemaElementDefinition Class" Url="html/T_Bloomberglp_Blpapi_SchemaElementDefinition.htm" />
+    <HelpKINode Title="about SchemaElementDefinition class" Url="html/T_Bloomberglp_Blpapi_SchemaElementDefinition.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_SchemaElementDefinition__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Bloomberglp_Blpapi_SchemaElementDefinition.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_SchemaElementDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_SchemaElementDefinition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SchemaElementDefinition.AlternateNames property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_AlternateNames.htm" />
+  <HelpKINode Title="SchemaElementDefinition.Constraints property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Constraints.htm" />
+  <HelpKINode Title="SchemaElementDefinition.Description property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Description.htm" />
+  <HelpKINode Title="SchemaElementDefinition.GetAlternateName method" Url="html/M_Bloomberglp_Blpapi_SchemaElementDefinition_GetAlternateName.htm" />
+  <HelpKINode Title="SchemaElementDefinition.MaxValues property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_MaxValues.htm" />
+  <HelpKINode Title="SchemaElementDefinition.MinValues property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_MinValues.htm" />
+  <HelpKINode Title="SchemaElementDefinition.Name property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Name.htm" />
+  <HelpKINode Title="SchemaElementDefinition.NumAlternateNames property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_NumAlternateNames.htm" />
+  <HelpKINode Title="SchemaElementDefinition.SchemaElementDefinition constructor" Url="html/M_Bloomberglp_Blpapi_SchemaElementDefinition__ctor.htm" />
+  <HelpKINode Title="SchemaElementDefinition.Status property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Status.htm" />
+  <HelpKINode Title="SchemaElementDefinition.TypeDefinition property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_TypeDefinition.htm" />
+  <HelpKINode Title="SchemaElementDefinition.UNBOUNDED field" Url="html/F_Bloomberglp_Blpapi_SchemaElementDefinition_UNBOUNDED.htm" />
+  <HelpKINode Title="SchemaElementDefinition.UserData property" Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_UserData.htm" />
+  <HelpKINode Title="SchemaTypeDefinition class">
+    <HelpKINode Title="SchemaTypeDefinition Class" Url="html/T_Bloomberglp_Blpapi_SchemaTypeDefinition.htm" />
+    <HelpKINode Title="about SchemaTypeDefinition class" Url="html/T_Bloomberglp_Blpapi_SchemaTypeDefinition.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_SchemaTypeDefinition__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_SchemaTypeDefinition.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_SchemaTypeDefinition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SchemaTypeDefinition.Constraints property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Constraints.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.Datatype property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Datatype.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.Description property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Description.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.ElementDefinitions property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_ElementDefinitions.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.Enumeration property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Enumeration.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.GetElementDefinition method" Url="html/Overload_Bloomberglp_Blpapi_SchemaTypeDefinition_GetElementDefinition.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.HasElementDefinition method" Url="html/M_Bloomberglp_Blpapi_SchemaTypeDefinition_HasElementDefinition.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.IsComplexType property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_IsComplexType.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.IsEnumerationType property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_IsEnumerationType.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.IsSimpleType property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_IsSimpleType.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.Item property" Url="html/Overload_Bloomberglp_Blpapi_SchemaTypeDefinition_Item.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.Name property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Name.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.NumElementDefinitions property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_NumElementDefinitions.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.SchemaTypeDefinition constructor" Url="html/M_Bloomberglp_Blpapi_SchemaTypeDefinition__ctor.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.Status property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Status.htm" />
+  <HelpKINode Title="SchemaTypeDefinition.UserData property" Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_UserData.htm" />
+  <HelpKINode Title="SeatType enumeration" Url="html/T_Bloomberglp_Blpapi_SeatType.htm" />
+  <HelpKINode Title="SeatType property" Url="html/P_Bloomberglp_Blpapi_Identity_SeatType.htm" />
+  <HelpKINode Title="Second property" Url="html/P_Bloomberglp_Blpapi_Datetime_Second.htm" />
+  <HelpKINode Title="SECOND_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_SECOND_PART.htm" />
+  <HelpKINode Title="SendAuthorizationRequest method">
+    <HelpKINode Title="AbstractSession.SendAuthorizationRequest Method " Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest.htm" />
+    <HelpKINode Title="IAbstractSession.SendAuthorizationRequest Method " Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_SendAuthorizationRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendRequest method">
+    <HelpKINode Title="ISession.SendRequest Method " Url="html/Overload_Bloomberglp_Blpapi_ISession_SendRequest.htm" />
+    <HelpKINode Title="Session.SendRequest Method " Url="html/Overload_Bloomberglp_Blpapi_Session_SendRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SendResponse method">
+    <HelpKINode Title="IProviderSession.SendResponse Method " Url="html/Overload_Bloomberglp_Blpapi_IProviderSession_SendResponse.htm" />
+    <HelpKINode Title="ProviderSession.SendResponse Method " Url="html/Overload_Bloomberglp_Blpapi_ProviderSession_SendResponse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SEQUENCE enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="ServerAddress class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_SessionOptions_ServerAddress.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_SessionOptions_ServerAddress.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServerAddresses property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerAddresses.htm" />
+  <HelpKINode Title="ServerHost property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerHost.htm" />
+  <HelpKINode Title="ServerPort property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerPort.htm" />
+  <HelpKINode Title="Service class">
+    <HelpKINode Title="Service Class" Url="html/T_Bloomberglp_Blpapi_Service.htm" />
+    <HelpKINode Title="about Service class" Url="html/T_Bloomberglp_Blpapi_Service.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_Service__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Service.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Service.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Service property">
+    <HelpKINode Title="Message.Service Property " Url="html/P_Bloomberglp_Blpapi_Message_Service.htm" />
+    <HelpKINode Title="Topic.Service Property " Url="html/P_Bloomberglp_Blpapi_Topic_Service.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Service.AuthorizationServiceName property" Url="html/P_Bloomberglp_Blpapi_Service_AuthorizationServiceName.htm" />
+  <HelpKINode Title="Service.CreateAdminEvent method" Url="html/M_Bloomberglp_Blpapi_Service_CreateAdminEvent.htm" />
+  <HelpKINode Title="Service.CreateAuthorizationRequest method" Url="html/M_Bloomberglp_Blpapi_Service_CreateAuthorizationRequest.htm" />
+  <HelpKINode Title="Service.CreatePublishEvent method" Url="html/M_Bloomberglp_Blpapi_Service_CreatePublishEvent.htm" />
+  <HelpKINode Title="Service.CreateRequest method" Url="html/M_Bloomberglp_Blpapi_Service_CreateRequest.htm" />
+  <HelpKINode Title="Service.CreateResponseEvent method" Url="html/M_Bloomberglp_Blpapi_Service_CreateResponseEvent.htm" />
+  <HelpKINode Title="Service.EventDefinitions property" Url="html/P_Bloomberglp_Blpapi_Service_EventDefinitions.htm" />
+  <HelpKINode Title="Service.GetEventDefinition method" Url="html/Overload_Bloomberglp_Blpapi_Service_GetEventDefinition.htm" />
+  <HelpKINode Title="Service.GetOperation method" Url="html/Overload_Bloomberglp_Blpapi_Service_GetOperation.htm" />
+  <HelpKINode Title="Service.Name property" Url="html/P_Bloomberglp_Blpapi_Service_Name.htm" />
+  <HelpKINode Title="Service.NumEventDefinitions property" Url="html/P_Bloomberglp_Blpapi_Service_NumEventDefinitions.htm" />
+  <HelpKINode Title="Service.NumOperations property" Url="html/P_Bloomberglp_Blpapi_Service_NumOperations.htm" />
+  <HelpKINode Title="Service.Operations property" Url="html/P_Bloomberglp_Blpapi_Service_Operations.htm" />
+  <HelpKINode Title="Service.Print method" Url="html/Overload_Bloomberglp_Blpapi_Service_Print.htm" />
+  <HelpKINode Title="Service.Service constructor" Url="html/M_Bloomberglp_Blpapi_Service__ctor.htm" />
+  <HelpKINode Title="ServiceAvailabilityInfo field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceAvailabilityInfo.htm" />
+  <HelpKINode Title="ServiceCheckTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServiceCheckTimeout.htm" />
+  <HelpKINode Title="ServiceDeregistered field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceDeregistered.htm" />
+  <HelpKINode Title="ServiceDown field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceDown.htm" />
+  <HelpKINode Title="ServiceDownloadTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServiceDownloadTimeout.htm" />
+  <HelpKINode Title="ServiceOpened field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceOpened.htm" />
+  <HelpKINode Title="ServiceOpenFailure field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceOpenFailure.htm" />
+  <HelpKINode Title="ServicePriority property" Url="html/P_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServicePriority.htm" />
+  <HelpKINode Title="ServiceRegistered field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceRegistered.htm" />
+  <HelpKINode Title="ServiceRegisterFailure field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceRegisterFailure.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions class">
+    <HelpKINode Title="ServiceRegistrationOptions Class" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions.htm" />
+    <HelpKINode Title="about ServiceRegistrationOptions class" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_ServiceRegistrationOptions__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ServiceRegistrationOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_ServiceRegistrationOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceRegistrationOptions.AddActiveSubServiceCodeRange method" Url="html/M_Bloomberglp_Blpapi_ServiceRegistrationOptions_AddActiveSubServiceCodeRange.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.GroupId property" Url="html/P_Bloomberglp_Blpapi_ServiceRegistrationOptions_GroupId.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.PartsToRegister property" Url="html/P_Bloomberglp_Blpapi_ServiceRegistrationOptions_PartsToRegister.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts class">
+    <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts Class" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts.htm" />
+    <HelpKINode Title="about ServiceRegistrationOptions.RegistrationParts class" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts.PART_DEFAULT field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_DEFAULT.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts.PART_OPERATIONS field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_OPERATIONS.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts.PART_PUBLISHER_RESOLUTION field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_PUBLISHER_RESOLUTION.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts.PART_PUBLISHING field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_PUBLISHING.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts.PART_SUBSCRIBER_RESOLUTION field" Url="html/F_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts_PART_SUBSCRIBER_RESOLUTION.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.RegistrationParts.RegistrationParts constructor" Url="html/M_Bloomberglp_Blpapi_ServiceRegistrationOptions_RegistrationParts__ctor.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.ServicePriority property" Url="html/P_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServicePriority.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.ServiceRegistrationOptions constructor" Url="html/M_Bloomberglp_Blpapi_ServiceRegistrationOptions__ctor.htm" />
+  <HelpKINode Title="ServiceRegistrationOptions.ServiceRegistrationPriority enumeration" Url="html/T_Bloomberglp_Blpapi_ServiceRegistrationOptions_ServiceRegistrationPriority.htm" />
+  <HelpKINode Title="ServiceUp field" Url="html/F_Bloomberglp_Blpapi_Names_ServiceUp.htm" />
+  <HelpKINode Title="SERVICE_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Session class">
+    <HelpKINode Title="Session Class" Url="html/T_Bloomberglp_Blpapi_Session.htm" />
+    <HelpKINode Title="about Session class" Url="html/T_Bloomberglp_Blpapi_Session.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_Session__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Session.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Session.createSnapshotRequestTemplate method" Url="html/Overload_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate.htm" />
+  <HelpKINode Title="Session.GetSubscriptions method" Url="html/M_Bloomberglp_Blpapi_Session_GetSubscriptions.htm" />
+  <HelpKINode Title="Session.GetSubscriptionStatus method" Url="html/M_Bloomberglp_Blpapi_Session_GetSubscriptionStatus.htm" />
+  <HelpKINode Title="Session.GetSubscriptionString method" Url="html/M_Bloomberglp_Blpapi_Session_GetSubscriptionString.htm" />
+  <HelpKINode Title="Session.Resubscribe method" Url="html/Overload_Bloomberglp_Blpapi_Session_Resubscribe.htm" />
+  <HelpKINode Title="Session.SendRequest method" Url="html/Overload_Bloomberglp_Blpapi_Session_SendRequest.htm" />
+  <HelpKINode Title="Session.Session constructor" Url="html/Overload_Bloomberglp_Blpapi_Session__ctor.htm" />
+  <HelpKINode Title="Session.SetEventHandler method" Url="html/M_Bloomberglp_Blpapi_Session_SetEventHandler.htm" />
+  <HelpKINode Title="Session.Subscribe method" Url="html/Overload_Bloomberglp_Blpapi_Session_Subscribe.htm" />
+  <HelpKINode Title="Session.SubscriptionStatus enumeration" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="Session.Unsubscribe method" Url="html/Overload_Bloomberglp_Blpapi_Session_Unsubscribe.htm" />
+  <HelpKINode Title="SessionClusterInfo field" Url="html/F_Bloomberglp_Blpapi_Names_SessionClusterInfo.htm" />
+  <HelpKINode Title="SessionClusterUpdate field" Url="html/F_Bloomberglp_Blpapi_Names_SessionClusterUpdate.htm" />
+  <HelpKINode Title="SessionConnectionDown field" Url="html/F_Bloomberglp_Blpapi_Names_SessionConnectionDown.htm" />
+  <HelpKINode Title="SessionConnectionUp field" Url="html/F_Bloomberglp_Blpapi_Names_SessionConnectionUp.htm" />
+  <HelpKINode Title="SessionOptions class">
+    <HelpKINode Title="SessionOptions Class" Url="html/T_Bloomberglp_Blpapi_SessionOptions.htm" />
+    <HelpKINode Title="about SessionOptions class" Url="html/T_Bloomberglp_Blpapi_SessionOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_SessionOptions__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_SessionOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_SessionOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionOptions.AllowMultipleCorrelatorsPerMsg property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_AllowMultipleCorrelatorsPerMsg.htm" />
+  <HelpKINode Title="SessionOptions.AuthenticationOptions property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_AuthenticationOptions.htm" />
+  <HelpKINode Title="SessionOptions.AutoRestartOnDisconnection property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_AutoRestartOnDisconnection.htm" />
+  <HelpKINode Title="SessionOptions.BandwidthSaveModeDisabled property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_BandwidthSaveModeDisabled.htm" />
+  <HelpKINode Title="SessionOptions.ClientMode property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ClientMode.htm" />
+  <HelpKINode Title="SessionOptions.ClientModeType enumeration" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ClientModeType.htm" />
+  <HelpKINode Title="SessionOptions.ConnectTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ConnectTimeout.htm" />
+  <HelpKINode Title="SessionOptions.DefaultKeepAliveInactivityTime property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultKeepAliveInactivityTime.htm" />
+  <HelpKINode Title="SessionOptions.DefaultKeepAliveResponseTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultKeepAliveResponseTimeout.htm" />
+  <HelpKINode Title="SessionOptions.DefaultSubscriptionService property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultSubscriptionService.htm" />
+  <HelpKINode Title="SessionOptions.DefaultTopicPrefix property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_DefaultTopicPrefix.htm" />
+  <HelpKINode Title="SessionOptions.KeepaliveEnabled property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_KeepaliveEnabled.htm" />
+  <HelpKINode Title="SessionOptions.MaxEventQueueSize property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxEventQueueSize.htm" />
+  <HelpKINode Title="SessionOptions.MaxOutstandingRequests property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxOutstandingRequests.htm" />
+  <HelpKINode Title="SessionOptions.MaxPendingRequests property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxPendingRequests.htm" />
+  <HelpKINode Title="SessionOptions.MaxSendCacheSize property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_MaxSendCacheSize.htm" />
+  <HelpKINode Title="SessionOptions.NumStartAttempts property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_NumStartAttempts.htm" />
+  <HelpKINode Title="SessionOptions.RecordSubscriptionDataReceiveTimes property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_RecordSubscriptionDataReceiveTimes.htm" />
+  <HelpKINode Title="SessionOptions.ServerAddress class">
+    <HelpKINode Title="SessionOptions.ServerAddress Class" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ServerAddress.htm" />
+    <HelpKINode Title="about SessionOptions.ServerAddress class" Url="html/T_Bloomberglp_Blpapi_SessionOptions_ServerAddress.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_SessionOptions_ServerAddress__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionOptions.ServerAddress.Host property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerAddress_Host.htm" />
+  <HelpKINode Title="SessionOptions.ServerAddress.Port property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerAddress_Port.htm" />
+  <HelpKINode Title="SessionOptions.ServerAddress.ServerAddress constructor" Url="html/M_Bloomberglp_Blpapi_SessionOptions_ServerAddress__ctor.htm" />
+  <HelpKINode Title="SessionOptions.ServerAddress.ToString method" Url="html/M_Bloomberglp_Blpapi_SessionOptions_ServerAddress_ToString.htm" />
+  <HelpKINode Title="SessionOptions.ServerAddresses property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerAddresses.htm" />
+  <HelpKINode Title="SessionOptions.ServerHost property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerHost.htm" />
+  <HelpKINode Title="SessionOptions.ServerPort property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServerPort.htm" />
+  <HelpKINode Title="SessionOptions.ServiceCheckTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServiceCheckTimeout.htm" />
+  <HelpKINode Title="SessionOptions.ServiceDownloadTimeout property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_ServiceDownloadTimeout.htm" />
+  <HelpKINode Title="SessionOptions.SessionOptions constructor" Url="html/M_Bloomberglp_Blpapi_SessionOptions__ctor.htm" />
+  <HelpKINode Title="SessionOptions.SetSessionIdentityOptions method" Url="html/M_Bloomberglp_Blpapi_SessionOptions_SetSessionIdentityOptions.htm" />
+  <HelpKINode Title="SessionOptions.SlowConsumerWarningHiWaterMark property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_SlowConsumerWarningHiWaterMark.htm" />
+  <HelpKINode Title="SessionOptions.SlowConsumerWarningLoWaterMark property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_SlowConsumerWarningLoWaterMark.htm" />
+  <HelpKINode Title="SessionOptions.TlsOptions property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_TlsOptions.htm" />
+  <HelpKINode Title="SessionOptions.ToString method" Url="html/M_Bloomberglp_Blpapi_SessionOptions_ToString.htm" />
+  <HelpKINode Title="SessionStarted field" Url="html/F_Bloomberglp_Blpapi_Names_SessionStarted.htm" />
+  <HelpKINode Title="SessionStartupFailure field" Url="html/F_Bloomberglp_Blpapi_Names_SessionStartupFailure.htm" />
+  <HelpKINode Title="SessionTerminated field" Url="html/F_Bloomberglp_Blpapi_Names_SessionTerminated.htm" />
+  <HelpKINode Title="SESSION_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Set method" Url="html/Overload_Bloomberglp_Blpapi_Request_Set.htm" />
+  <HelpKINode Title="SetChoice method" Url="html/Overload_Bloomberglp_Blpapi_Element_SetChoice.htm" />
+  <HelpKINode Title="SetCorrelationId method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetCorrelationId.htm" />
+  <HelpKINode Title="SetCorrelationIds method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetCorrelationIds.htm" />
+  <HelpKINode Title="SetDate method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetDate.htm" />
+  <HelpKINode Title="SetDatetime method" Url="html/Overload_Bloomberglp_Blpapi_Datetime_SetDatetime.htm" />
+  <HelpKINode Title="SetDatetimeTz method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetDatetimeTz.htm" />
+  <HelpKINode Title="SetDateTz method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetDateTz.htm" />
+  <HelpKINode Title="SetElement method">
+    <HelpKINode Title="Element.SetElement Method " Url="html/Overload_Bloomberglp_Blpapi_Element_SetElement.htm" />
+    <HelpKINode Title="EventFormatter.SetElement Method " Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_SetElement.htm" />
+    <HelpKINode Title="IMessageFormatter.SetElement Method " Url="html/Overload_Bloomberglp_Blpapi_Test_IMessageFormatter_SetElement.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetElementNull method">
+    <HelpKINode Title="EventFormatter.SetElementNull Method " Url="html/Overload_Bloomberglp_Blpapi_EventFormatter_SetElementNull.htm" />
+    <HelpKINode Title="IMessageFormatter.SetElementNull Method " Url="html/M_Bloomberglp_Blpapi_Test_IMessageFormatter_SetElementNull.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetEventHandler method">
+    <HelpKINode Title="IProviderSession.SetEventHandler Method " Url="html/M_Bloomberglp_Blpapi_IProviderSession_SetEventHandler.htm" />
+    <HelpKINode Title="ISession.SetEventHandler Method " Url="html/M_Bloomberglp_Blpapi_ISession_SetEventHandler.htm" />
+    <HelpKINode Title="ProviderSession.SetEventHandler Method " Url="html/M_Bloomberglp_Blpapi_ProviderSession_SetEventHandler.htm" />
+    <HelpKINode Title="Session.SetEventHandler Method " Url="html/M_Bloomberglp_Blpapi_Session_SetEventHandler.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetRecapType method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetRecapType.htm" />
+  <HelpKINode Title="SetRequestId method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetRequestId.htm" />
+  <HelpKINode Title="SetService method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetService.htm" />
+  <HelpKINode Title="SetSessionIdentityOptions method" Url="html/M_Bloomberglp_Blpapi_SessionOptions_SetSessionIdentityOptions.htm" />
+  <HelpKINode Title="SetTime method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetTime.htm" />
+  <HelpKINode Title="SetTimeReceived method" Url="html/M_Bloomberglp_Blpapi_Test_MessageProperties_SetTimeReceived.htm" />
+  <HelpKINode Title="SetTimeTz method" Url="html/M_Bloomberglp_Blpapi_Datetime_SetTimeTz.htm" />
+  <HelpKINode Title="SetValue method" Url="html/Overload_Bloomberglp_Blpapi_Element_SetValue.htm" />
+  <HelpKINode Title="Size method">
+    <HelpKINode Title="IResolutionList.Size Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_Size.htm" />
+    <HelpKINode Title="ResolutionList.Size Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_Size.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Size property">
+    <HelpKINode Title="ITopicList.Size Property " Url="html/P_Bloomberglp_Blpapi_ITopicList_Size.htm" />
+    <HelpKINode Title="TopicList.Size Property " Url="html/P_Bloomberglp_Blpapi_TopicList_Size.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SlowConsumerWarning field" Url="html/F_Bloomberglp_Blpapi_Names_SlowConsumerWarning.htm" />
+  <HelpKINode Title="SlowConsumerWarningCleared field" Url="html/F_Bloomberglp_Blpapi_Names_SlowConsumerWarningCleared.htm" />
+  <HelpKINode Title="SlowConsumerWarningHiWaterMark property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_SlowConsumerWarningHiWaterMark.htm" />
+  <HelpKINode Title="SlowConsumerWarningLoWaterMark property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_SlowConsumerWarningLoWaterMark.htm" />
+  <HelpKINode Title="SOLICITED enumeration member" Url="html/T_Bloomberglp_Blpapi_Message_Recap.htm" />
+  <HelpKINode Title="START enumeration member" Url="html/T_Bloomberglp_Blpapi_Message_Fragment.htm" />
+  <HelpKINode Title="Start method">
+    <HelpKINode Title="AbstractSession.Start Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_Start.htm" />
+    <HelpKINode Title="EventDispatcher.Start Method " Url="html/M_Bloomberglp_Blpapi_EventDispatcher_Start.htm" />
+    <HelpKINode Title="IAbstractSession.Start Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_Start.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StartAsync method">
+    <HelpKINode Title="AbstractSession.StartAsync Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_StartAsync.htm" />
+    <HelpKINode Title="IAbstractSession.StartAsync Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_StartAsync.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Status method">
+    <HelpKINode Title="IResolutionList.Status Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_Status.htm" />
+    <HelpKINode Title="ITopicList.Status Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_Status.htm" />
+    <HelpKINode Title="ResolutionList.Status Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_Status.htm" />
+    <HelpKINode Title="TopicList.Status Method " Url="html/M_Bloomberglp_Blpapi_TopicList_Status.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Status property">
+    <HelpKINode Title="Constant.Status Property " Url="html/P_Bloomberglp_Blpapi_Constant_Status.htm" />
+    <HelpKINode Title="ConstantsList.Status Property " Url="html/P_Bloomberglp_Blpapi_ConstantsList_Status.htm" />
+    <HelpKINode Title="Operation.Status Property " Url="html/P_Bloomberglp_Blpapi_Operation_Status.htm" />
+    <HelpKINode Title="SchemaElementDefinition.Status Property " Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_Status.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.Status Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_Status.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StatusAt method">
+    <HelpKINode Title="IResolutionList.StatusAt Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_StatusAt.htm" />
+    <HelpKINode Title="ITopicList.StatusAt Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_StatusAt.htm" />
+    <HelpKINode Title="ResolutionList.StatusAt Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_StatusAt.htm" />
+    <HelpKINode Title="TopicList.StatusAt Method " Url="html/M_Bloomberglp_Blpapi_TopicList_StatusAt.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Stop method">
+    <HelpKINode Title="AbstractSession.Stop Method " Url="html/Overload_Bloomberglp_Blpapi_AbstractSession_Stop.htm" />
+    <HelpKINode Title="EventDispatcher.Stop Method " Url="html/Overload_Bloomberglp_Blpapi_EventDispatcher_Stop.htm" />
+    <HelpKINode Title="IAbstractSession.Stop Method " Url="html/Overload_Bloomberglp_Blpapi_IAbstractSession_Stop.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StopOption class">
+    <HelpKINode Title="fields" Url="html/Fields_T_Bloomberglp_Blpapi_EventDispatcher_StopOption.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_EventDispatcher_StopOption.htm" />
+  </HelpKINode>
+  <HelpKINode Title="STRING enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="Subscribe method">
+    <HelpKINode Title="ISession.Subscribe Method " Url="html/Overload_Bloomberglp_Blpapi_ISession_Subscribe.htm" />
+    <HelpKINode Title="Session.Subscribe Method " Url="html/Overload_Bloomberglp_Blpapi_Session_Subscribe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SUBSCRIBING enumeration member" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="Subscription class">
+    <HelpKINode Title="Subscription Class" Url="html/T_Bloomberglp_Blpapi_Subscription.htm" />
+    <HelpKINode Title="about Subscription class" Url="html/T_Bloomberglp_Blpapi_Subscription.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Bloomberglp_Blpapi_Subscription__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Subscription.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Subscription.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Subscription.CorrelationID property" Url="html/P_Bloomberglp_Blpapi_Subscription_CorrelationID.htm" />
+  <HelpKINode Title="Subscription.IsResolved property" Url="html/P_Bloomberglp_Blpapi_Subscription_IsResolved.htm" />
+  <HelpKINode Title="Subscription.Subscription constructor" Url="html/Overload_Bloomberglp_Blpapi_Subscription__ctor.htm" />
+  <HelpKINode Title="Subscription.SubscriptionStatus property" Url="html/P_Bloomberglp_Blpapi_Subscription_SubscriptionStatus.htm" />
+  <HelpKINode Title="Subscription.SubscriptionString property" Url="html/P_Bloomberglp_Blpapi_Subscription_SubscriptionString.htm" />
+  <HelpKINode Title="Subscription.ToString method" Url="html/M_Bloomberglp_Blpapi_Subscription_ToString.htm" />
+  <HelpKINode Title="SubscriptionFailure field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionFailure.htm" />
+  <HelpKINode Title="SubscriptionStarted field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionStarted.htm" />
+  <HelpKINode Title="SubscriptionStatus property" Url="html/P_Bloomberglp_Blpapi_Subscription_SubscriptionStatus.htm" />
+  <HelpKINode Title="SubscriptionStreamsActivated field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionStreamsActivated.htm" />
+  <HelpKINode Title="SubscriptionStreamsDeactivated field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionStreamsDeactivated.htm" />
+  <HelpKINode Title="SubscriptionString property" Url="html/P_Bloomberglp_Blpapi_Subscription_SubscriptionString.htm" />
+  <HelpKINode Title="SubscriptionTerminated field" Url="html/F_Bloomberglp_Blpapi_Names_SubscriptionTerminated.htm" />
+  <HelpKINode Title="SUBSCRIPTION_DATA enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="SUBSCRIPTION_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="SYNC enumeration member" Url="html/T_Bloomberglp_Blpapi_AbstractSession_StopOption.htm" />
+  <HelpKINode Title="SYNC field" Url="html/F_Bloomberglp_Blpapi_EventDispatcher_StopOption_SYNC.htm" />
+  <HelpKINode Title="TestUtil class">
+    <HelpKINode Title="TestUtil Class" Url="html/T_Bloomberglp_Blpapi_Test_TestUtil.htm" />
+    <HelpKINode Title="about TestUtil class" Url="html/T_Bloomberglp_Blpapi_Test_TestUtil.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Test_TestUtil.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TestUtil.AppendMessage method" Url="html/Overload_Bloomberglp_Blpapi_Test_TestUtil_AppendMessage.htm" />
+  <HelpKINode Title="TestUtil.CreateEvent method" Url="html/M_Bloomberglp_Blpapi_Test_TestUtil_CreateEvent.htm" />
+  <HelpKINode Title="TestUtil.CreateTopic method" Url="html/M_Bloomberglp_Blpapi_Test_TestUtil_CreateTopic.htm" />
+  <HelpKINode Title="TestUtil.DeserializeService method" Url="html/Overload_Bloomberglp_Blpapi_Test_TestUtil_DeserializeService.htm" />
+  <HelpKINode Title="TestUtil.GetAdminMessageDefinition method" Url="html/M_Bloomberglp_Blpapi_Test_TestUtil_GetAdminMessageDefinition.htm" />
+  <HelpKINode Title="TIME enumeration member" Url="html/T_Bloomberglp_Blpapi_Schema_Datatype.htm" />
+  <HelpKINode Title="TIME field" Url="html/F_Bloomberglp_Blpapi_Datetime_TIME.htm" />
+  <HelpKINode Title="TIMEMILLI field" Url="html/F_Bloomberglp_Blpapi_Datetime_TIMEMILLI.htm" />
+  <HelpKINode Title="TIMEOUT enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="TimeReceived property" Url="html/P_Bloomberglp_Blpapi_Message_TimeReceived.htm" />
+  <HelpKINode Title="TimezoneOffsetMinutes property" Url="html/P_Bloomberglp_Blpapi_Datetime_TimezoneOffsetMinutes.htm" />
+  <HelpKINode Title="TIME_ZONE_OFFSET field" Url="html/F_Bloomberglp_Blpapi_Datetime_TIME_ZONE_OFFSET.htm" />
+  <HelpKINode Title="TlsHandshakeTimeout property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_TlsHandshakeTimeout.htm" />
+  <HelpKINode Title="TlsOptions class">
+    <HelpKINode Title="TlsOptions Class" Url="html/T_Bloomberglp_Blpapi_TlsOptions.htm" />
+    <HelpKINode Title="about TlsOptions class" Url="html/T_Bloomberglp_Blpapi_TlsOptions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_TlsOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_TlsOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TlsOptions property" Url="html/P_Bloomberglp_Blpapi_SessionOptions_TlsOptions.htm" />
+  <HelpKINode Title="TlsOptions.CheckRevocation property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_CheckRevocation.htm" />
+  <HelpKINode Title="TlsOptions.ClientCredentials property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_ClientCredentials.htm" />
+  <HelpKINode Title="TlsOptions.Create method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_Create.htm" />
+  <HelpKINode Title="TlsOptions.CreateFromBlobs method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_CreateFromBlobs.htm" />
+  <HelpKINode Title="TlsOptions.CreateFromFiles method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_CreateFromFiles.htm" />
+  <HelpKINode Title="TlsOptions.CrlFetchTimeout property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_CrlFetchTimeout.htm" />
+  <HelpKINode Title="TlsOptions.TlsHandshakeTimeout property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_TlsHandshakeTimeout.htm" />
+  <HelpKINode Title="TlsOptions.ToString method" Url="html/M_Bloomberglp_Blpapi_TlsOptions_ToString.htm" />
+  <HelpKINode Title="TlsOptions.TrustedCertificates property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_TrustedCertificates.htm" />
+  <HelpKINode Title="TokenGenerationFailure field" Url="html/F_Bloomberglp_Blpapi_Names_TokenGenerationFailure.htm" />
+  <HelpKINode Title="TokenGenerationSuccess field" Url="html/F_Bloomberglp_Blpapi_Names_TokenGenerationSuccess.htm" />
+  <HelpKINode Title="TOKEN_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="Topic interface">
+    <HelpKINode Title="Topic Interface" Url="html/T_Bloomberglp_Blpapi_Topic.htm" />
+    <HelpKINode Title="about Topic interface" Url="html/T_Bloomberglp_Blpapi_Topic.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_Topic.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_Topic.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Topic.IsActive method" Url="html/M_Bloomberglp_Blpapi_Topic_IsActive.htm" />
+  <HelpKINode Title="Topic.Service property" Url="html/P_Bloomberglp_Blpapi_Topic_Service.htm" />
+  <HelpKINode Title="TopicActivated field" Url="html/F_Bloomberglp_Blpapi_Names_TopicActivated.htm" />
+  <HelpKINode Title="TopicCreated field" Url="html/F_Bloomberglp_Blpapi_Names_TopicCreated.htm" />
+  <HelpKINode Title="TopicCreateFailure field" Url="html/F_Bloomberglp_Blpapi_Names_TopicCreateFailure.htm" />
+  <HelpKINode Title="TopicDeactivated field" Url="html/F_Bloomberglp_Blpapi_Names_TopicDeactivated.htm" />
+  <HelpKINode Title="TopicDeleted field" Url="html/F_Bloomberglp_Blpapi_Names_TopicDeleted.htm" />
+  <HelpKINode Title="TopicList class">
+    <HelpKINode Title="TopicList Class" Url="html/T_Bloomberglp_Blpapi_TopicList.htm" />
+    <HelpKINode Title="about TopicList class" Url="html/T_Bloomberglp_Blpapi_TopicList.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_TopicList__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_TopicList.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_TopicList.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopicList.Add method" Url="html/Overload_Bloomberglp_Blpapi_TopicList_Add.htm" />
+  <HelpKINode Title="TopicList.CorrelationIdAt method" Url="html/M_Bloomberglp_Blpapi_TopicList_CorrelationIdAt.htm" />
+  <HelpKINode Title="TopicList.Message method" Url="html/M_Bloomberglp_Blpapi_TopicList_Message.htm" />
+  <HelpKINode Title="TopicList.MessageAt method" Url="html/M_Bloomberglp_Blpapi_TopicList_MessageAt.htm" />
+  <HelpKINode Title="TopicList.Size property" Url="html/P_Bloomberglp_Blpapi_TopicList_Size.htm" />
+  <HelpKINode Title="TopicList.Status method" Url="html/M_Bloomberglp_Blpapi_TopicList_Status.htm" />
+  <HelpKINode Title="TopicList.StatusAt method" Url="html/M_Bloomberglp_Blpapi_TopicList_StatusAt.htm" />
+  <HelpKINode Title="TopicList.TopicList constructor" Url="html/M_Bloomberglp_Blpapi_TopicList__ctor.htm" />
+  <HelpKINode Title="TopicList.TopicStatus enumeration" Url="html/T_Bloomberglp_Blpapi_TopicList_TopicStatus.htm" />
+  <HelpKINode Title="TopicList.TopicString method" Url="html/M_Bloomberglp_Blpapi_TopicList_TopicString.htm" />
+  <HelpKINode Title="TopicList.TopicStringAt method" Url="html/M_Bloomberglp_Blpapi_TopicList_TopicStringAt.htm" />
+  <HelpKINode Title="TopicName property" Url="html/P_Bloomberglp_Blpapi_Message_TopicName.htm" />
+  <HelpKINode Title="TopicRecap field" Url="html/F_Bloomberglp_Blpapi_Names_TopicRecap.htm" />
+  <HelpKINode Title="TopicResubscribed field" Url="html/F_Bloomberglp_Blpapi_Names_TopicResubscribed.htm" />
+  <HelpKINode Title="TopicString method">
+    <HelpKINode Title="IResolutionList.TopicString Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_TopicString.htm" />
+    <HelpKINode Title="ITopicList.TopicString Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_TopicString.htm" />
+    <HelpKINode Title="ResolutionList.TopicString Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_TopicString.htm" />
+    <HelpKINode Title="TopicList.TopicString Method " Url="html/M_Bloomberglp_Blpapi_TopicList_TopicString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopicStringAt method">
+    <HelpKINode Title="IResolutionList.TopicStringAt Method " Url="html/M_Bloomberglp_Blpapi_IResolutionList_TopicStringAt.htm" />
+    <HelpKINode Title="ITopicList.TopicStringAt Method " Url="html/M_Bloomberglp_Blpapi_ITopicList_TopicStringAt.htm" />
+    <HelpKINode Title="ResolutionList.TopicStringAt Method " Url="html/M_Bloomberglp_Blpapi_ResolutionList_TopicStringAt.htm" />
+    <HelpKINode Title="TopicList.TopicStringAt Method " Url="html/M_Bloomberglp_Blpapi_TopicList_TopicStringAt.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopicSubscribed field" Url="html/F_Bloomberglp_Blpapi_Names_TopicSubscribed.htm" />
+  <HelpKINode Title="TopicUnsubscribed field" Url="html/F_Bloomberglp_Blpapi_Names_TopicUnsubscribed.htm" />
+  <HelpKINode Title="TOPIC_STATUS enumeration member" Url="html/T_Bloomberglp_Blpapi_Event_EventType.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="CorrelationID.ToString Method " Url="html/M_Bloomberglp_Blpapi_CorrelationID_ToString.htm" />
+    <HelpKINode Title="Datetime.ToString Method " Url="html/M_Bloomberglp_Blpapi_Datetime_ToString.htm" />
+    <HelpKINode Title="Element.ToString Method " Url="html/M_Bloomberglp_Blpapi_Element_ToString.htm" />
+    <HelpKINode Title="EventDispatcher.StopOption.ToString Method " Url="html/M_Bloomberglp_Blpapi_EventDispatcher_StopOption_ToString.htm" />
+    <HelpKINode Title="Message.ToString Method " Url="html/M_Bloomberglp_Blpapi_Message_ToString.htm" />
+    <HelpKINode Title="Name.ToString Method " Url="html/M_Bloomberglp_Blpapi_Name_ToString.htm" />
+    <HelpKINode Title="SessionOptions.ServerAddress.ToString Method " Url="html/M_Bloomberglp_Blpapi_SessionOptions_ServerAddress_ToString.htm" />
+    <HelpKINode Title="SessionOptions.ToString Method " Url="html/M_Bloomberglp_Blpapi_SessionOptions_ToString.htm" />
+    <HelpKINode Title="Subscription.ToString Method " Url="html/M_Bloomberglp_Blpapi_Subscription_ToString.htm" />
+    <HelpKINode Title="TlsOptions.ToString Method " Url="html/M_Bloomberglp_Blpapi_TlsOptions_ToString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToSystemDateTime method" Url="html/M_Bloomberglp_Blpapi_Datetime_ToSystemDateTime.htm" />
+  <HelpKINode Title="TrustedCertificates property" Url="html/P_Bloomberglp_Blpapi_TlsOptions_TrustedCertificates.htm" />
+  <HelpKINode Title="TryGetValue method">
+    <HelpKINode Title="ConstantsList.TryGetValue Method " Url="html/M_Bloomberglp_Blpapi_ConstantsList_TryGetValue.htm" />
+    <HelpKINode Title="ConstraintsList.TryGetValue Method " Url="html/M_Bloomberglp_Blpapi_ConstraintsList_TryGetValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TryNextEvent method">
+    <HelpKINode Title="AbstractSession.TryNextEvent Method " Url="html/M_Bloomberglp_Blpapi_AbstractSession_TryNextEvent.htm" />
+    <HelpKINode Title="EventQueue.TryNextEvent Method " Url="html/M_Bloomberglp_Blpapi_EventQueue_TryNextEvent.htm" />
+    <HelpKINode Title="IAbstractSession.TryNextEvent Method " Url="html/M_Bloomberglp_Blpapi_IAbstractSession_TryNextEvent.htm" />
+    <HelpKINode Title="IEventQueue.TryNextEvent Method " Url="html/M_Bloomberglp_Blpapi_IEventQueue_TryNextEvent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Type property" Url="html/P_Bloomberglp_Blpapi_Event_Type.htm" />
+  <HelpKINode Title="TypeDefinition property">
+    <HelpKINode Title="Element.TypeDefinition Property " Url="html/P_Bloomberglp_Blpapi_Element_TypeDefinition.htm" />
+    <HelpKINode Title="SchemaElementDefinition.TypeDefinition Property " Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_TypeDefinition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UNBOUNDED field" Url="html/F_Bloomberglp_Blpapi_SchemaElementDefinition_UNBOUNDED.htm" />
+  <HelpKINode Title="UNRESOLVED enumeration member" Url="html/T_Bloomberglp_Blpapi_ResolutionStatus.htm" />
+  <HelpKINode Title="UNSOLICITED enumeration member" Url="html/T_Bloomberglp_Blpapi_Message_Recap.htm" />
+  <HelpKINode Title="Unsubscribe method">
+    <HelpKINode Title="ISession.Unsubscribe Method " Url="html/Overload_Bloomberglp_Blpapi_ISession_Unsubscribe.htm" />
+    <HelpKINode Title="Session.Unsubscribe Method " Url="html/Overload_Bloomberglp_Blpapi_Session_Unsubscribe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UNSUBSCRIBED enumeration member" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="UserData property">
+    <HelpKINode Title="Constant.UserData Property " Url="html/P_Bloomberglp_Blpapi_Constant_UserData.htm" />
+    <HelpKINode Title="ConstantsList.UserData Property " Url="html/P_Bloomberglp_Blpapi_ConstantsList_UserData.htm" />
+    <HelpKINode Title="SchemaElementDefinition.UserData Property " Url="html/P_Bloomberglp_Blpapi_SchemaElementDefinition_UserData.htm" />
+    <HelpKINode Title="SchemaTypeDefinition.UserData Property " Url="html/P_Bloomberglp_Blpapi_SchemaTypeDefinition_UserData.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserHandle interface">
+    <HelpKINode Title="UserHandle Interface" Url="html/T_Bloomberglp_Blpapi_UserHandle.htm" />
+    <HelpKINode Title="about UserHandle interface" Url="html/T_Bloomberglp_Blpapi_UserHandle.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_UserHandle.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_UserHandle.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Value property" Url="html/P_Bloomberglp_Blpapi_CorrelationID_Value.htm" />
+  <HelpKINode Title="ValueIsNull method" Url="html/M_Bloomberglp_Blpapi_Element_ValueIsNull.htm" />
+  <HelpKINode Title="Values property" Url="html/P_Bloomberglp_Blpapi_Constraint_Values.htm" />
+  <HelpKINode Title="VersionIdentifier property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_VersionIdentifier.htm" />
+  <HelpKINode Title="VersionInfo class">
+    <HelpKINode Title="VersionInfo Class" Url="html/T_Bloomberglp_Blpapi_VersionInfo.htm" />
+    <HelpKINode Title="about VersionInfo class" Url="html/T_Bloomberglp_Blpapi_VersionInfo.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_VersionInfo__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Bloomberglp_Blpapi_VersionInfo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VersionInfo.BuildVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_BuildVersion.htm" />
+  <HelpKINode Title="VersionInfo.MajorVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_MajorVersion.htm" />
+  <HelpKINode Title="VersionInfo.MinorVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_MinorVersion.htm" />
+  <HelpKINode Title="VersionInfo.PatchVersion property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_PatchVersion.htm" />
+  <HelpKINode Title="VersionInfo.VersionIdentifier property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_VersionIdentifier.htm" />
+  <HelpKINode Title="VersionInfo.VersionInfo constructor" Url="html/M_Bloomberglp_Blpapi_VersionInfo__ctor.htm" />
+  <HelpKINode Title="VersionInfo.VersionString property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_VersionString.htm" />
+  <HelpKINode Title="VersionString property" Url="html/P_Bloomberglp_Blpapi_VersionInfo_VersionString.htm" />
+  <HelpKINode Title="WAITING_FOR_MESSAGES enumeration member" Url="html/T_Bloomberglp_Blpapi_Session_SubscriptionStatus.htm" />
+  <HelpKINode Title="Year property" Url="html/P_Bloomberglp_Blpapi_Datetime_Year.htm" />
+  <HelpKINode Title="YEAR_PART field" Url="html/F_Bloomberglp_Blpapi_Datetime_YEAR_PART.htm" />
+  <HelpKINode Title="ZfpUtil class">
+    <HelpKINode Title="ZfpUtil Class" Url="html/T_Bloomberglp_Blpapi_ZfpUtil.htm" />
+    <HelpKINode Title="about ZfpUtil class" Url="html/T_Bloomberglp_Blpapi_ZfpUtil.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Bloomberglp_Blpapi_ZfpUtil__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Bloomberglp_Blpapi_ZfpUtil.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ZfpUtil.GetZfpOptionsForLeasedLines method" Url="html/M_Bloomberglp_Blpapi_ZfpUtil_GetZfpOptionsForLeasedLines.htm" />
+  <HelpKINode Title="ZfpUtil.Remote enumeration" Url="html/T_Bloomberglp_Blpapi_ZfpUtil_Remote.htm" />
+  <HelpKINode Title="ZfpUtil.ZfpUtil constructor" Url="html/M_Bloomberglp_Blpapi_ZfpUtil__ctor.htm" />
+</HelpKI>

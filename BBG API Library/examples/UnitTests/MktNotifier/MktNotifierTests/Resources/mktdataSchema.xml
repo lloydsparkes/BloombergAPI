@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ServiceDefinition name="blp.mktdata" version="1.0.1.0">
+   <service name="//blp/mktdata" version="1.0.0.0" authorizationService="//blp/apiauth">
+      <event name="MarketDataEvents" eventType="MarketDataUpdate">
+         <eventId>0</eventId>
+         <eventId>1</eventId>
+         <eventId>2</eventId>
+         <eventId>3</eventId>
+         <eventId>4</eventId>
+         <eventId>9999</eventId>
+      </event>
+      <defaultServiceId>134217729</defaultServiceId> <!-- 0X8000001 -->
+      <resolutionService></resolutionService>
+      <recapEventId>9999</recapEventId>
+   </service>
+   <schema>
+      <sequenceType name="MarketDataUpdate">
+         <description>fields in subscription</description>
+         <element name="LAST_PRICE" type="Float64" id="1" minOccurs="0" maxOccurs="1">
+            <description>Last Trade/Last Price</description>
+            <alternateId>65536</alternateId>
+         </element>
+         <element name="BID" type="Float64" id="2" minOccurs="0" maxOccurs="1">
+            <description>Bid Price</description>
+            <alternateId>131072</alternateId>
+         </element>
+         <element name="ASK" type="Float64" id="3" minOccurs="0" maxOccurs="1">
+            <description>Ask Price</description>
+            <alternateId>196608</alternateId>
+         </element>
+         <element name="VOLUME" type="Int64" id="4" minOccurs="0" maxOccurs="1">
+            <description>Volume</description>
+            <alternateId>458753</alternateId>
+         </element>
+      </sequenceType>
+   </schema>
+</ServiceDefinition>

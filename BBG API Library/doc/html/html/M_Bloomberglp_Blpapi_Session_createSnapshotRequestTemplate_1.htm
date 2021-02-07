@@ -1,0 +1,113 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Session.createSnapshotRequestTemplate Method (String, CorrelationID, Identity)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Bloomberglp.Blpapi.Session.createSnapshotRequestTemplate(System.String,Bloomberglp.Blpapi.CorrelationID,Bloomberglp.Blpapi.Identity)" /><meta name="Description" content="Create a snapshot service request template for getting subscription data specified by the 'subscriptionString' using the optionally specified 'identity' if all the following conditions are met: the session is established, 'subscriptionString' is a valid su" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Bloomberglp.Blpapi" /><meta name="file" content="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate_1" /><meta name="guid" content="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate_1" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Bloomberg API for .NET<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Bloomberglp_Blpapi.htm" title="Bloomberg API for .NET" tocid="roottoc">Bloomberg API for .NET</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Bloomberglp_Blpapi.htm" title="Bloomberglp.Blpapi" tocid="N_Bloomberglp_Blpapi">Bloomberglp.Blpapi</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Bloomberglp_Blpapi_Session.htm" title="Session Class" tocid="T_Bloomberglp_Blpapi_Session">Session Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Bloomberglp_Blpapi_Session.htm" title="Session Methods" tocid="Methods_T_Bloomberglp_Blpapi_Session">Session Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate.htm" title="createSnapshotRequestTemplate Method " tocid="Overload_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate">createSnapshotRequestTemplate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate.htm" title="createSnapshotRequestTemplate Method (String, CorrelationID)" tocid="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate">createSnapshotRequestTemplate Method (String, CorrelationID)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate_1.htm" title="createSnapshotRequestTemplate Method (String, CorrelationID, Identity)" tocid="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate_1">createSnapshotRequestTemplate Method (String, CorrelationID, Identity)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Session<span id="LST81DCE67E_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81DCE67E_0?cpp=::|nu=.");</script>createSnapshotRequestTemplate Method (String, CorrelationID, Identity)</td></tr></table><span class="introStyle"></span> <div class="summary">
+             Create a snapshot service request template for getting subscription
+             data specified by the 'subscriptionString' using the optionally
+             specified 'identity' if all the following conditions are met: the
+             session is established, 'subscriptionString' is a valid
+             subscription string and 'statusCid' is not used in this session. If
+             one or more conditions are not met, an exception is thrown. The
+             provided 'statusCid' will be used for an implied subscription
+             associated with the create request template. The created request
+             template status updates will be delivered using ADMIN events.
+            
+             <p>
+             The benefit of the snapshot service request templates is that these
+             requests may be serviced from a cache and the user may expect to
+             see significantly lower response time.
+             </p><p>
+             There are 3 possible states for a created request template:
+             'Pending', 'Available', and 'Terminated'. A 'RequestTemplate' is
+             initially in the 'Pending' state.
+             </p><p>
+             The user may send a request using a template that is in 'Pending'
+             state. If this succeeds, the state of that template changes to
+             'Available'. Note that response times to receive data may be longer
+             than a response time for a request in the 'Available' state since
+             request caches may not yet have been established. A template may
+             transition back into 'Pending' state from the 'Available' state, in
+             which case a 'RequestTemplatePending' message will be generated.
+             </p><p>
+             If state is 'Available', all requests will be serviced from a cache
+             and the user may expect to see significantly reduced latency. Note,
+             that a snapshot request template can transition out of the
+             'Available' state concurrently with requests being sent, so no
+             guarantee of service from the cache can be provided. Request
+             template may transition into 'Available' state only from the
+             'Pending' state. In this case the 'RequestTemplateAvailable'
+             message is generated. This message will also contain information
+             about currently used connection in the 'boundTo' field. Note that
+             it is possible to get the 'RequestTemplateAvailable' message with a
+             new connection information, even if a request template is already
+             in the 'Available' state.
+             </p><p>
+             If state is 'Terminated', sending request will always result in a
+             failure response. Request template may transition into this state
+             from any other state. This is a final state and it is guaranteed
+             that the last message associated with the provided 'statusCid' will
+             be the 'RequestTemplateTerminated' message which is generated when
+             a request template transitions into this state. If a request
+             template transitions into this state, all outstanding requests will
+             be failed and appropriate messages will be generated for each
+             request. After receiving the 'RequestTemplateTerminated' message,
+             'statusCid' may be reused.
+             </p><p>
+             Note that resources used by a snapshot service request template are
+             released only when request template transitions into the
+             'Terminated' state or when session is destroyed. In order to
+             release resources when request template is not needed anymore, user
+             should call <a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel.htm">Cancel(CorrelationID)</a> or
+             <a href="M_Bloomberglp_Blpapi_RequestTemplate_close.htm">close<span id="LST81DCE67E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81DCE67E_1?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> unless the 'RequestTemplateTerminated'
+             message was already received due to some problems. If the
+             'Session.cancel' method is used, all outstanding requests are
+             canceled and the underlying subscription is closed immediately. If
+             the handle is closed with the 'RequestTemplate.close' method, the
+             underlying subscription is closed only when all outstanding
+             requests are served.
+             Note that it is possible to have a situation when response contain
+             data that were sent by a backend before user actually sends a
+             request template. For example it is possible if user requested data
+             were already in an incoming TCP queue.
+             </p></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Bloomberglp_Blpapi.htm">Bloomberglp.Blpapi</a><br />
+    <strong>Assembly:</strong>
+   Bloomberglp.Blpapi (in Bloomberglp.Blpapi.dll) Version: 3.16.1.1<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EDCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cs','1','4');return false;">C#</a></div><div id="ID0EDCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','vb','2','4');return false;">VB</a></div><div id="ID0EDCA_tab3" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','cpp','3','4');return false;">C++</a></div><div id="ID0EDCA_tab4" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EDCA','fs','4','4');return false;">F#</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EDCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EDCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">RequestTemplate</span> <span class="identifier">createSnapshotRequestTemplate</span>(
+	<span class="identifier">string</span> <span class="parameter">subscriptionString</span>,
+	<span class="identifier">CorrelationID</span> <span class="parameter">statusCid</span>,
+	<span class="identifier">Identity</span> <span class="parameter">identity</span>
+)</pre></div><div id="ID0EDCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">createSnapshotRequestTemplate</span> ( 
+	<span class="parameter">subscriptionString</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">statusCid</span> <span class="keyword">As</span> <span class="identifier">CorrelationID</span>,
+	<span class="parameter">identity</span> <span class="keyword">As</span> <span class="identifier">Identity</span>
+) <span class="keyword">As</span> <span class="identifier">RequestTemplate</span></pre></div><div id="ID0EDCA_code_Div3" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span>:
+<span class="keyword">virtual</span> <span class="identifier">RequestTemplate</span>^ <span class="identifier">createSnapshotRequestTemplate</span>(
+	<span class="identifier">String</span>^ <span class="parameter">subscriptionString</span>, 
+	<span class="identifier">CorrelationID</span>^ <span class="parameter">statusCid</span>, 
+	<span class="identifier">Identity</span>^ <span class="parameter">identity</span>
+) <span class="keyword">sealed</span></pre></div><div id="ID0EDCA_code_Div4" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">abstract</span> <span class="identifier">createSnapshotRequestTemplate</span> : 
+        <span class="parameter">subscriptionString</span> : <span class="identifier">string</span> * 
+        <span class="parameter">statusCid</span> : <span class="identifier">CorrelationID</span> * 
+        <span class="parameter">identity</span> : <span class="identifier">Identity</span> <span class="keyword">-&gt;</span> <span class="identifier">RequestTemplate</span> 
+<span class="keyword">override</span> <span class="identifier">createSnapshotRequestTemplate</span> : 
+        <span class="parameter">subscriptionString</span> : <span class="identifier">string</span> * 
+        <span class="parameter">statusCid</span> : <span class="identifier">CorrelationID</span> * 
+        <span class="parameter">identity</span> : <span class="identifier">Identity</span> <span class="keyword">-&gt;</span> <span class="identifier">RequestTemplate</span> </pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EDCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">subscriptionString</span></dt><dd>Type: <span class="nolink">System<span id="LST81DCE67E_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81DCE67E_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</span><br />
+             The subscription string used for creating a request template
+             </dd><dt><span class="parameter">statusCid</span></dt><dd>Type: <a href="T_Bloomberglp_Blpapi_CorrelationID.htm">Bloomberglp.Blpapi<span id="LST81DCE67E_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81DCE67E_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>CorrelationID</a><br />
+             the correlation id used for delivering of request template status
+             updates
+             </dd><dt><span class="parameter">identity</span></dt><dd>Type: <a href="T_Bloomberglp_Blpapi_Identity.htm">Bloomberglp.Blpapi<span id="LST81DCE67E_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81DCE67E_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Identity</a><br />
+             The <a href="T_Bloomberglp_Blpapi_Identity.htm">Identity</a> used to authorize access to the data for
+             this request tempalte. A value of null indicates authorization is
+             not needed.
+             </dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="T_Bloomberglp_Blpapi_RequestTemplate.htm">RequestTemplate</a><br />
+             A created request template
+             <h4 class="subHeading">Implements</h4><a href="M_Bloomberglp_Blpapi_ISession_createSnapshotRequestTemplate_1.htm">ISession<span id="LST81DCE67E_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST81DCE67E_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>createSnapshotRequestTemplate(String, CorrelationID, Identity)</a><br /></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Exceptions</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="tableSection"><table><tr><th>Exception</th><th>Condition</th></tr><tr><td><span class="nolink">ArgumentException</span></td><td>
+             Thrown if no subscription string specified
+             </td></tr><tr><td><a href="T_Bloomberglp_Blpapi_DuplicateCorrelationIDException.htm">DuplicateCorrelationIDException</a></td><td>
+             Thrown if the provided status correlation id is already used
+             </td></tr><tr><td><span class="nolink">InvalidOperationException</span></td><td>
+             Thrown if the session is not in 'Established' state or no
+             subscription management endpoints are available
+             </td></tr><tr><td><span class="nolink">IOException</span></td><td>
+             Thrown if a network communication problem happens
+             </td></tr></table></div></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Bloomberglp_Blpapi_Session.htm">Session Class</a></div><div class="seeAlsoStyle"><a href="Overload_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate.htm">createSnapshotRequestTemplate Overload</a></div><div class="seeAlsoStyle"><a href="N_Bloomberglp_Blpapi.htm">Bloomberglp.Blpapi Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>© BLOOMBERG L.P. MAKES NO WARRANTY, EXPRESS OR IMPLIED, AS TO RESULTS TO BE ATTAINED FROM THE USE OF THE SERVICES, FUNCTIONALITIES, OR DATA FROM AND OF THE BLOOMBERG API, OR EQUIPMENT BY WHICH THE SERVICES OR FUNCTIONS ARE PROVIDED, AND THERE ARE NO EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE.</p> </div></body></html>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ServiceDefinition name="blp.apiauth" version="1.0.7.2">
+    <service name="//blp/apiauth" version="1.0.7.2">
+        <operation name="AuthorizationRequest" serviceId="99">
+            <request>Request</request>
+            <requestSelection>AuthorizationRequest</requestSelection>
+            <response>Response</response>
+            <responseSelection>AuthorizationSuccess</responseSelection>
+            <responseSelection>AuthorizationFailure</responseSelection>
+            <isAuthorizationRequest>true</isAuthorizationRequest>
+        </operation>
+        <operation name="TokenRequest" serviceId="99">
+            <request>Request</request>
+            <requestSelection>TokenRequest</requestSelection>
+            <response>Response</response>
+            <responseSelection>TokenResponse</responseSelection>
+        </operation>
+        <publisherSupportsRecap>false</publisherSupportsRecap>
+        <authoritativeSourceSupportsRecap>false</authoritativeSourceSupportsRecap>
+        <isInfrastructureService>false</isInfrastructureService>
+        <isMetered>false</isMetered>
+        <appendMtrId>false</appendMtrId>
+    </service>
+    <schema>
+        <sequenceType name="AuthorizationRequest">
+            <description>seqAuthorizationRequest</description>
+            <element name="ipAddress" type="String" minOccurs="0"
+                maxOccurs="1">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="token" type="String" minOccurs="0" maxOccurs="1">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </sequenceType>
+        <sequenceType name="TokenRequest">
+            <description>seqTokenRequest</description>
+            <element name="uuid" type="Int32">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="label" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </sequenceType>
+        <sequenceType name="ErrorInfo">
+            <description>seqErrorInfo</description>
+            <element name="code" type="Int32">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="message" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="category" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="subcategory" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="source" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </sequenceType>
+        <sequenceType name="AuthorizationSuccess">
+            <description>seqAuthorizationSuccess</description>
+        </sequenceType>
+        <sequenceType name="AuthorizationFailure">
+            <description>seqAuthorizationFailure</description>
+            <element name="reason" type="ErrorInfo">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </sequenceType>
+        <sequenceType name="AuthorizationTokenResponse">
+            <description>seqAuthorizationTokenResponse</description>
+        </sequenceType>
+        <sequenceType name="TokenResponse">
+            <description>seqTokenResponse</description>
+            <element name="token" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="key" type="String">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </sequenceType>
+        <choiceType name="Request">
+            <description>choiceRequest</description>
+            <element name="AuthorizationRequest" type="AuthorizationRequest">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="TokenRequest" type="TokenRequest">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </choiceType>
+        <choiceType name="Response">
+            <description>choiceResponse</description>
+            <element name="AuthorizationSuccess" type="AuthorizationSuccess">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="AuthorizationFailure" type="AuthorizationFailure">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+            <element name="TokenResponse" type="TokenResponse">
+                <description></description>
+                <cacheable>true</cacheable>
+                <cachedOnlyOnInitialPaint>false</cachedOnlyOnInitialPaint>
+            </element>
+        </choiceType>
+    </schema>
+</ServiceDefinition>

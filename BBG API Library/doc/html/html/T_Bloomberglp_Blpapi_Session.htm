@@ -1,0 +1,356 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Session Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="Session class" /><meta name="System.Keywords" content="Bloomberglp.Blpapi.Session class" /><meta name="System.Keywords" content="Session class, about Session class" /><meta name="Microsoft.Help.F1" content="Bloomberglp.Blpapi.Session" /><meta name="Microsoft.Help.Id" content="T:Bloomberglp.Blpapi.Session" /><meta name="Description" content="This class provides a session for making requests and subscriptions to services." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Bloomberglp.Blpapi" /><meta name="file" content="T_Bloomberglp_Blpapi_Session" /><meta name="guid" content="T_Bloomberglp_Blpapi_Session" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Bloomberg API for .NET<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Bloomberglp_Blpapi.htm" title="Bloomberg API for .NET" tocid="roottoc">Bloomberg API for .NET</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Bloomberglp_Blpapi.htm" title="Bloomberglp.Blpapi" tocid="N_Bloomberglp_Blpapi">Bloomberglp.Blpapi</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Bloomberglp_Blpapi_Session.htm" title="Session Class" tocid="T_Bloomberglp_Blpapi_Session">Session Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Bloomberglp_Blpapi_Session__ctor.htm" title="Session Constructor " tocid="Overload_Bloomberglp_Blpapi_Session__ctor">Session Constructor </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Bloomberglp_Blpapi_Session.htm" title="Session Methods" tocid="Methods_T_Bloomberglp_Blpapi_Session">Session Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Session Class</td></tr></table><span class="introStyle"></span> <div class="summary"> This class provides a session for making requests and subscriptions to
+             services.
+             </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><span class="nolink">System<span id="LST3EF9E33D_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</span><br />  <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">Bloomberglp.Blpapi<span id="LST3EF9E33D_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>AbstractSession</a><br />    <span class="selflink">Bloomberglp.Blpapi<span id="LST3EF9E33D_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Session</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Bloomberglp_Blpapi.htm">Bloomberglp.Blpapi</a><br />
+    <strong>Assembly:</strong>
+   Bloomberglp.Blpapi (in Bloomberglp.Blpapi.dll) Version: 3.16.1.1<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EDCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EDCA','cs','1','4');return false;">C#</a></div><div id="ID1EDCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EDCA','vb','2','4');return false;">VB</a></div><div id="ID1EDCA_tab3" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EDCA','cpp','3','4');return false;">C++</a></div><div id="ID1EDCA_tab4" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EDCA','fs','4','4');return false;">F#</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EDCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EDCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EDCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">Session</span> : <span class="identifier">AbstractSession</span>, <span class="identifier">ISession</span>, 
+	<span class="identifier">IAbstractSession</span>, <span class="identifier">IDisposable</span></pre></div><div id="ID1EDCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Class</span> <span class="identifier">Session</span>
+	<span class="keyword">Inherits</span> <span class="identifier">AbstractSession</span>
+	<span class="keyword">Implements</span> <span class="identifier">ISession</span>, <span class="identifier">IAbstractSession</span>, <span class="identifier">IDisposable</span></pre></div><div id="ID1EDCA_code_Div3" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">ref class</span> <span class="identifier">Session</span> : <span class="keyword">public</span> <span class="identifier">AbstractSession</span>, 
+	<span class="identifier">ISession</span>, <span class="identifier">IAbstractSession</span>, <span class="identifier">IDisposable</span></pre></div><div id="ID1EDCA_code_Div4" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">type</span> <span class="identifier">Session</span> =  
+    <span class="keyword">class</span>
+        <span class="keyword">inherit</span> <span class="identifier">AbstractSession</span>
+        <span class="keyword">interface</span> <span class="identifier">ISession</span>
+        <span class="keyword">interface</span> <span class="identifier">IAbstractSession</span>
+        <span class="keyword">interface</span> <span class="identifier">IDisposable</span>
+    <span class="keyword">end</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EDCA");</script></div><p>The <span class="selflink">Session</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Constructors</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="constructorList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session__ctor.htm">Session<span id="LST3EF9E33D_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_3?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary"> Same as calling
+            <a href="M_Bloomberglp_Blpapi_Session__ctor_3.htm">
+            Session(new SessionOptions(), null, null)
+            </a></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session__ctor_1.htm">Session(SessionOptions)</a></td><td><div class="summary">
+            Creates a session with the specified <span class="code">sessionOptions</span>.
+            <div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID3RBSection" class="collapsibleSection"> Same as calling <a href="M_Bloomberglp_Blpapi_Session__ctor_3.htm">
+            Session(sessionOptions, null, null)</a>.
+            </div>Values in sessionOptions are used for configuring this
+            session.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session__ctor_2.htm">Session(SessionOptions, EventHandler)</a></td><td><div class="summary">
+            Creates a session with the specified <span class="code">sessionOptions</span> and dispatch
+            events on this session to the specified <span class="code">handler</span><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID4RBSection" class="collapsibleSection">
+            Same as calling
+            <a href="M_Bloomberglp_Blpapi_Session__ctor_3.htm">
+            Session(sessionOptions, handler, null)
+            </a></div>Values in sessionOptions are used for configuring this
+            session.
+            The event handler to which all events are delivered.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session__ctor_3.htm">Session(SessionOptions, EventHandler, EventDispatcher)</a></td><td><div class="summary">
+             Creates a session with the specified <span class="code">sessionOptions</span> and dispatch
+             events on this <span class="code">session</span> using the provided <span class="code">dispatcher
+             </span> to the specified <span class="code">handler</span><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID5RBSection" class="collapsibleSection"> See <a href="T_Bloomberglp_Blpapi_SessionOptions.htm">SessionOptions</a>
+             for information on what options can be specified.
+            
+             <p>
+             If the specified eventHandler is not null then this Session will operate
+             in asynchronous mode, otherwise the Session will operate in Synchronous
+             mode. </p><p>
+             If eventDispatcher is null then the Session will create a default
+             <a href="T_Bloomberglp_Blpapi_EventDispatcher.htm">EventDispatcher</a>
+             for this Session which will use a single thread
+             for dispatching events. For more control over event dispatching a
+             specific instance of <a href="T_Bloomberglp_Blpapi_EventDispatcher.htm">EventDispatcher</a>
+             can be supplied. This can
+             be used to share a single <a href="T_Bloomberglp_Blpapi_EventDispatcher.htm">EventDispatcher</a>
+             among multiple Session
+             objects. </p><p>
+             If an eventDispatcher is supplied which uses more than one thread the
+             Session will ensure that events which should be ordered are passed to
+             callbacks in a correct order. For example, updates to a single
+             subscription. </p><p>
+             Each  <a href="T_Bloomberglp_Blpapi_EventDispatcher.htm">EventDispatcher</a>
+             uses its own thread or pool of threads so
+             if you want to ensure that a session which receives very large messages
+             and takes a long time to process them does not delay a session that
+             receives small messages and processes each one very quickly then give
+             each one a separate  <a href="T_Bloomberglp_Blpapi_EventDispatcher.htm">EventDispatcher</a>.
+             </p></div>Values in sessionOptions are used for configuring this
+             session.
+             The event handler to which all events are delivered.
+             The dispatcher to be used for dispatching events.
+             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID7RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel.htm">Cancel(CorrelationID)</a></td><td><div class="summary"> Cancels an outstanding request or a subscription represented by the
+            specified correlationId.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel_2.htm">Cancel(IList<span id="LST3EF9E33D_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>CorrelationID<span id="LST3EF9E33D_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary"> Cancels outstanding requests or subscriptions represented by the
+            specified list of correlationIds.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel_1.htm">Cancel(CorrelationID, String)</a></td><td><div class="summary"> Cancels an outstanding request or a subscription represented by the
+            specified correlationId.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel_3.htm">Cancel(IList<span id="LST3EF9E33D_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>CorrelationID<span id="LST3EF9E33D_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, String)</a></td><td><div class="summary"> Cancels outstanding requests or subscriptions represented by the
+            specified list of correlationIds.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_CreateIdentity.htm">CreateIdentity</a></td><td><div class="summary">  Returns a new Identity which is valid but has not been authorized.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate.htm">createSnapshotRequestTemplate(String, CorrelationID)</a></td><td><div class="summary">
+            Same as calling <a href="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate_1.htm"><span class="code">createSnapshotRequestTemplate(
+            subscriptionString, statusCid, null)</span></a><p>
+            The session identity will be used if it's been authorized.
+            </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_createSnapshotRequestTemplate_1.htm">createSnapshotRequestTemplate(String, CorrelationID, Identity)</a></td><td><div class="summary">
+             Create a snapshot service request template for getting subscription
+             data specified by the 'subscriptionString' using the optionally
+             specified 'identity' if all the following conditions are met: the
+             session is established, 'subscriptionString' is a valid
+             subscription string and 'statusCid' is not used in this session. If
+             one or more conditions are not met, an exception is thrown. The
+             provided 'statusCid' will be used for an implied subscription
+             associated with the create request template. The created request
+             template status updates will be delivered using ADMIN events.
+            
+             <p>
+             The benefit of the snapshot service request templates is that these
+             requests may be serviced from a cache and the user may expect to
+             see significantly lower response time.
+             </p><p>
+             There are 3 possible states for a created request template:
+             'Pending', 'Available', and 'Terminated'. A 'RequestTemplate' is
+             initially in the 'Pending' state.
+             </p><p>
+             The user may send a request using a template that is in 'Pending'
+             state. If this succeeds, the state of that template changes to
+             'Available'. Note that response times to receive data may be longer
+             than a response time for a request in the 'Available' state since
+             request caches may not yet have been established. A template may
+             transition back into 'Pending' state from the 'Available' state, in
+             which case a 'RequestTemplatePending' message will be generated.
+             </p><p>
+             If state is 'Available', all requests will be serviced from a cache
+             and the user may expect to see significantly reduced latency. Note,
+             that a snapshot request template can transition out of the
+             'Available' state concurrently with requests being sent, so no
+             guarantee of service from the cache can be provided. Request
+             template may transition into 'Available' state only from the
+             'Pending' state. In this case the 'RequestTemplateAvailable'
+             message is generated. This message will also contain information
+             about currently used connection in the 'boundTo' field. Note that
+             it is possible to get the 'RequestTemplateAvailable' message with a
+             new connection information, even if a request template is already
+             in the 'Available' state.
+             </p><p>
+             If state is 'Terminated', sending request will always result in a
+             failure response. Request template may transition into this state
+             from any other state. This is a final state and it is guaranteed
+             that the last message associated with the provided 'statusCid' will
+             be the 'RequestTemplateTerminated' message which is generated when
+             a request template transitions into this state. If a request
+             template transitions into this state, all outstanding requests will
+             be failed and appropriate messages will be generated for each
+             request. After receiving the 'RequestTemplateTerminated' message,
+             'statusCid' may be reused.
+             </p><p>
+             Note that resources used by a snapshot service request template are
+             released only when request template transitions into the
+             'Terminated' state or when session is destroyed. In order to
+             release resources when request template is not needed anymore, user
+             should call <a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel.htm">Cancel(CorrelationID)</a> or
+             <a href="M_Bloomberglp_Blpapi_RequestTemplate_close.htm">close<span id="LST3EF9E33D_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_8?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> unless the 'RequestTemplateTerminated'
+             message was already received due to some problems. If the
+             'Session.cancel' method is used, all outstanding requests are
+             canceled and the underlying subscription is closed immediately. If
+             the handle is closed with the 'RequestTemplate.close' method, the
+             underlying subscription is closed only when all outstanding
+             requests are served.
+             Note that it is possible to have a situation when response contain
+             data that were sent by a backend before user actually sends a
+             request template. For example it is possible if user requested data
+             were already in an incoming TCP queue.
+             </p></div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_CreateUserHandle.htm">CreateUserHandle</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use <a href="M_Bloomberglp_Blpapi_AbstractSession_CreateIdentity.htm">CreateIdentity<span id="LST3EF9E33D_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_9?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a> instead.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_DispatchEvent.htm">DispatchEvent</a></td><td><div class="summary"> Dispatch event with event handler if it has been set
+            otherwise do nothing. Event handlers are set by a library client
+            in case of async session.
+            <span class="nolink">SetEventHandler(SessionEventHandler)</span>,
+            <span class="nolink">SetEventHandler(SessionEventHandler, Event<span id="LST3EF9E33D_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>EventType)</span>,
+            <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">Event<span id="LST3EF9E33D_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>EventType</a></div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GenerateAuthorizedIdentity.htm">GenerateAuthorizedIdentity</a></td><td><div class="summary">
+            Generates an authorized <a href="T_Bloomberglp_Blpapi_Identity.htm">Identity</a> with the specified
+            <span class="parameter">authOptions</span> and <span class="parameter">cid</span>.
+            <p>
+            One or more <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">AUTHORIZATION_STATUS</a>
+            events, zero or more <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">TOKEN_STATUS</a>
+            events and zero or more <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">SERVICE_STATUS</a>
+            events are generated. If this is an asynchronous
+            <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a> then an <a href="T_Bloomberglp_Blpapi_Event.htm">Event</a> may be
+            processed by the registered <a href="T_Bloomberglp_Blpapi_EventHandler.htm">EventHandler</a> before
+            <a href="M_Bloomberglp_Blpapi_AbstractSession_GenerateAuthorizedIdentity.htm">GenerateAuthorizedIdentity(AuthOptions, CorrelationID)</a> has returned.
+            <p>
+            The behavior is undefined when <span class="parameter">authOptions</span> is
+            null.
+            </p></p></div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GenerateToken.htm">GenerateToken<span id="LST3EF9E33D_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_12?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">Return a generated token to be used for authorization.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GenerateToken_1.htm">GenerateToken(CorrelationID)</a></td><td><div class="summary">Return a generated token to be used for authorization.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GenerateToken_2.htm">GenerateToken(CorrelationID, IEventQueue)</a></td><td><div class="summary">Return a generated token to be used for authorization.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GenerateToken_3.htm">GenerateToken(String, String, CorrelationID, IEventQueue)</a></td><td><div class="summary">
+             Return a generated token to be used for authorization.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GetAuthorizedIdentity.htm">GetAuthorizedIdentity</a></td><td><div class="summary">
+            Gets the authorized <a href="T_Bloomberglp_Blpapi_Identity.htm">Identity</a> associated with the
+            specified <span class="parameter">cid</span>.
+            <p>
+            If <span class="parameter">cid</span> is omitted and the session identity
+            is authorized, the function will return the session identity.
+            </p></div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_GetService.htm">GetService</a></td><td><div class="summary">
+            Returns a handle to a
+            <a href="T_Bloomberglp_Blpapi_Service.htm">Service</a>
+            object representing the service
+            identified by the specified uri.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_GetSubscriptions.htm">GetSubscriptions</a></td><td><div class="summary">
+             Returns an enumerable collection for iterating over the subscriptions.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_GetSubscriptionStatus.htm">GetSubscriptionStatus</a></td><td><div class="summary"> Returns the subscription status for the specified correlationId.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_GetSubscriptionString.htm">GetSubscriptionString</a></td><td><div class="summary"> Returns the subscription string for the specified correlationId.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Init.htm">Init</a></td><td><div class="summary"> Initialize AbstractSession. Must be called from the
+            constructor(s) of the derived class.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_NextEvent.htm">NextEvent<span id="LST3EF9E33D_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_13?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary"> Returns the next event available for processing on this session.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_NextEvent_1.htm">NextEvent(Int64)</a></td><td><div class="summary"> Returns the next event available for processing on this session.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_OpenService.htm">OpenService</a></td><td><div class="summary">
+            Opens the service having the specified
+            <span class="code">uri</span>.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_OpenServiceAsync.htm">OpenServiceAsync(String)</a></td><td><div class="summary"> Issues an asynchronous request to open a service.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_OpenServiceAsync_1.htm">OpenServiceAsync(String, CorrelationID)</a></td><td><div class="summary"> Initiates an asynchronous request to open a service.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Resubscribe.htm">Resubscribe(IList<span id="LST3EF9E33D_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_14?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_15?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary"> Modifies each subscription in the specified subscriptionList to reflect
+             the modified options specified for it.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Resubscribe_1.htm">Resubscribe(IList<span id="LST3EF9E33D_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_16?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_17?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Int32)</a></td><td><div class="summary"> Modifies each subscription in the specified subscriptionList to reflect
+             the modified options specified for it.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Resubscribe_3.htm">Resubscribe(IList<span id="LST3EF9E33D_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_18?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_19?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, String)</a></td><td><div class="summary">  Modifies each subscription in the specified subscriptionList to reflect
+             the modified options specified for it.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Resubscribe_2.htm">Resubscribe(IList<span id="LST3EF9E33D_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_20?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_21?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Int32, String)</a></td><td><div class="summary">  Modifies each subscription in the specified subscriptionList to reflect
+             the modified options specified for it.
+             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest.htm">SendAuthorizationRequest(Request, Identity, CorrelationID)</a></td><td><div class="summary"> Sends the specified authorizationRequest and update the specified
+            identity with the results.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_4.htm">SendAuthorizationRequest(Request, UserHandle, CorrelationID)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest.htm">SendAuthorizationRequest(Request, Identity, CorrelationID)</a>instead.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_1.htm">SendAuthorizationRequest(Request, Identity, CorrelationID, String)</a></td><td><div class="summary"> Sends the specified authorizationRequest and update the specified
+             identity with the results.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_2.htm">SendAuthorizationRequest(Request, Identity, IEventQueue, CorrelationID)</a></td><td><div class="summary"> Sends the specified authorizationRequest and update the specified
+            identity with the results.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_5.htm">SendAuthorizationRequest(Request, UserHandle, CorrelationID, String)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_1.htm">SendAuthorizationRequest(Request, Identity, CorrelationID, String)</a> instead.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_6.htm">SendAuthorizationRequest(Request, UserHandle, IEventQueue, CorrelationID)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_2.htm">SendAuthorizationRequest(Request, Identity, IEventQueue, CorrelationID)</a> instead.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_3.htm">SendAuthorizationRequest(Request, Identity, IEventQueue, CorrelationID, String)</a></td><td><div class="summary"> Sends the specified authorizationRequest and update the specified
+             identity with the results.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_7.htm">SendAuthorizationRequest(Request, UserHandle, IEventQueue, CorrelationID, String)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_AbstractSession_SendAuthorizationRequest_7.htm">SendAuthorizationRequest(Request, UserHandle, IEventQueue, CorrelationID, String)</a> instead.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_12.htm">SendRequest(RequestTemplate)</a></td><td><div class="summary">
+            Same as calling 'SendRequest(requestTemplate, null)'
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest.htm">SendRequest(Request, CorrelationID)</a></td><td><div class="summary">
+             Sends the specified request to a service using this session.
+             <p>
+             The session identity will be used if it's been authorized.
+             </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_13.htm">SendRequest(RequestTemplate, CorrelationID)</a></td><td><div class="summary">
+             Send a request defined by the specified 'requestTemplate'. If the
+             optionally specified 'correlationId' is supplied, use it otherwise
+             create a new 'CorrelationId'. The actual 'CorrelationId' used is
+             returned.
+            
+             A successful request will generate zero or more 'PARTIAL_RESPONSE'
+             events followed by exactly one 'RESPONSE' event. Once the final
+             'RESPONSE' event has been received the 'CorrelationId' associated
+             with  this request may be re-used. If the request fails at any
+             stage a 'REQUEST_STATUS' will be generated after which the
+             'CorrelationId' associated with the request may be re-used.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_1.htm">SendRequest(Request, CorrelationID, String)</a></td><td><div class="summary">
+            Sends the specified request to a service using this session.
+            <p>
+            The session identity will be used if it's been authorized.
+            </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_2.htm">SendRequest(Request, Identity, CorrelationID)</a></td><td><div class="summary">Sends the specified request to a service using this session.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_6.htm">SendRequest(Request, IEventQueue, CorrelationID)</a></td><td><div class="summary">
+             Sends the specified request to a service using this session.
+             <p>
+             The session identity will be used if it's been authorized.
+             </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_8.htm">SendRequest(Request, UserHandle, CorrelationID)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_Session_SendRequest_2.htm">SendRequest(Request, Identity, CorrelationID)</a> instead.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_3.htm">SendRequest(Request, Identity, CorrelationID, String)</a></td><td><div class="summary">Sends the specified request to a service using this session.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_4.htm">SendRequest(Request, Identity, IEventQueue, CorrelationID)</a></td><td><div class="summary"> Sends the specified request to a service using this session.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_7.htm">SendRequest(Request, IEventQueue, CorrelationID, String)</a></td><td><div class="summary">Sends the specified request to a service using this session.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_9.htm">SendRequest(Request, UserHandle, CorrelationID, String)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_Session_SendRequest_3.htm">SendRequest(Request, Identity, CorrelationID, String)</a> instead.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_10.htm">SendRequest(Request, UserHandle, IEventQueue, CorrelationID)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_Session_SendRequest_4.htm">SendRequest(Request, Identity, IEventQueue, CorrelationID)</a> instead.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_5.htm">SendRequest(Request, Identity, IEventQueue, CorrelationID, String)</a></td><td><div class="summary"> Sends the specified request to a service using this session.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SendRequest_11.htm">SendRequest(Request, UserHandle, IEventQueue, CorrelationID, String)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_Session_SendRequest_5.htm">SendRequest(Request, Identity, IEventQueue, CorrelationID, String)</a> instead.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_SetEventHandler.htm">SetEventHandler</a></td><td><div class="summary">Set event specific event handlers</div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Start.htm">Start</a></td><td><div class="summary">
+            Issues a blocking call to start the session.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_StartAsync.htm">StartAsync</a></td><td><div class="summary">
+            Initiates a non blocking call to start the session.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Stop.htm">Stop<span id="LST3EF9E33D_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_22?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary"> Stops this session.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_Stop_1.htm">Stop(AbstractSession<span id="LST3EF9E33D_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_23?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>StopOption)</a></td><td><div class="summary"> Stops the operation of this session.
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Subscribe.htm">Subscribe(IList<span id="LST3EF9E33D_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_24?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_25?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary">
+             Initiates a request to receive asynchronous updates to the
+             specified topics.
+             <p>
+             The session identity will be used if it's been authorized.
+             </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Subscribe_1.htm">Subscribe(IList<span id="LST3EF9E33D_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_26?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_27?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Identity)</a></td><td><div class="summary"> Initiates a request to receive asynchronous updates
+             to the specified topics.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Subscribe_3.htm">Subscribe(IList<span id="LST3EF9E33D_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_28?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_29?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, UserHandle)</a></td><td> <strong>Obsolete. </strong><div class="summary">Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_Session_Subscribe_1.htm">Subscribe(IList<span id="LST3EF9E33D_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_30?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_31?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Identity)</a> instead.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Subscribe_5.htm">Subscribe(IList<span id="LST3EF9E33D_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_32?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_33?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, String)</a></td><td><div class="summary">
+             Initiates a request to receive asynchronous updates to the
+             specified topics.
+             <p>
+             The session identity will be used if it's been authorized.
+             </p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Subscribe_2.htm">Subscribe(IList<span id="LST3EF9E33D_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_34?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_35?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Identity, String)</a></td><td><div class="summary"> Initiates a request to receive asynchronous updates to the specified
+             topics in the <span class="code">subscriptionList</span>.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Subscribe_4.htm">Subscribe(IList<span id="LST3EF9E33D_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_36?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_37?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, UserHandle, String)</a></td><td> <strong>Obsolete. </strong><div class="summary"> Deprecated since 3.3.0.0. Use
+            <a href="M_Bloomberglp_Blpapi_Session_Subscribe_2.htm">Subscribe(IList<span id="LST3EF9E33D_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_38?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_39?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Identity, String)</a> instead.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_TryNextEvent.htm">TryNextEvent</a></td><td><div class="summary"> Tries to retrieve the next event available for processing
+             on this session
+             </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Unsubscribe.htm">Unsubscribe(CorrelationID)</a></td><td> <strong>Obsolete. </strong><div class="summary"> Cancels a previous request for asynchronous topic updates associated with
+            the specified correlationId.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Unsubscribe_1.htm">Unsubscribe(IList<span id="LST3EF9E33D_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_40?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_41?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td><div class="summary"> Cancels previous requests for asynchronous topic updates associated
+            with the correlation ids listed in the specified subscriptionList.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Bloomberglp_Blpapi_Session_Unsubscribe_2.htm">Unsubscribe(IList<span id="LST3EF9E33D_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_42?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Subscription<span id="LST3EF9E33D_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_43?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, String)</a></td><td><div class="summary"> Cancels previous requests for asynchronous topic updates associated
+            with the correlation ids listed in the specified subscriptionList.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Explicit Interface Implementations</span></div><div id="ID8RBSection" class="collapsibleSection"><table class="members" id="explicitInterfaceImplementationList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="explicit;inherited;notNetfw;"><td><img src="../icons/pubinterface.gif" alt="Explicit interface implementation" title="Explicit interface implementation" /><img src="../icons/privmethod.gif" alt="Private method" title="Private method" /></td><td><a href="M_Bloomberglp_Blpapi_AbstractSession_System_IDisposable_Dispose.htm">IDisposable<span id="LST3EF9E33D_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_44?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Dispose</a></td><td><div class="summary">
+            Dispose this Session object. It calls <a href="M_Bloomberglp_Blpapi_AbstractSession_Stop.htm">AbstractSession.Stop()</a> to
+            close the opened socket.
+            </div> (Inherited from <a href="T_Bloomberglp_Blpapi_AbstractSession.htm">AbstractSession</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID9RB')" onkeypress="SectionExpandCollapse_CheckKey('ID9RB', event)" tabindex="0"><img id="ID9RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Remarks</span></div><div id="ID9RBSection" class="collapsibleSection"><p>
+             Sessions manage access to services either by requests and responses or
+             subscriptions. A Session can dispatch events and replies in either a
+             synchronous or asynchronous mode. The mode of a Session is determined when
+             it is constructed and cannot be changed subsequently. </p><p>
+             A Session is asynchronous if an <a href="T_Bloomberglp_Blpapi_EventHandler.htm">EventHandler</a>
+             object is supplied whenit is constructed. The
+             <a href="M_Bloomberglp_Blpapi_Session_SetEventHandler.htm">
+             SetEventHandler()</a> method may be called
+             to adjust the way events are handled subsequently and the
+             <a href="M_Bloomberglp_Blpapi_AbstractSession_NextEvent.htm">NextEvent()</a> method
+             may not be called. All incoming events are
+             delivered to the EventHandler(s) supplied on construction or subsequently using
+             <a href="M_Bloomberglp_Blpapi_Session_SetEventHandler.htm">
+             SetEventHandler()</a>. </p><p>
+             A Session is synchronous if an <a href="T_Bloomberglp_Blpapi_EventHandler.htm">EventHandler</a>
+             object is not supplied
+             when it is constructed. The <a href="M_Bloomberglp_Blpapi_AbstractSession_NextEvent.htm">NextEvent()</a>
+             method must be called to read incoming events and the
+             <a href="M_Bloomberglp_Blpapi_Session_SetEventHandler.htm">
+             SetEventHandler()</a>
+             method may not be called. Several methods in Session take a
+             <a href="T_Bloomberglp_Blpapi_CorrelationID.htm">CorrelationID</a> parameter.
+             The application may choose to supply its
+             own CorrelationID values or allow the Session to create values. If the
+             application supplies its own CorrelationID values it must manage their
+             lifetime such that the same value is not reused for more than one operation
+             at a time. The lifetime of a CorrelationID begins when it is supplied in a
+             method invoked on a Session and ends either when it is explicitly cancelled
+             using <a href="M_Bloomberglp_Blpapi_AbstractSession_Cancel.htm">Cancel(CorrelationID)</a>,
+             when a <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">Event.EventType.RESPONSE</a>
+             Event (not a PARTIAL_RESPONSE) containing
+             it is received or when a
+              <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">Event.EventType.SUBSCRIPTION_STATUS</a>
+             Event which indicates that the subscription it refers to has been terminated is
+             received. </p><p>
+             When using an asynchronous Session the application must be aware that
+             because the callbacks are generated from another thread they may be
+             processed before the call which generates them has returned. For example,
+             the <a href="T_Bloomberglp_Blpapi_Event_EventType.htm">Event.EventType.SESSION_STATUS</a>
+             Event generated by the <a href="M_Bloomberglp_Blpapi_AbstractSession_StartAsync.htm">StartAsync<span id="LST3EF9E33D_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3EF9E33D_45?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>
+             may be processed before StartAsync() has
+             returned (even though StartAsync() itself will not block). </p><p>
+             This becomes more significant when Session generated CorrelationIds are in
+             use. For example, if a call to
+             <a href="M_Bloomberglp_Blpapi_Session_Subscribe_2.htm">
+             Subscribe()</a> which returns a Session generated
+             <a href="T_Bloomberglp_Blpapi_CorrelationID.htm">CorrelationID</a>
+             has not completed before the first Events which
+             contain that CorrelationID arrive the application may not be able to
+             interpret those events correctly. For this reason, it is preferable to use
+             user generated CorrelationIDs when using asynchronous Sessions. This issue
+             does not arise when using a synchronous Session as long as the calls to
+             Subscribe() etc are made on the same thread as the calls to NextEvent().
+             </p></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID10RB')" onkeypress="SectionExpandCollapse_CheckKey('ID10RB', event)" tabindex="0"><img id="ID10RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Thread Safety</span></div><div id="ID10RBSection" class="collapsibleSection">Static members of this type are safe for multi-threaded operations. Instance members of this type are safe for multi-threaded operations. </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID11RB')" onkeypress="SectionExpandCollapse_CheckKey('ID11RB', event)" tabindex="0"><img id="ID11RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Thread Safety</span></div><div id="ID11RBSection" class="collapsibleSection">Static members of this type are safe for multi-threaded operations. Instance members of this type are safe for multi-threaded operations. </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID12RB')" onkeypress="SectionExpandCollapse_CheckKey('ID12RB', event)" tabindex="0"><img id="ID12RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID12RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Bloomberglp_Blpapi.htm">Bloomberglp.Blpapi Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter"><p>© BLOOMBERG L.P. MAKES NO WARRANTY, EXPRESS OR IMPLIED, AS TO RESULTS TO BE ATTAINED FROM THE USE OF THE SERVICES, FUNCTIONALITIES, OR DATA FROM AND OF THE BLOOMBERG API, OR EQUIPMENT BY WHICH THE SERVICES OR FUNCTIONS ARE PROVIDED, AND THERE ARE NO EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE.</p> </div></body></html>
